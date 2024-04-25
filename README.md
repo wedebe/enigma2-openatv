@@ -36,9 +36,10 @@
 
 ## Git repositories involved
 
-* [OE Alliance Core](https://github.com/oe-alliance/oe-alliance-core/tree/5.3 "OE Alliance Core") - Core framework
-* [openATV 7.3](https://github.com/openatv/enigma2/tree/master "openATV 7.3") - openATV core
-* [MetrixHD](https://github.com/openatv/MetrixHD/tree/master "openATV Skin") - Default openATV skin
+* [OE Alliance Core](https://github.com/oe-alliance/oe-alliance-core/tree/5.3) - Core framework
+* [openATV 7.3](https://github.com/openatv/enigma2/tree/master) - openATV core
+* [Plugins](https://github.com/oe-alliance/oe-alliance-plugins/tree/master) - oe-alliance plugins
+* [MetrixHD](https://github.com/openatv/MetrixHD/tree/master) - Default openATV skin
 * ...
 
 ## DOXYGEN Documentation
