@@ -2956,10 +2956,10 @@ msgstr ""
 msgid "Base time"
 msgstr "Giờ cơ sở"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr "Tính minh bạch cơ sở cho trình duyệt web OpenOpera"
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr "Độ trong suốt của teletext, có nhiều tùy chọn hơn trong màn hình teletext."
 
 msgid "Baseball"
@@ -5698,6 +5698,9 @@ msgstr ""
 msgid "Defaults"
 msgstr "Mặc định"
 
+msgid "Reset to Default"
+msgstr "Mặc định"
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -6769,6 +6772,9 @@ msgstr "Chỉnh sửa các chương của tiêu đề hiện tại"
 msgid "Edit settings"
 msgstr "Chỉnh sửa cài đặt"
 
+msgid "Picture Player Settings"
+msgstr "Chỉnh sửa cài đặt"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
@@ -7690,7 +7696,7 @@ msgstr "Thi công xong !!"
 msgid "Execution progress:"
 msgstr "Tiến độ thực hiện:"
 
-msgid "Exif"
+msgid "Show Metadata"
 msgstr "Thoát"
 
 msgid "Existing or trial customer"
@@ -9587,6 +9593,9 @@ msgstr "Tiếng Indonesia"
 msgid "Info"
 msgstr "Thông tin"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr "Thông tin (EPG)"
 
@@ -11186,7 +11195,7 @@ msgstr "Thiết bị gắn kết"
 msgid "Move"
 msgstr "Di chuyển"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr "Di chuyển sang trái / phải"
 
 msgid "Move Mode"
@@ -11204,7 +11213,7 @@ msgstr "Di chuyển PIP"
 msgid "Move PiP to main picture"
 msgstr "Di chuyển PiP sang hình ảnh chính"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr "Di chuyển lên / xuống"
 
 msgid "Move all related files"
@@ -13029,7 +13038,7 @@ msgstr "Hình ảnh trong Cài đặt hình ảnh"
 msgid "Picture in graphics"
 msgstr "Hình ảnh trong đồ họa"
 
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "Máy nghe nhạc"
 
 msgid "Pictures"
@@ -13295,15 +13304,15 @@ msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 "Vui lòng thiết lập giao diện người dùng của bạn bằng cách điều chỉnh các giá trị cho đến khi các cạnh của hộp màu đỏ chạm vào các cạnh của TV.\n"
 "Khi bạn đã sẵn sàng nhấn OK để tiếp tục."
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 "Vui lòng thiết lập giao diện người dùng của bạn bằng cách điều chỉnh các giá trị cho đến khi các cạnh của hộp màu đỏ chạm vào các cạnh của TV.\n"
 "Khi bạn đã sẵn sàng nhấn màu xanh lá cây để tiếp tục."
@@ -13503,7 +13512,7 @@ msgstr "Bồ Đào Nha"
 msgid "Portuguese"
 msgstr "Bồ Đào Nha"
 
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Thiết lập vị trí"
 
 msgid "Position of finished Timers in Timerlist"
@@ -14183,7 +14192,7 @@ msgstr "ghi âm thực hoặc phát trực tuyến"
 msgid "Really WOL now?"
 msgstr "Thực sự WOL bây giờ?"
 
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Thực sự đóng mà không lưu cài đặt?"
 
 msgid "Really delete this entry?"
@@ -19277,7 +19286,7 @@ msgstr "Teletext TTFWidthFactor16 (Độ rộng chữ TrueType)"
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr "Teletext UseTTF (0 = phông chữ cố định, 1 = TrueType)"
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr "Khả năng hiển thị cơ sở Teletext"
 
 msgid "Teletext font and resolution"
@@ -19965,7 +19974,7 @@ msgstr "Tùy chọn này cấu hình bạn có thể đặt Mức âm lượng t
 msgid "This option lets you adjust the 3D depth."
 msgstr "Tùy chọn này cho phép bạn điều chỉnh độ sâu 3D"
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr "Tùy chọn này cho phép bạn điều chỉnh độ trong suốt của giao diện người dùng"
 
 msgid "This option lets you choose the 3D mode."
@@ -21234,25 +21243,28 @@ msgstr "Sử dụng đo năng lượng"
 msgid "Use small screen"
 msgstr "Sử dụng màn hình mỏng"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr "Sử dụng các nút Trái / Phải trên điều khiển từ xa để điều chỉnh kích thước của giao diện người dùng. Nút trái giảm kích thước, Phải tăng kích thước."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
+msgstr "Sử dụng các nút Trái / Phải trên điều khiển từ xa để điều chỉnh kích thước của giao diện người dùng. Nút trái giảm kích thước, Phải tăng kích thước."
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr "Sử dụng các nút Trái / Phải trên điều khiển từ xa để di chuyển giao diện người dùng sang trái / phải"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr "Sử dụng các nút Trái / Phải trên điều khiển từ xa để di chuyển lên / xuống giao diện người dùng"
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -21346,7 +21358,7 @@ msgstr "Người dùng xác định transponder"
 msgid "User interface settings"
 msgstr "Cài đặt giao diện người dùng"
 
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Giao diện người dùng"
 
 msgid "User logo:"
@@ -21865,7 +21877,7 @@ msgstr "Giao diện web"
 msgid "Web Link Packages"
 msgstr ""
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr "Khả năng hiển thị cơ sở trình duyệt web"
 
 msgid "Wed"
@@ -23415,7 +23427,7 @@ msgstr "pid:"
 msgid "pink"
 msgstr ""
 
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "vui lòng đợi, tải hình ảnh ..."
 
 msgid "plugin"

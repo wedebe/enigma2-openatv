@@ -3061,10 +3061,10 @@ msgstr ""
 msgid "Base time"
 msgstr "開始時間"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr ""
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr ""
 
 msgid "Baseball"
@@ -5889,6 +5889,9 @@ msgstr ""
 msgid "Defaults"
 msgstr "預設"
 
+msgid "Reset to Default"
+msgstr ""
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -6989,6 +6992,9 @@ msgstr "編輯章節當前標題"
 msgid "Edit settings"
 msgstr "編輯設定"
 
+msgid "Picture Player Settings"
+msgstr "編輯設定"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
@@ -7913,8 +7919,8 @@ msgstr "執行完畢！"
 msgid "Execution progress:"
 msgstr ""
 
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr ""
@@ -9897,6 +9903,9 @@ msgstr ""
 msgid "Info"
 msgstr "資訊"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr ""
 
@@ -11568,7 +11577,7 @@ msgstr "裝置"
 msgid "Move"
 msgstr "移動"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr ""
 
 msgid "Move Mode"
@@ -11589,7 +11598,7 @@ msgstr "移動"
 msgid "Move PiP to main picture"
 msgstr ""
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr ""
 
 msgid "Move all related files"
@@ -13487,7 +13496,7 @@ msgstr "畫中畫 開/關"
 msgid "Picture in graphics"
 msgstr "移動畫中畫"
 
-msgid "Picture player"
+msgid "Picture Player"
 msgstr ""
 
 msgid "Pictures"
@@ -13766,16 +13775,16 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 "下列數值必須設定正確才能連接到Internet.\n"
 "當您準備好後按OK鍵確認."
 
 #, fuzzy
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 "下列數值必須設定正確才能連接到Internet.\n"
 "當您準備好後按OK鍵確認."
@@ -13986,7 +13995,7 @@ msgid "Portuguese"
 msgstr "葡萄牙語"
 
 #, fuzzy
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "極軸設定(DiSEqC 1.2)"
 
 msgid "Position of finished Timers in Timerlist"
@@ -14720,7 +14729,7 @@ msgstr "作為一個連續的流錄製"
 msgid "Really WOL now?"
 msgstr "立即重啟(Reboot)?"
 
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "關閉而不保存設定?"
 
 #, fuzzy
@@ -20081,7 +20090,7 @@ msgstr ""
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr ""
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr ""
 
 msgid "Teletext font and resolution"
@@ -20773,7 +20782,7 @@ msgstr ""
 msgid "This option lets you adjust the 3D depth."
 msgstr ""
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr ""
 
 msgid "This option lets you choose the 3D mode."
@@ -22071,25 +22080,28 @@ msgstr "使用功率測量"
 msgid "Use small screen"
 msgstr "螢幕調整插件"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
+msgstr ""
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr ""
 
 #, fuzzy
@@ -22189,7 +22201,7 @@ msgid "User interface settings"
 msgstr "DNS設定"
 
 #, fuzzy
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "啟用網卡"
 
 #, fuzzy
@@ -22736,7 +22748,7 @@ msgstr "Webinterface"
 msgid "Web Link Packages"
 msgstr ""
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr ""
 
 msgid "Wed"
@@ -24282,7 +24294,7 @@ msgstr ""
 msgid "pink"
 msgstr ""
 
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "請稍候，正在載入圖片..."
 
 msgid "plugin"

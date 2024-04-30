@@ -3278,10 +3278,10 @@ msgstr ""
 msgid "Base time"
 msgstr "Početno vreme"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr ""
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr ""
 
 msgid "Baseball"
@@ -6195,6 +6195,9 @@ msgstr ""
 msgid "Defaults"
 msgstr ""
 
+msgid "Reset to Default"
+msgstr ""
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -7334,6 +7337,10 @@ msgstr "Urediti poglavlja sadašnjeg naslova"
 msgid "Edit settings"
 msgstr "Urediti postavke"
 
+#
+msgid "Picture Player Settings"
+msgstr "Urediti postavke"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
@@ -8292,8 +8299,8 @@ msgid "Execution progress:"
 msgstr "Tok izvođenja:"
 
 #
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr ""
@@ -10321,6 +10328,9 @@ msgstr ""
 msgid "Info"
 msgstr "Info"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr ""
 
@@ -12077,7 +12087,7 @@ msgstr ""
 msgid "Move"
 msgstr ""
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr ""
 
 #
@@ -12102,7 +12112,7 @@ msgstr ""
 msgid "Move PiP to main picture"
 msgstr "premesti SuS na glavnu sliku"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr ""
 
 msgid "Move all related files"
@@ -14078,7 +14088,7 @@ msgstr "Pomerite sliku u slici"
 
 #
 #, fuzzy
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "Pregledač slika"
 
 #
@@ -14388,13 +14398,13 @@ msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 
 #
@@ -14624,7 +14634,7 @@ msgstr "Portugalski"
 
 #
 #, fuzzy
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Postavke motora"
 
 msgid "Position of finished Timers in Timerlist"
@@ -15356,7 +15366,7 @@ msgid "Really WOL now?"
 msgstr ""
 
 #
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Želite li stvarno zatvoriti bez čuvanja postavki ?"
 
 #
@@ -20842,7 +20852,7 @@ msgstr ""
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr ""
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr ""
 
 msgid "Teletext font and resolution"
@@ -21526,7 +21536,7 @@ msgstr ""
 msgid "This option lets you adjust the 3D depth."
 msgstr ""
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr ""
 
 msgid "This option lets you choose the 3D mode."
@@ -22892,25 +22902,28 @@ msgstr "Koristi merenje snage"
 msgid "Use small screen"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
+msgstr ""
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr ""
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -23014,7 +23027,7 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Koristi interfejs"
 
 msgid "User logo:"
@@ -23569,7 +23582,7 @@ msgstr ""
 msgid "Web Link Packages"
 msgstr ""
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr ""
 
 #
@@ -25194,7 +25207,7 @@ msgid "pink"
 msgstr ""
 
 #
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "molim pričekajte, učitavam sliku..."
 
 msgid "plugin"

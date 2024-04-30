@@ -1,7 +1,7 @@
 <!--suppress XmlUnboundNsPrefix -->
 <wizard>
 	   <step id="start" nextstep="end">
-				<text value="Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\nWhen you are ready press OK to continue." />
+				<text value="Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\nPress ≪OK≫ when you're ready to continue..." />
 				<displaytext value="Configure interface" />
 				<config screen="UserInterfacePositioner" module="UserInterfacePositioner" type="ConfigList" />
 				<code>

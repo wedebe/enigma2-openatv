@@ -2938,10 +2938,10 @@ msgstr "Basis Shell pakketten"
 msgid "Base time"
 msgstr "Tijdlijn indeling"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr "Basis transparantie voor browser OpenOpera"
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr "Basis transparantie voor Teletekst, meer opties beschikbaar binnen het Teletekst-scherm."
 
 msgid "Baseball"
@@ -5763,6 +5763,9 @@ msgstr "Default: '%s'."
 msgid "Defaults"
 msgstr "Standaard waardes"
 
+msgid "Reset to Default"
+msgstr "Standaard waardes"
+
 msgid "Define Softcam For This Provider"
 msgstr "Softcam instellen voor deze provider"
 
@@ -6838,6 +6841,9 @@ msgstr "Wijzig huidige regel"
 msgid "Edit settings"
 msgstr "Instellingen wijzigen"
 
+msgid "Picture Player Settings"
+msgstr "Instellingen wijzigen"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr "De CCcam/NewCamd-server hostname aanpassen."
 
@@ -7769,8 +7775,8 @@ msgstr "!! De volledige back-up is gereed !!"
 msgid "Execution progress:"
 msgstr "Voortgang extern commando:"
 
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr "Bestaande of Proef account"
@@ -9638,6 +9644,9 @@ msgstr "Indonesisch"
 msgid "Info"
 msgstr "Informatie"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr "Info (EPG)"
 
@@ -11199,7 +11208,7 @@ msgstr "Mount opslagmedia"
 msgid "Move"
 msgstr "Verplaats"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr "Verplaats links/rechts"
 
 msgid "Move Mode"
@@ -11217,7 +11226,7 @@ msgstr "Verplaats PIP"
 msgid "Move PiP to main picture"
 msgstr "PiP verder kijken in normaal beeldformaat"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr "Verplaats omhoog/omlaag"
 
 msgid "Move all related files"
@@ -12993,7 +13002,7 @@ msgstr "Picture In Picture Instellingen"
 msgid "Picture in graphics"
 msgstr "Mini-TV in de EPG"
 
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "Fotospeler"
 
 msgid "Pictures"
@@ -13264,15 +13273,15 @@ msgid "Please select what to do after flash of the following image:"
 msgstr "A.u.b. kiezen wat er moet gebeuren na het flashen van dit image:"
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 "Stel uw gebruikersinterface in door de waarden aan te passen tot de randen van de rode box, de randen van uw TV raken.\n"
 "Wanneer u klaar bent drukt u op de GROENE-knop."
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 "Stel uw gebruikersinterface in door de waarden aan te passen tot de randen van het rode vak de randen van uw TV aanraken.\n"
 "Wanneer u klaar bent drukt u op de GROENE-knop."
@@ -13473,7 +13482,7 @@ msgstr "Portugal"
 msgid "Portuguese"
 msgstr "Portugees"
 
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Motorinstellingen"
 
 msgid "Position of finished Timers in Timerlist"
@@ -14146,7 +14155,7 @@ msgstr "Echte opnamen of streams"
 msgid "Really WOL now?"
 msgstr "Start WOL nu?"
 
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Afsluiten zonder opslaan?"
 
 msgid "Really delete this entry?"
@@ -19221,7 +19230,7 @@ msgstr "Teletekst TTFWidthFactor16 (TrueType-letter breedte)"
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr "Teletekst-gebruikTTF (0 = vast lettertype, 1 = TrueType)"
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr "Teletekst basis zichtbaarheid"
 
 msgid "Teletext font and resolution"
@@ -19962,7 +19971,7 @@ msgstr "Met deze optie kunt u het automatische volumeniveau configureren."
 msgid "This option lets you adjust the 3D depth."
 msgstr "Hier kunt u de 3D-diepte instellen"
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr "Hier kunt u de gewenste transparantie van de gebruikersinterface instellen"
 
 msgid "This option lets you choose the 3D mode."
@@ -21237,25 +21246,28 @@ msgstr "Meet stroom verbruik"
 msgid "Use small screen"
 msgstr "Gebruik klein scherm"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr "Gebruik de Links/Rechts knoppen op uw AB om de afmetingen van de interface aan te passen. Links verkleint die, rechts vergroot."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
+msgstr "Gebruik de Links/Rechts knoppen op uw AB om de afmetingen van de interface aan te passen. Links verkleint die, rechts vergroot."
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr "Gebruik de LINKS/RECHTS knoppen op uw afstandsbediening om de gebruikersinterface/OSD naar beneden te verplaatsen"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr "Gebruik de LINKS/RECHTS knoppen op uw afstandsbediening om de gebruikersinterface/OSD naar links te verplaatsen"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr "Gebruik de links/rechts knoppen op de afstandsbediening om de user interface te verplaatsen"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr "Gebruik de LINKS/RECHTS knoppen op uw afstandsbediening om de gebruikersinterface naar rechts te verplaatsen"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
 msgstr "Gebruik de LINKS/RECHTS knoppen op uw afstandsbediening om de gebruikersinterface/OSD naar boven te verplaatsen"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr "Gebruik de Links/Rechts knoppen op uw AB om de interface naar boven/beneden te verplaatsen"
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -21351,7 +21363,7 @@ msgstr "Door u ingestelde transponder"
 msgid "User interface settings"
 msgstr "Gebruikersinterface Instellingen"
 
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Gebruikersinterface zichtbaarheid"
 
 msgid "User logo:"
@@ -21888,7 +21900,7 @@ msgstr "Webinterface"
 msgid "Web Link Packages"
 msgstr "Weblinks"
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr "Web browser basis zichtbaarheid"
 
 msgid "Wed"
@@ -23444,7 +23456,7 @@ msgstr "pid:"
 msgid "pink"
 msgstr "Roze"
 
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "Een ogenblik geduld, de foto wordt geladen..."
 
 msgid "plugin"

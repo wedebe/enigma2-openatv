@@ -28,7 +28,7 @@ config.pic.textcolor = ConfigSelection(default="#0038FF48", choices=[("#00000000
 
 class picshow(Screen):
 	skin = """
-		<screen name="picshow" position="center,center" size="560,440" title="Picture player" resolution="1280,720">
+		<screen name="picshow" position="center,center" size="560,440" title="Picture Player" resolution="1280,720">
 			<ePixmap pixmap="buttons/red.png" position="0,0" size="140,40" alphatest="on" />
 			<ePixmap pixmap="buttons/green.png" position="140,0" size="140,40" alphatest="on" />
 			<ePixmap pixmap="buttons/yellow.png" position="280,0" size="140,40" alphatest="on" />
@@ -83,7 +83,7 @@ class picshow(Screen):
 
 		text = picInfo.split('\n', 1)
 		self["label"].setText(text[1])
-		self["key_yellow"].setText(_("Exif"))
+		self["key_yellow"].setText(_("Show Metadata"))
 
 	def showThumb(self):
 		if self.filelist.getPath() and isfile(self.filelist.getPath()) and self.picload.getThumbnail(self.filelist.getPath()) == 1:
@@ -115,7 +115,7 @@ class picshow(Screen):
 			self.session.openWithCallback(self.callbackView, Pic_Full_View, self.filelist.getFileList(), self.filelist.getSelectionIndex(), self.filelist.getCurrentDirectory())
 
 	def setConf(self, retval=None):
-		self.setTitle(_("Picture player"))
+		self.setTitle(_("Picture Player"))
 		#0=Width 1=Height 2=Aspect 3=use_cache 4=resize_type 5=Background(#AARRGGBB)
 		self.picload.setPara((self["thn"].instance.size().width(), self["thn"].instance.size().height(), 1, 1, config.pic.cache.value, int(config.pic.resize.value), "#00000000"))
 
@@ -140,14 +140,14 @@ class picshow(Screen):
 class Pic_Setup(Setup):
 	def __init__(self, session):
 		Setup.__init__(self, session, setup="PicturePlayer", plugin="Extensions/PicturePlayer")
-		self.setTitle(_("Edit settings"))
+		self.setTitle(_("Picture Player Settings"))
 
 #---------------------------------------------------------------------------
 
 
 class Pic_Exif(Screen):
 	skin = """
-		<screen name="Pic_Exif" position="center,center" size="560,360" title="Info" resolution="1280,720">
+		<screen name="Pic_Exif" position="center,center" size="560,360" title="Image Metadata" resolution="1280,720">
 			<ePixmap pixmap="buttons/red.png" position="0,0" size="140,40" alphatest="on" />
 			<widget source="key_red" render="Label" position="0,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
 			<widget source="menu" render="Listbox" position="5,50" size="550,310" scrollbarMode="showOnDemand" selectionDisabled="1" >
@@ -170,8 +170,8 @@ class Pic_Exif(Screen):
 		}, -1)
 
 		self["key_red"] = StaticText(_("Close"))
-
-		exifdesc = [_("filename") + ':', "EXIF-Version:", "Make:", "Camera:", "Date/Time:", "Width / Height:", "Flash used:", "Orientation:", "User Comments:", "Metering Mode:", "Exposure Program:", "Light Source:", "CompressedBitsPerPixel:", "ISO Speed Rating:", "X-Resolution:", "Y-Resolution:", "Resolution Unit:", "Brightness:", "Exposure Time:", "Exposure Bias:", "Distance:", "CCD-Width:", "ApertureFNumber:"]
+		# TODO: l10n enable the following strings
+		exifdesc = [_("Filename") + ':', "EXIF version:", "Camera make:", "Camera model:", "Date / Time:", "Width / Height:", "Flash used?:", "Orientation:", "User comments:", "Metering mode:", "Exposure program:", "Light source:", "Compressed bits/pixel:", "ISO speed rating:", "X resolution:", "Y resolution:", "Resolution unit:", "Brightness:", "Exposure time:", "Exposure bias:", "Distance:", "CCD width:", "Aperture f-number:"]
 		elist = []
 
 		for x in range(len(exiflist)):
@@ -184,7 +184,7 @@ class Pic_Exif(Screen):
 		self.onLayoutFinish.append(self.layoutFinished)
 
 	def layoutFinished(self):
-		self.setTitle(_("Info"))
+		self.setTitle(_("Image Metadata"))
 
 #----------------------------------------------------------------------------------------
 
@@ -425,7 +425,7 @@ class Pic_Full_View(Screen):
 		self["point"] = Pixmap()
 		self["pic"] = Pixmap()
 		self["play_icon"] = Pixmap()
-		self["file"] = StaticText(_("please wait, loading picture..."))
+		self["file"] = StaticText(_("Loading picture..."))
 
 		self.old_index = 0
 		self.filelist = []

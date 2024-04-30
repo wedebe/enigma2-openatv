@@ -264,7 +264,7 @@ class ConfigListScreen:
 		self["config"].onSelectionChanged.append(self.handleInputHelpers)
 
 	def setCancelMessage(self, msg):
-		self.cancelMsg = _("Really close without saving settings?") if msg is None else msg
+		self.cancelMsg = _("Are you sure you want to close without saving your changes?") if msg is None else msg
 
 	def setRestartMessage(self, msg):
 		self.restartMsg = _("Restart GUI now?") if msg is None else msg

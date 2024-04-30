@@ -3039,10 +3039,10 @@ msgstr ""
 msgid "Base time"
 msgstr "Temel Zaman"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr "OpenOpera web tarayıcısı için temel saydamlık"
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr "Teleteks için temel saydamlık, teletekst ekranından daha fazla seçenek mevcuttur."
 
 msgid "Baseball"
@@ -5873,6 +5873,9 @@ msgstr "Varsayılan: '%s'."
 msgid "Defaults"
 msgstr "Varsayılanlar"
 
+msgid "Reset to Default"
+msgstr "Varsayılanlar"
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -6995,6 +6998,10 @@ msgstr "Mevcut satırı düzenle"
 msgid "Edit settings"
 msgstr "Ayarları düzenle"
 
+#
+msgid "Picture Player Settings"
+msgstr "Ayarları düzenle"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr "CCcam/NewCamd sunucu ana bilgisayar adını düzenleyin."
 
@@ -7950,8 +7957,8 @@ msgid "Execution progress:"
 msgstr "İşleyiş Durumu:"
 
 #
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr "Mevcut görüntüyü ortama yazın"
@@ -9906,6 +9913,9 @@ msgstr "Endonezya"
 msgid "Info"
 msgstr "Bilgi"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr "Bilgi (EPG)"
 
@@ -11562,7 +11572,7 @@ msgstr "Mounts Devices"
 msgid "Move"
 msgstr "Taşı"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr "Sola/Sağa Taşı"
 
 #
@@ -11584,7 +11594,7 @@ msgstr "RİR Taşı"
 msgid "Move PiP to main picture"
 msgstr "PiP'i ana ekrana taşı"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr "Yukarı/Aşağı Taşı"
 
 msgid "Move all related files"
@@ -13461,7 +13471,7 @@ msgid "Picture in graphics"
 msgstr "Grafik içinde resim"
 
 #
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "Resim Oynatıcı"
 
 msgid "Pictures"
@@ -13762,15 +13772,15 @@ msgid "Please select what to do after flash of the following image:"
 msgstr "Lütfen aşağıdaki görüntünün flaşından sonra ne yapılacağını seçin:"
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 "Lütfen kırmızı kutunun kenarları TV'nizin kenarlarına değene kadar değerleri ayarlayarak kullanıcı arayüzünüzü kurun.\n"
 "Hazır olduğunuzda devam etmek için Tamam'a basın."
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 "Lütfen kırmızı kutunun kenarları TV'nizin kenarlarına değene kadar değerleri ayarlayarak kullanıcı arayüzünüzü kurun.\n"
 "Hazır olduğunuzda devam etmek için yeşil tuşa basın."
@@ -13989,7 +13999,7 @@ msgstr "Portekiz"
 msgid "Portuguese"
 msgstr "Portekizce"
 
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Konum Kurulumu"
 
 msgid "Position of finished Timers in Timerlist"
@@ -14692,7 +14702,7 @@ msgid "Really WOL now?"
 msgstr "Gerçekten WOL şimdi?"
 
 #
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Ayarlarınızı saklamadan çıkmak istediğinizden emin misiniz?"
 
 #
@@ -19971,7 +19981,7 @@ msgstr "Teletekst TTFWidthFactor16 (TrueType harf genişliği)"
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr "Teletekst UseTTF (0 = sabit yazı tipi, 1 = TrueType)"
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr "Teleteks temel görünürlük"
 
 msgid "Teletext font and resolution"
@@ -20703,7 +20713,7 @@ msgstr "Bu seçenek, Otomatik Ses Seviyesini ayarlarını yapılandırır."
 msgid "This option lets you adjust the 3D depth."
 msgstr "3D derinlik ayarını sağlar"
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr "Bu seçenek kullanıcı arayüzü saydamlık seviyesini ayarlamanızı sağlar"
 
 msgid "This option lets you choose the 3D mode."
@@ -22030,25 +22040,28 @@ msgstr "Güç ölçümü kullan"
 msgid "Use small screen"
 msgstr "İnce ekran kullan"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr "OSD boyunu ayarlamak için Sol/Sağ tuşlarını kullanın. Sol tuş boyutu küçültür, Sağ tuş boyutu büyütür."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
+msgstr "OSD boyunu ayarlamak için Sol/Sağ tuşlarını kullanın. Sol tuş boyutu küçültür, Sağ tuş boyutu büyütür."
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr "Kullanıcı arayüzünün alt kısmını hareket ettirmek için uzaktan kumandanızdaki Sol/Sağ düğmelerini kullanın"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr "Kullanıcı arayüzünü sola hareket ettirmek için uzaktan kumandanızdaki Sol/Sağ düğmelerini kullanın"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr "Kullanıcı arayüzünü sola / sağa hareket ettirmek için uzaktan kumandadaki Sol / Sağ tuşlarını kullanın"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr "Kullanıcı arayüzünü sağa hareket ettirmek için uzaktan kumandanızdaki Sol/Sağ düğmelerini kullanın"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
 msgstr "Kullanıcı arayüzünün üst kısmını hareket ettirmek için uzaktan kumandanızdaki Sol/Sağ düğmelerini kullanın"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr "Kullanıcı arayüzünü yukarı / aşağı hareket ettirmek için uzaktan kumandadaki Sol / Sağ düğmelerini kullanın"
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -22148,7 +22161,7 @@ msgid "User interface settings"
 msgstr "Kullanıcı arayüzü ayarları"
 
 #
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Arayüz saydamlığı"
 
 msgid "User logo:"
@@ -22711,7 +22724,7 @@ msgstr "Web Arayüzü"
 msgid "Web Link Packages"
 msgstr "Web Bağlantı Paketleri"
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr "Web tarayıcısı temel görünürlüğü"
 
 #
@@ -24339,7 +24352,7 @@ msgid "pink"
 msgstr "pembe"
 
 #
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "lütfen bekleyin, resim yükleniyor..."
 
 msgid "plugin"

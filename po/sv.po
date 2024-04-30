@@ -3237,10 +3237,10 @@ msgstr ""
 msgid "Base time"
 msgstr "Startid"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr ""
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr ""
 
 msgid "Baseball"
@@ -6141,6 +6141,9 @@ msgstr ""
 msgid "Defaults"
 msgstr "Standard"
 
+msgid "Reset to Default"
+msgstr "Standard"
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -7284,6 +7287,10 @@ msgstr "Hoppa till nutid"
 msgid "Edit settings"
 msgstr "Ändra inställningar"
 
+#
+msgid "Picture Player Settings"
+msgstr "Ändra inställningar"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
@@ -8239,8 +8246,8 @@ msgid "Execution progress:"
 msgstr "Exekvering pågår :"
 
 #
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr ""
@@ -10276,6 +10283,9 @@ msgstr ""
 msgid "Info"
 msgstr "Info"
 
+msgid "Image Metadata"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Info (EPG)"
@@ -12008,7 +12018,7 @@ msgstr ""
 msgid "Move"
 msgstr "Flytta"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr "Flytta Vänster/Höger"
 
 #
@@ -12032,7 +12042,7 @@ msgstr "Flytta BiB"
 msgid "Move PiP to main picture"
 msgstr "Flytta BiB till huvudbild"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr "Flytta Upp/Ned"
 
 msgid "Move all related files"
@@ -13985,7 +13995,7 @@ msgid "Picture in graphics"
 msgstr "Bild i grafiken"
 
 #
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "Bildspelare"
 
 #
@@ -14291,13 +14301,13 @@ msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 
 #
@@ -14520,7 +14530,7 @@ msgid "Portuguese"
 msgstr "Portugisiska"
 
 #
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Inställning av Position"
 
 msgid "Position of finished Timers in Timerlist"
@@ -15265,7 +15275,7 @@ msgid "Really WOL now?"
 msgstr ""
 
 #
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Verkligen stänga utan att spara inställningarna?"
 
 #
@@ -20735,7 +20745,7 @@ msgstr ""
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr ""
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr ""
 
 msgid "Teletext font and resolution"
@@ -21448,7 +21458,7 @@ msgstr ""
 msgid "This option lets you adjust the 3D depth."
 msgstr "Det här alternativet låter dig ställa in 3D djupet "
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr "Det här alternativet låter dig ställa in transparensen på användargränssnittet"
 
 msgid "This option lets you choose the 3D mode."
@@ -22813,25 +22823,28 @@ msgstr "Använd strömmätning"
 msgid "Use small screen"
 msgstr "Använd slimmad vy"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr "Använd Vänster/Höger knapparna på din fjärrkontroll för att anpassa storleken på användargränssnittet. Vänster knapp minskar storleken, Höger ökar storleken."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
+msgstr "Använd Vänster/Höger knapparna på din fjärrkontroll för att anpassa storleken på användargränssnittet. Vänster knapp minskar storleken, Höger ökar storleken."
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr "Använd Vänster/Höger knapparna på din fjärrkontroll för att flytta användargränssnittet upp/ner"
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -22934,7 +22947,7 @@ msgid "User interface settings"
 msgstr "Använda dessa inställningar?"
 
 #
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Användargränssnittets synlighet"
 
 msgid "User logo:"
@@ -23492,7 +23505,7 @@ msgstr "Web Interface"
 msgid "Web Link Packages"
 msgstr ""
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr ""
 
 #
@@ -25149,7 +25162,7 @@ msgid "pink"
 msgstr ""
 
 #
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "vänligen vänta, laddar bild..."
 
 msgid "plugin"

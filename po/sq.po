@@ -2939,10 +2939,10 @@ msgstr ""
 msgid "Base time"
 msgstr "Koha bazë"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr "Transparencë bazë për shfletuesin e internetit OpenOpera"
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr "Transparencë bazë për teletekst, më shumë opsione në dispozicion brenda ekranit të teletekstit."
 
 msgid "Baseball"
@@ -5651,6 +5651,9 @@ msgstr "Prezgjedhur: '%s'."
 msgid "Defaults"
 msgstr "Paracaktimet"
 
+msgid "Reset to Default"
+msgstr "Paracaktimet"
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -6714,6 +6717,9 @@ msgstr "Redakto linjën aktuale"
 msgid "Edit settings"
 msgstr "Redakto cilësimet"
 
+msgid "Picture Player Settings"
+msgstr "Redakto cilësimet"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
@@ -7628,8 +7634,8 @@ msgstr "Ekzekutimi përfundoi!!"
 msgid "Execution progress:"
 msgstr "Përparimi i ekzekutimit:"
 
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr "Klient ekzistues ose provë"
@@ -9490,6 +9496,9 @@ msgstr ""
 msgid "Info"
 msgstr "Info"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr ""
 
@@ -11049,7 +11058,7 @@ msgstr ""
 msgid "Move"
 msgstr ""
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr ""
 
 msgid "Move Mode"
@@ -11067,7 +11076,7 @@ msgstr ""
 msgid "Move PiP to main picture"
 msgstr ""
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr ""
 
 msgid "Move all related files"
@@ -12813,7 +12822,7 @@ msgstr ""
 msgid "Picture in graphics"
 msgstr ""
 
-msgid "Picture player"
+msgid "Picture Player"
 msgstr ""
 
 msgid "Pictures"
@@ -13078,13 +13087,13 @@ msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 
 msgid ""
@@ -13280,7 +13289,7 @@ msgstr ""
 msgid "Portuguese"
 msgstr ""
 
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr ""
 
 msgid "Position of finished Timers in Timerlist"
@@ -13949,7 +13958,7 @@ msgstr ""
 msgid "Really WOL now?"
 msgstr "Vërtet WOL tani?"
 
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Vërtetë mbyllet pa ruajtur cilësimet?"
 
 msgid "Really delete this entry?"
@@ -18939,7 +18948,7 @@ msgstr "Teleteksti TTFWidthFactor16 (gjerësia e shkronjave TrueType)"
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr "Teleteksti UseTTF (0=font fiks, 1=TrueType)"
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr "Dukshmëria e bazës së teletekstit"
 
 msgid "Teletext font and resolution"
@@ -19630,7 +19639,7 @@ msgstr ""
 msgid "This option lets you adjust the 3D depth."
 msgstr ""
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr ""
 
 msgid "This option lets you choose the 3D mode."
@@ -20849,25 +20858,28 @@ msgstr ""
 msgid "Use small screen"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
+msgstr ""
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr ""
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -20961,7 +20973,7 @@ msgstr ""
 msgid "User interface settings"
 msgstr ""
 
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr ""
 
 msgid "User logo:"
@@ -21467,7 +21479,7 @@ msgstr "Ndërfaqe Web"
 msgid "Web Link Packages"
 msgstr ""
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr "Dukshmëria e bazës së shfletuesit të internetit"
 
 msgid "Wed"
@@ -22991,7 +23003,7 @@ msgstr ""
 msgid "pink"
 msgstr ""
 
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr ""
 
 msgid "plugin"

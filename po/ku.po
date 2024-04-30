@@ -3132,10 +3132,10 @@ msgstr ""
 msgid "Base time"
 msgstr "zeman dest pédike"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr ""
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr ""
 
 msgid "Baseball"
@@ -5957,6 +5957,9 @@ msgstr ""
 msgid "Defaults"
 msgstr "Default"
 
+msgid "Reset to Default"
+msgstr "Default"
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -7031,7 +7034,10 @@ msgid "Edit current line"
 msgstr "Properties of current title"
 
 msgid "Edit settings"
-msgstr "Edit settings"
+msgstr ""
+
+msgid "Picture Player Settings"
+msgstr ""
 
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
@@ -7945,8 +7951,8 @@ msgstr "Execution finished!!"
 msgid "Execution progress:"
 msgstr "Execution progress:"
 
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr ""
@@ -9891,6 +9897,9 @@ msgstr ""
 msgid "Info"
 msgstr "Info"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr ""
 
@@ -11525,7 +11534,7 @@ msgstr ""
 msgid "Move"
 msgstr "Move"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr ""
 
 msgid "Move Mode"
@@ -11545,7 +11554,7 @@ msgstr ""
 msgid "Move PiP to main picture"
 msgstr "Move PiP to main picture"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr ""
 
 msgid "Move all related files"
@@ -13398,12 +13407,12 @@ msgstr ""
 msgid "Picture in graphics"
 msgstr "Move Picture in Picture"
 
-msgid "Picture player"
-msgstr "Picture player"
+msgid "Picture Player"
+msgstr "Picture Player"
 
 #, fuzzy
 msgid "Pictures"
-msgstr "Picture player"
+msgstr "Picture Player"
 
 #. TRANSLATORS: (aspect ratio policy: black bars on left/right) in doubt, keep english term.
 msgid "Pillarbox"
@@ -13669,13 +13678,13 @@ msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 
 msgid ""
@@ -13883,7 +13892,7 @@ msgid "Portuguese"
 msgstr "Portuguese"
 
 #, fuzzy
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Pozisyoner Çéki"
 
 msgid "Position of finished Timers in Timerlist"
@@ -14587,8 +14596,8 @@ msgstr ""
 msgid "Really WOL now?"
 msgstr ""
 
-msgid "Really close without saving settings?"
-msgstr "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
+msgstr "Are you sure you want to close without saving your changes?"
 
 #, fuzzy
 msgid "Really delete this entry?"
@@ -19813,7 +19822,7 @@ msgstr ""
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr ""
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr ""
 
 msgid "Teletext font and resolution"
@@ -20493,7 +20502,7 @@ msgstr ""
 msgid "This option lets you adjust the 3D depth."
 msgstr ""
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr ""
 
 msgid "This option lets you choose the 3D mode."
@@ -21793,25 +21802,28 @@ msgstr "Use power measurement"
 msgid "Use small screen"
 msgstr "Hold screen"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
+msgstr ""
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr ""
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -21907,7 +21919,7 @@ msgid "User interface settings"
 msgstr ""
 
 #, fuzzy
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Çékirina te"
 
 msgid "User logo:"
@@ -22441,7 +22453,7 @@ msgstr "Use interface"
 msgid "Web Link Packages"
 msgstr ""
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr ""
 
 msgid "Wed"
@@ -23998,8 +24010,8 @@ msgstr ""
 msgid "pink"
 msgstr ""
 
-msgid "please wait, loading picture..."
-msgstr "please wait, loading picture..."
+msgid "Loading picture..."
+msgstr "Loading picture..."
 
 msgid "plugin"
 msgstr ""

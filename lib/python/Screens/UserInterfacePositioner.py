@@ -16,6 +16,7 @@ from Tools.Directories import fileWriteLine
 
 MODULE_NAME = __name__.split(".")[-1]
 
+# TODO: l10n whole file
 
 def InitOsd():
 
@@ -252,16 +253,16 @@ class UserInterfacePositioner2(Screen, ConfigListScreen):
 
 	def __init__(self, session):
 		Screen.__init__(self, session)
-		self.setup_title = _("Position Setup")
+		self.setup_title = _("On-Screen Display (OSD) Position")
 #		self.Console = Console()
 		self["status"] = StaticText()
 		self["key_red"] = StaticText(_("Cancel"))
 		self["key_green"] = StaticText(_("Save"))
-		self["key_yellow"] = StaticText(_("Defaults"))
+		self["key_yellow"] = StaticText(_("Reset to Default"))
 		self["key_blue"] = StaticText()
 
 		self["title"] = StaticText(_("OSD Adjustment"))
-		self["text"] = Label(_("Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\nWhen you are ready press green to continue."))
+		self["text"] = Label(_("Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\nPress the ≪GREEN≫ button when you're ready to continue..."))
 
 		self["actions"] = ActionMap(["SetupActions", "ColorActions"],
 			{
@@ -276,19 +277,19 @@ class UserInterfacePositioner2(Screen, ConfigListScreen):
 		self.list = []
 		ConfigListScreen.__init__(self, self.list, session=session, on_change=self.changedEntry)
 		if BoxInfo.getItem("CanChangeOsdAlpha") or BoxInfo.getItem("CanChangeOsdPlaneAlpha"):
-			self.list.append((_("User interface visibility"), config.osd.alpha, _("This option lets you adjust the transparency of the user interface")))
-			self.list.append((_("Teletext base visibility"), config.osd.alpha_teletext, _("Base transparency for teletext, more options available within teletext screen.")))
-			self.list.append((_("Web browser base visibility"), config.osd.alpha_webbrowser, _("Base transparency for OpenOpera web browser")))
+			self.list.append((_("On-screen display (OSD) opacity"), config.osd.alpha, _("Adjust the transparency of menus, EPG and all other on-screen items")))
+			self.list.append((_("Teletext opacity"), config.osd.alpha_teletext, _("Adjust the transparency of teletext pages")))
+			self.list.append((_("Web browser opacity"), config.osd.alpha_webbrowser, _("Adjust the transparency of OpenOpera web browser's interface"))) #TODO: redundancy check
 		if BoxInfo.getItem("CanChangeOsdPosition"):
-			self.list.append((_("Move Left/Right"), config.osd.dst_left, _("Use the Left/Right buttons on your remote to move the user interface left/right")))
-			self.list.append((_("Width"), config.osd.dst_width, _("Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size.")))
-			self.list.append((_("Move Up/Down"), config.osd.dst_top, _("Use the Left/Right buttons on your remote to move the user interface up/down")))
-			self.list.append((_("Height"), config.osd.dst_height, _("Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size.")))
+			self.list.append((_("Move left/right"), config.osd.dst_left, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally")))
+			self.list.append((_("Width"), config.osd.dst_width, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display.")))
+			self.list.append((_("Move up/down"), config.osd.dst_top, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically")))
+			self.list.append((_("Height"), config.osd.dst_height, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display.")))
 		if BoxInfo.getItem("CanChangeOsdPositionAML"):
-			self.list.append((_("Left"), config.osd.dst_left, _("Use the Left/Right buttons on your remote to move the user interface left")))
-			self.list.append((_("Right"), config.osd.dst_width, _("Use the Left/Right buttons on your remote to move the user interface right")))
-			self.list.append((_("Top"), config.osd.dst_top, _("Use the Left/Right buttons on your remote to move the user interface top")))
-			self.list.append((_("Bottom"), config.osd.dst_height, _("Use the Left/Right buttons on your remote to move the user interface bottom")))
+			self.list.append((_("Left"), config.osd.dst_left, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left")))
+			self.list.append((_("Right"), config.osd.dst_width, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right")))
+			self.list.append((_("Top"), config.osd.dst_top, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top")))
+			self.list.append((_("Bottom"), config.osd.dst_height, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom")))
 
 		self["config"].list = self.list
 		self["config"].l.setList(self.list)
@@ -388,7 +389,7 @@ class UserInterfacePositioner2(Screen, ConfigListScreen):
 
 	def keyCancel(self):
 		if self["config"].isChanged():
-			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Really close without saving settings?"), default=False)
+			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Are you sure you want to close without saving your changes?"), default=False)
 		else:
 			self.close()
 
@@ -404,12 +405,12 @@ class UserInterfacePositioner2(Screen, ConfigListScreen):
 class UserInterfacePositioner(Screen, ConfigListScreen):
 	def __init__(self, session):
 		Screen.__init__(self, session)
-		self.setup_title = _("Position Setup")
+		self.setup_title = _("On-Screen Display (OSD) Position")
 #		self.Console = Console()
 		self["status"] = StaticText()
 		self["key_red"] = StaticText(_("Cancel"))
 		self["key_green"] = StaticText(_("Save"))
-		self["key_yellow"] = StaticText(_("Defaults"))
+		self["key_yellow"] = StaticText(_("Reset to Default"))
 
 		self["actions"] = ActionMap(["SetupActions", "ColorActions"],
 			{
@@ -424,14 +425,14 @@ class UserInterfacePositioner(Screen, ConfigListScreen):
 		self.list = []
 		ConfigListScreen.__init__(self, self.list, session=session, on_change=self.changedEntry)
 		if BoxInfo.getItem("CanChangeOsdAlpha") is True:
-			self.list.append((_("User interface visibility"), config.osd.alpha, _("This option lets you adjust the transparency of the user interface")))
-			self.list.append((_("Teletext base visibility"), config.osd.alpha_teletext, _("Base transparency for teletext, more options available within teletext screen.")))
-			self.list.append((_("Web browser base visibility"), config.osd.alpha_webbrowser, _("Base transparency for OpenOpera web browser")))
+			self.list.append((_("On-screen display (OSD) opacity"), config.osd.alpha, _("Adjust the transparency of menus, EPG and all other on-screen items")))
+			self.list.append((_("Teletext opacity"), config.osd.alpha_teletext, _("Adjust the transparency of teletext pages")))
+			self.list.append((_("Web browser opacity"), config.osd.alpha_webbrowser, _("Adjust the transparency of OpenOpera web browser's interface")))
 		if BoxInfo.getItem("CanChangeOsdPosition") is True or BoxInfo.getItem("CanChangeOsdPositionAML") is True:
-			self.list.append((_("Move Left/Right"), config.osd.dst_left, _("Use the Left/Right buttons on your remote to move the user interface left/right")))
-			self.list.append((_("Width"), config.osd.dst_width, _("Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size.")))
-			self.list.append((_("Move Up/Down"), config.osd.dst_top, _("Use the Left/Right buttons on your remote to move the user interface up/down")))
-			self.list.append((_("Height"), config.osd.dst_height, _("Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size.")))
+			self.list.append((_("Move left/right"), config.osd.dst_left, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally")))
+			self.list.append((_("Width"), config.osd.dst_width, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display.")))
+			self.list.append((_("Move up/down"), config.osd.dst_top, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically")))
+			self.list.append((_("Height"), config.osd.dst_height, _("Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display.")))
 
 		self["config"].list = self.list
 		self["config"].l.setList(self.list)
@@ -531,7 +532,7 @@ class UserInterfacePositioner(Screen, ConfigListScreen):
 
 	def keyCancel(self):
 		if self["config"].isChanged():
-			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Really close without saving settings?"), default=False)
+			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Are you sure you want to close without saving your changes?"), default=False)
 		else:
 			self.close()
 

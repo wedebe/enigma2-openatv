@@ -2966,10 +2966,10 @@ msgstr "Базові пакети оболонки Shell"
 msgid "Base time"
 msgstr "Базовий час"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr "Базова прозорість для веб-браузера OpenOpera"
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr "При виборі прозорості для телетексту, буде більше варіантів виведення телетексту."
 
 msgid "Baseball"
@@ -5687,6 +5687,9 @@ msgstr "За замовчуванням: '%s'."
 msgid "Defaults"
 msgstr "За замовчуванням"
 
+msgid "Reset to Default"
+msgstr "За замовчуванням"
+
 msgid "Define Softcam For This Provider"
 msgstr "Визначити Softcam для цього Провайдера"
 
@@ -6753,6 +6756,9 @@ msgstr "Редагувати даний рядок"
 msgid "Edit settings"
 msgstr "Редагування налаштувань"
 
+msgid "Picture Player Settings"
+msgstr "Редагування налаштувань"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr "Редагування назви хосту сервера CCcam/NewCamd."
 
@@ -7669,8 +7675,8 @@ msgstr "Виконано!!!"
 msgid "Execution progress:"
 msgstr "Процес виконання:"
 
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr "Існуючий клієнт, або пробний період"
@@ -9531,6 +9537,9 @@ msgstr "Індонезійська"
 msgid "Info"
 msgstr "Інфо"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr "Інфо (EPG)"
 
@@ -11094,7 +11103,7 @@ msgstr "Підключення пристроїв"
 msgid "Move"
 msgstr "Переміщення"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr "Переміщення вліво/вправо"
 
 msgid "Move Mode"
@@ -11112,7 +11121,7 @@ msgstr "Переміщення PIP"
 msgid "Move PiP to main picture"
 msgstr "Перемістити ПІП на основний екран"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr "Перемістити вгору/вниз"
 
 msgid "Move all related files"
@@ -12885,7 +12894,7 @@ msgstr "Налаштування Зображення в Зображенні"
 msgid "Picture in graphics"
 msgstr "PiG-вікно в графічному телегіді"
 
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "Перегляд зображень"
 
 msgid "Pictures"
@@ -13155,15 +13164,15 @@ msgid "Please select what to do after flash of the following image:"
 msgstr "Будь ласка, виберіть, що робити після прошивки наступного іміджу:"
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 "Відрегулювати положення користувача інтерфейсу. Краї червоної області повинні стосуватися країв екрану телевізора.\n"
 "Якщо готові, натисніть ОК для продовження."
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 "Відрегулювати положення користувача інтерфейсу. Краї червоної області повинні стосуватися країв екрану телевізора.\n"
 "Якщо готові, натисніть зелену кнопку для продовження."
@@ -13366,7 +13375,7 @@ msgstr "Португалія"
 msgid "Portuguese"
 msgstr "Португальська"
 
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Налаштування положення"
 
 msgid "Position of finished Timers in Timerlist"
@@ -14035,7 +14044,7 @@ msgstr "реальні записи, або потокове мовлення"
 msgid "Really WOL now?"
 msgstr "Дійсно WOL зараз?"
 
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Вийти без збереження налаштувань?"
 
 msgid "Really delete this entry?"
@@ -19073,7 +19082,7 @@ msgstr "Телетекст TTFWidthFactor16 (TrueType ширина літери)
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr "Телетекст UseTTF (0=фіксований шрифт, 1=TrueType)"
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr "Видимість телетексту"
 
 msgid "Teletext font and resolution"
@@ -19791,7 +19800,7 @@ msgstr "Тут можете вибрати рівень автоматичног
 msgid "This option lets you adjust the 3D depth."
 msgstr "Тут можете налаштувати 3D глибину"
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr "Тут можете налаштувати прозорість інтерфейсу користувача"
 
 msgid "This option lets you choose the 3D mode."
@@ -21045,25 +21054,28 @@ msgstr "Використовувати вимірювання потужност
 msgid "Use small screen"
 msgstr "Використовуйте міні вікно"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr "Використовуйте кнопки вліво/вправо для регулювання розміру GUI. Кнопка вліво зменшує розмір, кнопка вправо збільшує."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
+msgstr "Використовуйте кнопки вліво/вправо для регулювання розміру GUI. Кнопка вліво зменшує розмір, кнопка вправо збільшує."
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr "Використовуйте кнопки вліво/вправо на пульті, щоб перемістити інтерфейс користувача вниз"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr "Використовуйте кнопки вліво/вправо на пульті, щоб перемістити інтерфейс користувача вліво"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr "Використовуйте кнопки вліво/вправо для переміщення GUI вліво і вправо"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr "Використовуйте кнопки вліво/вправо на пульті, щоб перемістити інтерфейс користувача вправо"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
 msgstr "Використовуйте кнопки вліво/вправо на пульті, щоб перемістити інтерфейс користувача вгору"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr "Використовуйте кнопки вліво/вправо для переміщення GUI вгору і вниз"
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -21157,7 +21169,7 @@ msgstr "Транспондер вручну"
 msgid "User interface settings"
 msgstr "Налаштування інтерфейсу користувача"
 
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Видимість інтерфейсу користувача"
 
 msgid "User logo:"
@@ -21694,7 +21706,7 @@ msgstr "Веб Інтерфейс"
 msgid "Web Link Packages"
 msgstr "Пакети веб-посилань"
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr "Видимість інтернет браузера"
 
 msgid "Wed"
@@ -23228,7 +23240,7 @@ msgstr "PID:"
 msgid "pink"
 msgstr "рожевий"
 
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "будь ласка, почекайте, йде завантаження зображення..."
 
 msgid "plugin"

@@ -53,6 +53,6 @@ def Plugins(**kwargs):
 	icon = "pictureplayerhd.png" if screenwidth and screenwidth == 1920 else "pictureplayer.png"
 
 	return [
-			PluginDescriptor(name=_("Picture player"), description=_("fileformats (BMP, PNG, JPG, GIF)"), icon=icon, where=PluginDescriptor.WHERE_PLUGINMENU, needsRestart=False, fnc=main),
-			PluginDescriptor(name=_("Picture player"), where=PluginDescriptor.WHERE_FILESCAN, needsRestart=False, fnc=filescan)
+			PluginDescriptor(name=_("Picture Player"), description=_("fileformats (BMP, PNG, JPG, GIF)"), icon=icon, where=PluginDescriptor.WHERE_PLUGINMENU, needsRestart=False, fnc=main),
+			PluginDescriptor(name=_("Picture Player"), where=PluginDescriptor.WHERE_FILESCAN, needsRestart=False, fnc=filescan)
 		]

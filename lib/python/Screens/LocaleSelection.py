@@ -246,7 +246,7 @@ class LocaleSelection(Screen, HelpableScreen):
 		# 	self.close(*self.closeParameters)
 
 		# if self["locales"].isChanged():  # Code reserved should quit confirmation be required.
-		#	self.session.openWithCallback(keyCancelCallback, MessageBox, _("Really close without saving settings?"), default=False)
+		#	self.session.openWithCallback(keyCancelCallback, MessageBox, _("Are you sure you want to close without saving your changes?"), default=False)
 		# else:
 		international.activateLocale(self.initialLocale, runCallbacks=False)
 		self.close(*closeParameters)

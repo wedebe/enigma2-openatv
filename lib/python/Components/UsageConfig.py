@@ -17,6 +17,8 @@ from Components.SystemInfo import BoxInfo
 from Tools.Directories import SCOPE_HDD, SCOPE_SKINS, SCOPE_TIMESHIFT, defaultRecordingLocation, fileReadXML, fileWriteLine, resolveFilename
 from Components.AVSwitch import iAVSwitch
 
+# TODO: l10n whole file
+
 MODULE_NAME = __name__.split(".")[-1]
 DEFAULTKEYMAP = eEnv.resolve("${datadir}/enigma2/keymap.xml")
 

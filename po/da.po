@@ -2934,10 +2934,10 @@ msgstr ""
 msgid "Base time"
 msgstr "Basistid"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr "Grundlæggende gennemsigtighed for OpenOpera browser"
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr "Grundlæggende gennemsigtighed for Tekst-TV, flere muligheder tilgængelig inde i Tekst-TV skærmen."
 
 msgid "Baseball"
@@ -5651,6 +5651,9 @@ msgstr "Standard: '%s'."
 msgid "Defaults"
 msgstr "Standarder"
 
+msgid "Reset to Default"
+msgstr "Standarder"
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -6710,6 +6713,9 @@ msgstr "Rediger aktuel linje"
 msgid "Edit settings"
 msgstr "Rediger indstillinger"
 
+msgid "Picture Player Settings"
+msgstr "Rediger indstillinger"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
@@ -7623,7 +7629,7 @@ msgstr "Udførelse gennemført!!"
 msgid "Execution progress:"
 msgstr "Udførelsesfremgang:"
 
-msgid "Exif"
+msgid "Show Metadata"
 msgstr "Afslut"
 
 msgid "Existing or trial customer"
@@ -9501,6 +9507,9 @@ msgstr "Indonesisk"
 msgid "Info"
 msgstr "Info"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr "Info (EPG)"
 
@@ -11099,7 +11108,7 @@ msgstr "Mounts Enheder"
 msgid "Move"
 msgstr "Flyt"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr "Flyt venstre/højre"
 
 msgid "Move Mode"
@@ -11117,7 +11126,7 @@ msgstr "Flyt PiP"
 msgid "Move PiP to main picture"
 msgstr "Flyt PiP til hovedbillede"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr "Flyt Op/Ned"
 
 msgid "Move all related files"
@@ -12917,7 +12926,7 @@ msgstr "Luk Billede i Billede (PiP) opsætning"
 msgid "Picture in graphics"
 msgstr "Billede i grafik"
 
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "Billedfremviser"
 
 msgid "Pictures"
@@ -13186,15 +13195,15 @@ msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 "Sæt venligst din brugergrænseflade op ved at justere værdierne til kanterne af den røde kasse rører kanterne af dit TV.\n"
 "Tryk OK for at fortsætte når du er tilfreds."
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 "Indstil venligst din brugergrænseflade ved at justere værdierne til kanterne af den røde kasse røre kanterne af dit TV.\n"
 "Tryk på den grønne knap når du er klar til at fortsætte."
@@ -13395,7 +13404,7 @@ msgstr "Portugal"
 msgid "Portuguese"
 msgstr "Portugisisk"
 
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Positionsopsætning"
 
 msgid "Position of finished Timers in Timerlist"
@@ -14069,7 +14078,7 @@ msgstr "Ægte optagelser eller streaming"
 msgid "Really WOL now?"
 msgstr "WOL virkelig nu ?"
 
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Vil du lukke uden at gemme indstillinger ?"
 
 msgid "Really delete this entry?"
@@ -19144,7 +19153,7 @@ msgstr "Tekst-TV TTFBreddeFaktor16 (TryeType bogstavsbredde)"
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr "Tekst-TV BrugTTF (0=fast skrifttype, 1=TrueType)"
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr "Tekst-TV grundsynlighed"
 
 msgid "Teletext font and resolution"
@@ -19829,7 +19838,7 @@ msgstr "Denne mulighed konfigurere auto-lydstyrke niveau."
 msgid "This option lets you adjust the 3D depth."
 msgstr "Denne mulighed lader dig justere 3D dybden"
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr "Denne mulighed lader dig justere gennemsigtigheden af brugergrænsefladen"
 
 msgid "This option lets you choose the 3D mode."
@@ -21088,25 +21097,28 @@ msgstr "Brug Strømmåling"
 msgid "Use small screen"
 msgstr "Brug slank skærm"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr "Brug Venstre/Højre knapperne på din fjernbetjening til at justere størrelsen på brugergrænsefladen. Venstre knap reducere størrelsen, Højre øger størrelsen."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
+msgstr "Brug Venstre/Højre knapperne på din fjernbetjening til at justere størrelsen på brugergrænsefladen. Venstre knap reducere størrelsen, Højre øger størrelsen."
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr "Brug Venstre/Højre knapperne på din fjernbetjening til at flytte brugergrænsefladen venstre/højre."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr "Brug Venstre/Højre knapperne på din fjernbetjening til at flytte brugergrænsefladen op/ned."
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -21200,7 +21212,7 @@ msgstr "Brugerdefineret transponder"
 msgid "User interface settings"
 msgstr "Brugergrænseflade indstillinger"
 
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Brugergrænseflade synlighed"
 
 msgid "User logo:"
@@ -21710,7 +21722,7 @@ msgstr "Webgrænseflade"
 msgid "Web Link Packages"
 msgstr ""
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr "Webbrowser grundsynlighed"
 
 msgid "Wed"
@@ -23247,7 +23259,7 @@ msgstr "PID:"
 msgid "pink"
 msgstr ""
 
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "vent venligst, henter billede..."
 
 msgid "plugin"

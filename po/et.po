@@ -2975,11 +2975,11 @@ msgid "Base time"
 msgstr "Alusaeg"
 
 # UserInterfacePositioner
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr "OpenOpera veebilehitseja üldine läbipaistvus"
 
 # UserInterfacePositioner
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr "Teleteksti üldine läbipaistvus. Rohkem võimalusi leiab teleteksti menüüs."
 
 msgid "Baseball"
@@ -5739,6 +5739,9 @@ msgstr ""
 msgid "Defaults"
 msgstr "Vaikeväärtused"
 
+msgid "Reset to Default"
+msgstr "Vaikeväärtused"
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -6824,6 +6827,9 @@ msgstr "Muuda käesolev rida"
 msgid "Edit settings"
 msgstr "Muuda seadeid"
 
+msgid "Picture Player Settings"
+msgstr "Muuda seadeid"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
@@ -7751,8 +7757,8 @@ msgstr "Ülesanne täidetud!!"
 msgid "Execution progress:"
 msgstr "Töö edenemine:"
 
-msgid "Exif"
-msgstr "Exif"
+msgid "Show Metadata"
+msgstr "EXIF"
 
 msgid "Existing or trial customer"
 msgstr ""
@@ -9671,6 +9677,9 @@ msgstr "Indoneesia"
 msgid "Info"
 msgstr "Info"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr "Info (EPG)"
 
@@ -11305,7 +11314,7 @@ msgstr "Haagi andmekandjad"
 msgid "Move"
 msgstr "Liiguta"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr "Liiguta vasakule/paremale"
 
 msgid "Move Mode"
@@ -11323,7 +11332,7 @@ msgstr "Liiguta PiP-akent"
 msgid "Move PiP to main picture"
 msgstr "Liiguta PiP põhipildile"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr "Liiguta üles/alla"
 
 msgid "Move all related files"
@@ -13192,7 +13201,7 @@ msgid "Picture in graphics"
 msgstr "Pilt ekraanigraafikas (PiG)"
 
 # 5.1 /Plugins\Extensions\PicturePlayer
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "Pildimängija"
 
 msgid "Pictures"
@@ -13467,16 +13476,16 @@ msgstr ""
 
 #
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 "Seadista kasutajaliides muutes väärtusi, kuni punase kasti servad puudutavad ekraani servi.\n"
 "Kui oled valmis, vajuta jätkamiseks OK."
 
 #
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 "Seadista kasutajaliides muutes väärtusi, kuni sinise kasti servad puudutavad ekraani servi.\n"
 "Kui oled valmis, vajuta jätkamiseks OK."
@@ -13680,7 +13689,7 @@ msgstr "Portugal"
 msgid "Portuguese"
 msgstr "Portugali"
 
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "Asukoha määramine"
 
 msgid "Position of finished Timers in Timerlist"
@@ -14371,7 +14380,7 @@ msgstr "Ehtsad salvestused või voogesitus"
 msgid "Really WOL now?"
 msgstr "Kas teha WOL?"
 
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "Kas väljuda seadeid salvestamata?"
 
 msgid "Really delete this entry?"
@@ -19540,7 +19549,7 @@ msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr "Teletekst: TTF kasutamine (0=fikseeritud laiusega font, 1=TrueType)"
 
 # UserInterfacePositioner
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr "Teleteksti üldine läbipaistvus"
 
 msgid "Teletext font and resolution"
@@ -20241,7 +20250,7 @@ msgstr "Selles valikus saad määrata automaatse helitugevuse."
 msgid "This option lets you adjust the 3D depth."
 msgstr "See valik võimaldab seadistada 3D sügavust"
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr "See valik võimaldab seadistada ekraanigraafika läbipaistvust"
 
 msgid "This option lets you choose the 3D mode."
@@ -21537,26 +21546,29 @@ msgstr "Kasuta voolutarbe mõõtmist"
 msgid "Use small screen"
 msgstr "Kasuta kitsast vaadet"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr "Kasuta ekraanigraafika suuruse muutmiseks VASAK/PAREM nuppe. VASAK vähendab ja PAREM suurendab."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
+msgstr "Kasuta ekraanigraafika suuruse muutmiseks VASAK/PAREM nuppe. VASAK vähendab ja PAREM suurendab."
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
 # OSD
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr "Kasuta ekraanigraafika vasakule ja paremale liigutamiseks VASAK/PAREM nuppe"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr "Kasuta ekraanigraafika üles/alla liigutamiseks VASAK/PAREM nuppe"
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -21652,7 +21664,7 @@ msgstr "Kasutaja määratud transponder"
 msgid "User interface settings"
 msgstr "Kasutajaliidese seaded"
 
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "Ekraanigraafika nähtavus"
 
 msgid "User logo:"
@@ -22180,7 +22192,7 @@ msgid "Web Link Packages"
 msgstr ""
 
 # UserInterfacePositioner
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr "Veebilehitseja üldine läbipaistvus"
 
 msgid "Wed"
@@ -23755,7 +23767,7 @@ msgstr "pid:"
 msgid "pink"
 msgstr ""
 
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "pilti laaditakse. oota..."
 
 msgid "plugin"

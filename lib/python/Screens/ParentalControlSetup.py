@@ -111,7 +111,7 @@ class ParentalControlSetup(Screen, ConfigListScreen, ProtectedScreen):
 
 	def keyCancel(self):
 		if self["config"].isChanged():
-			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Really close without saving settings?"))
+			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Are you sure you want to close without saving your changes?"))
 		else:
 			self.close()
 

@@ -398,7 +398,7 @@ class AtileHD_Config(Screen, ConfigListScreen):
 
 	def cancel(self):
 		if self["config"].isChanged():
-			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Really close without saving settings?"), MessageBox.TYPE_YESNO, default=False)
+			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Are you sure you want to close without saving your changes?"), MessageBox.TYPE_YESNO, default=False)
 		else:
 			for x in self["config"].list:
 				x[1].cancel()

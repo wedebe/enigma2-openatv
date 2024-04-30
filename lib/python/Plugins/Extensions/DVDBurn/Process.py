@@ -487,7 +487,7 @@ class ImagingPostcondition(Condition):
 
 class ImagePrepareTask(Task):
 	def __init__(self, job):
-		Task.__init__(self, job, _("please wait, loading picture..."))
+		Task.__init__(self, job, _("Please wait, loading image..."))
 		self.postconditions.append(ImagingPostcondition())
 		self.weighting = 20
 		self.job = job

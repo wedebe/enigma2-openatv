@@ -2934,10 +2934,10 @@ msgstr ""
 msgid "Base time"
 msgstr "基准时间"
 
-msgid "Base transparency for OpenOpera web browser"
+msgid "Adjust the transparency of OpenOpera web browser's interface"
 msgstr "web网页浏览器的基本透明度"
 
-msgid "Base transparency for teletext, more options available within teletext screen."
+msgid "Adjust the transparency of teletext pages"
 msgstr "图文电视基本透明度,不在图文电视屏幕的更多选项可用."
 
 msgid "Baseball"
@@ -5648,6 +5648,9 @@ msgstr "默认: '%s'."
 msgid "Defaults"
 msgstr "默认值"
 
+msgid "Reset to Default"
+msgstr "默认值"
+
 msgid "Define Softcam For This Provider"
 msgstr ""
 
@@ -6711,6 +6714,9 @@ msgstr "编辑当前行"
 msgid "Edit settings"
 msgstr "编辑设置"
 
+msgid "Picture Player Settings"
+msgstr "编辑设置"
+
 msgid "Edit the CCcam/NewCamd server hostname."
 msgstr ""
 
@@ -7623,7 +7629,7 @@ msgstr "执行完毕!!"
 msgid "Execution progress:"
 msgstr "执行进度:"
 
-msgid "Exif"
+msgid "Show Metadata"
 msgstr "镜像信息"
 
 msgid "Existing or trial customer"
@@ -9485,6 +9491,9 @@ msgstr "印尼语"
 msgid "Info"
 msgstr "信息"
 
+msgid "Image Metadata"
+msgstr ""
+
 msgid "Info (EPG)"
 msgstr "INFO键(EPG)"
 
@@ -11046,7 +11055,7 @@ msgstr "挂载设备"
 msgid "Move"
 msgstr "移动"
 
-msgid "Move Left/Right"
+msgid "Move left/right"
 msgstr "左/右 移动"
 
 msgid "Move Mode"
@@ -11064,7 +11073,7 @@ msgstr "移动画中画"
 msgid "Move PiP to main picture"
 msgstr "移动画中画至主画面"
 
-msgid "Move Up/Down"
+msgid "Move up/down"
 msgstr "上/下 移动"
 
 msgid "Move all related files"
@@ -12834,7 +12843,7 @@ msgstr "画中画设置"
 msgid "Picture in graphics"
 msgstr "EPG图片显示"
 
-msgid "Picture player"
+msgid "Picture Player"
 msgstr "图片播放器"
 
 msgid "Pictures"
@@ -13101,15 +13110,15 @@ msgid "Please select what to do after flash of the following image:"
 msgstr ""
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press ≪OK≫ when you're ready to continue..."
 msgstr ""
 "请设置您的用户界面,通过调整数值,直到红色方块的边缘,触摸你的电视的边缘.\n"
 "当您准备好后按OK键继续."
 
 msgid ""
-"Please setup your user interface by adjusting the values till the edges of the red box are touching the edges of your TV.\n"
-"When you are ready press green to continue."
+"Optimise the position of on-screen graphics such as menus, EPG etc. by adjusting the horizontal and vertical alignment, width and height until all sides of the red box touch the edges of your screen.\n"
+"Press the ≪GREEN≫ button when you're ready to continue..."
 msgstr ""
 "请设置您的用户界面,通过调整数值,直到红色方块的边缘,触摸你的电视的边缘.\n"
 "当你准备好后按绿色键继续."
@@ -13310,7 +13319,7 @@ msgstr "葡萄牙"
 msgid "Portuguese"
 msgstr "葡萄牙语"
 
-msgid "Position Setup"
+msgid "On-Screen Display (OSD) Position"
 msgstr "位置设置"
 
 msgid "Position of finished Timers in Timerlist"
@@ -13979,7 +13988,7 @@ msgstr "录像或串流"
 msgid "Really WOL now?"
 msgstr "是否马上网络唤醒？"
 
-msgid "Really close without saving settings?"
+msgid "Are you sure you want to close without saving your changes?"
 msgstr "是否关闭而不保存设置？"
 
 msgid "Really delete this entry?"
@@ -18999,7 +19008,7 @@ msgstr "图文TTF宽度因子16(TrueType字母宽度)"
 msgid "Teletext UseTTF (0=fixed font, 1=TrueType)"
 msgstr "图文使用TTF(0=固定字体,1=TrueType)"
 
-msgid "Teletext base visibility"
+msgid "Teletext opacity"
 msgstr "图文电视的可见性"
 
 msgid "Teletext font and resolution"
@@ -19684,7 +19693,7 @@ msgstr "此配置选项可让你设置自动音量级别."
 msgid "This option lets you adjust the 3D depth."
 msgstr "此选项可让您调整3D景深深度"
 
-msgid "This option lets you adjust the transparency of the user interface"
+msgid "Adjust the transparency of menus, EPG and all other on-screen items"
 msgstr "此选项允许您调整用户界面的透明度"
 
 msgid "This option lets you choose the 3D mode."
@@ -20933,25 +20942,28 @@ msgstr "功率测量"
 msgid "Use small screen"
 msgstr "使用超薄屏幕"
 
-msgid "Use the Left/Right buttons on your remote to adjust the size of the user interface. Left button decreases the size, Right increases the size."
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the height of the on-screen display."
 msgstr "使用遥控器上的左/右键来调整用户界面的大小.左键减小大小,右键增加大小."
 
-msgid "Use the Left/Right buttons on your remote to move the user interface bottom"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to reduce or increase the width of the on-screen display."
+msgstr "使用遥控器上的左/右键来调整用户界面的大小.左键减小大小,右键增加大小."
+
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the bottom"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the left"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface left/right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display horizontally"
 msgstr "使用遥控器上的左/右键移动用户界面左/右键"
 
-msgid "Use the Left/Right buttons on your remote to move the user interface right"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the right"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface top"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to shift the on-screen display to the top"
 msgstr ""
 
-msgid "Use the Left/Right buttons on your remote to move the user interface up/down"
+msgid "Use the ◀︎ LEFT and RIGHT ▶︎ buttons to align the on-screen display vertically"
 msgstr "使用遥控器上的左/右按钮来将用户界面向上/向下移动"
 
 msgid "Use the Networkwizard to configure your Network. The wizard will help you to setup your network"
@@ -21045,7 +21057,7 @@ msgstr "用户自定义转发器"
 msgid "User interface settings"
 msgstr "用户界面设置"
 
-msgid "User interface visibility"
+msgid "On-screen display (OSD) opacity"
 msgstr "用户界面可见性"
 
 msgid "User logo:"
@@ -21551,7 +21563,7 @@ msgstr "网页界面"
 msgid "Web Link Packages"
 msgstr ""
 
-msgid "Web browser base visibility"
+msgid "Web browser opacity"
 msgstr "基于Web浏览器的可见性"
 
 msgid "Wed"
@@ -23077,7 +23089,7 @@ msgstr "pid:"
 msgid "pink"
 msgstr ""
 
-msgid "please wait, loading picture..."
+msgid "Loading picture..."
 msgstr "请稍候,正在加载图片..."
 
 msgid "plugin"
