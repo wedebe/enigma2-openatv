@@ -773,7 +773,7 @@ class AdapterSetup(Screen, ConfigListScreen, HelpableScreen):
 	def keyCancel(self):
 		self.hideInputHelp()
 		if self["config"].isChanged() or (BoxInfo.getItem("WakeOnLAN") and self.wolstartvalue != config.network.wol.value):
-			self.session.openWithCallback(self.keyCancelConfirm, MessageBox, _("Are you sure you want to close without saving your changes?"), default=False)
+			self.session.openWithCallback(self.keyCancelConfirm, MessageBox, _("Are you sure you want to close?\nAny changes you've made will be lost!"), default=False)
 		else:
 			self.close("cancel")
 

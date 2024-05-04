@@ -389,7 +389,7 @@ class UserInterfacePositioner2(Screen, ConfigListScreen):
 
 	def keyCancel(self):
 		if self["config"].isChanged():
-			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Are you sure you want to close without saving your changes?"), default=False)
+			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Are you sure you want to close?\nAny changes you've made will be lost!"), default=False)
 		else:
 			self.close()
 
@@ -532,7 +532,7 @@ class UserInterfacePositioner(Screen, ConfigListScreen):
 
 	def keyCancel(self):
 		if self["config"].isChanged():
-			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Are you sure you want to close without saving your changes?"), default=False)
+			self.session.openWithCallback(self.cancelConfirm, MessageBox, _("Are you sure you want to close?\nAny changes you've made will be lost!"), default=False)
 		else:
 			self.close()
 

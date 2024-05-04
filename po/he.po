@@ -13901,7 +13901,7 @@ msgstr ""
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr ""
 
-msgid "Please wait, loading image..."
+msgid "Loading image, please wait..."
 msgstr ""
 
 msgid "Please wait, swap is is being created. This could take a few minutes to complete."
@@ -14728,7 +14728,7 @@ msgstr ""
 msgid "Really WOL now?"
 msgstr ""
 
-msgid "Are you sure you want to close without saving your changes?"
+msgid "Are you sure you want to close?\nAny changes you've made will be lost!"
 msgstr "?לסגור מבלי לשמור את השינויים"
 
 #, fuzzy

@@ -13223,7 +13223,7 @@ msgstr "Περιμένετε όσο διαγράφεται το αντίγραφ
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr "Περιμένετε όσο η μνήμη flash αντιγράφεται στην επέκταση flash. Αυτό μπορεί να πάρει μερικά λεπτά μέχρι να ολοκληρωθεί."
 
-msgid "Please wait, loading image..."
+msgid "Loading image, please wait..."
 msgstr "Παρακαλώ περιμένετε, φόρτωση εικόνας ..."
 
 msgid "Please wait, swap is is being created. This could take a few minutes to complete."
@@ -14000,7 +14000,7 @@ msgstr "Πραγματικές εγγραφές ή ροή"
 msgid "Really WOL now?"
 msgstr "Να γίνει ΑΣΔ τώρα;"
 
-msgid "Are you sure you want to close without saving your changes?"
+msgid "Are you sure you want to close?\nAny changes you've made will be lost!"
 msgstr "Θέλετε σίγουρα να γίνει έξοδος χωρίς αποθήκευση ρυθμίσεων;"
 
 msgid "Really delete this entry?"

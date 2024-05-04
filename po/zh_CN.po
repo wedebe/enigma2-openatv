@@ -13211,7 +13211,7 @@ msgstr ""
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr ""
 
-msgid "Please wait, loading image..."
+msgid "Loading image, please wait..."
 msgstr ""
 
 msgid "Please wait, swap is is being created. This could take a few minutes to complete."
@@ -13988,7 +13988,7 @@ msgstr "录像或串流"
 msgid "Really WOL now?"
 msgstr "是否马上网络唤醒？"
 
-msgid "Are you sure you want to close without saving your changes?"
+msgid "Are you sure you want to close?\nAny changes you've made will be lost!"
 msgstr "是否关闭而不保存设置？"
 
 msgid "Really delete this entry?"

@@ -13881,7 +13881,7 @@ msgstr ""
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr ""
 
-msgid "Please wait, loading image..."
+msgid "Loading image, please wait..."
 msgstr ""
 
 msgid "Please wait, swap is is being created. This could take a few minutes to complete."
@@ -14729,7 +14729,7 @@ msgstr "作為一個連續的流錄製"
 msgid "Really WOL now?"
 msgstr "立即重啟(Reboot)?"
 
-msgid "Are you sure you want to close without saving your changes?"
+msgid "Are you sure you want to close?\nAny changes you've made will be lost!"
 msgstr "關閉而不保存設定?"
 
 #, fuzzy

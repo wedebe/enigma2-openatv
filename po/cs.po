@@ -13262,7 +13262,7 @@ msgstr "Čekejte prosím, kopie flash paměti se maže. Dokončení může trvat
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr "Čekejte prosím, paměť flash se kopíruje do tohoto expandéru flash. Dokončení může trvat několik minut."
 
-msgid "Please wait, loading image..."
+msgid "Loading image, please wait..."
 msgstr "Čekejte prosím, načítá se obraz..."
 
 msgid "Please wait, swap is is being created. This could take a few minutes to complete."
@@ -14039,7 +14039,7 @@ msgstr "opr. nahr. nebo streamování"
 msgid "Really WOL now?"
 msgstr "Opravdu teď WOL?"
 
-msgid "Are you sure you want to close without saving your changes?"
+msgid "Are you sure you want to close?\nAny changes you've made will be lost!"
 msgstr "Opravdu zavřít bez uloženého nastavení?"
 
 msgid "Really delete this entry?"

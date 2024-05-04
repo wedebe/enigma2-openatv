@@ -13267,7 +13267,7 @@ msgstr "Зачекайте, копія флеш-пам'яті видаляєть
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr "Будь ласка, зачекайте, флеш-пам'ять копіюється на цей флеш-розширювач. Це може зайняти декілька хвилин."
 
-msgid "Please wait, loading image..."
+msgid "Loading image, please wait..."
 msgstr "Зачекайте, завантажується імідж..."
 
 msgid "Please wait, swap is is being created. This could take a few minutes to complete."
@@ -14044,7 +14044,7 @@ msgstr "реальні записи, або потокове мовлення"
 msgid "Really WOL now?"
 msgstr "Дійсно WOL зараз?"
 
-msgid "Are you sure you want to close without saving your changes?"
+msgid "Are you sure you want to close?\nAny changes you've made will be lost!"
 msgstr "Вийти без збереження налаштувань?"
 
 msgid "Really delete this entry?"

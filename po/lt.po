@@ -13275,7 +13275,7 @@ msgstr ""
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr ""
 
-msgid "Please wait, loading image..."
+msgid "Loading image, please wait..."
 msgstr "Palaukite, įkeliamas atvaizdas..."
 
 msgid "Please wait, swap is is being created. This could take a few minutes to complete."
@@ -14052,7 +14052,7 @@ msgstr "realūs įrašai arba transliacijos"
 msgid "Really WOL now?"
 msgstr "Tikrai prabusti nuo tinklo dabar?"
 
-msgid "Are you sure you want to close without saving your changes?"
+msgid "Are you sure you want to close?\nAny changes you've made will be lost!"
 msgstr "Tikrai užverti be nustatymų išsaugojimo ?"
 
 msgid "Really delete this entry?"

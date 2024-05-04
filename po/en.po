@@ -13430,7 +13430,7 @@ msgstr ""
 msgid "Really WOL now?"
 msgstr ""
 
-msgid "Are you sure you want to close without saving your changes?"
+msgid "Are you sure you want to close?\nAny changes you've made will be lost!"
 msgstr ""
 
 msgid "Really delete completed timers?"

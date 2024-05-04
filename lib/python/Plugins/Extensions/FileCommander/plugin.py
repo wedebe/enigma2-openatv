@@ -2328,7 +2328,7 @@ class FileCommanderImageViewer(Screen, HelpableScreen):
 		self["image"] = Pixmap()
 		self["icon"] = Pixmap()
 		self["status"] = Pixmap()
-		self["message"] = StaticText(_("Please wait, loading image..."))
+		self["message"] = StaticText(_("Loading image, please wait..."))
 		self["infolabels"] = Label()
 		text = ":\n".join(self.exifDesc)
 		self.infoLabelsText = f"{text}:"
