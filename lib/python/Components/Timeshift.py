@@ -636,7 +636,12 @@ class InfoBarTimeshift:
 						else:
 							servicename = ServiceReference(servicerefname).getServiceName()
 							entrylist.append(("[%s] %s : %s" % (strftime("%H:%M", localtime(int(begintime))), servicename, eventname), "%s" % filename))
-			self.session.openWithCallback(self.recordQuestionCallback, ChoiceBox, title=_("Which event do you want to save permanently?"), list=entrylist)
+			self.session.openWithCallback(self.saveTimeshiftEventPopupCallback, ChoiceBox, title=_("Which event do you want to save permanently?"), list=entrylist)
+
+	def saveTimeshiftEventPopupCallback(self, answer):
+		if answer:
+			self.SaveTimeshift(timeshiftfile=answer[1])
+		self.saveTimeshiftEventPopupActive = False
 
 	def saveTimeshiftActions(self, action=None, returnFunction=None):
 		timeshiftfile = None
