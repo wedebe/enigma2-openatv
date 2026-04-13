@@ -2,12 +2,11 @@ from ast import literal_eval
 from glob import glob
 from hashlib import md5
 from os import listdir, readlink
-from os.path import basename, exists, isfile, join, islink
+from os.path import basename, exists, isfile, islink, join
 from subprocess import PIPE, Popen
 
-from enigma import Misc_Options, eDVBResourceManager, eGetEnigmaDebugLvl, eDBoxLCD, eDVBCIInterfaces, getE2Rev
-
-from Tools.Directories import SCOPE_LIBDIR, SCOPE_SKINS, isPluginInstalled, fileCheck, fileReadLine, fileReadLines, resolveFilename, fileExists, fileHas, pathExists
+from enigma import eDBoxLCD, eDVBCIInterfaces, eDVBCSAEngine, eDVBResourceManager, eGetEnigmaDebugLvl, getE2Rev, getOARev, Misc_Options
+from Tools.Directories import fileCheck, fileExists, fileHas, fileReadLine, fileReadLines, isPluginInstalled, pathExists, resolveFilename, SCOPE_LIBDIR, SCOPE_SKINS
 from Tools.MultiBoot import MultiBoot
 
 MODULE_NAME = __name__.split(".")[-1]
@@ -348,8 +347,14 @@ try:
 	branch = f"?sha={branch}"
 except IndexError:
 	branch = ""
+try:
+	oaBranch = getOARev()
+	oaBranch = f"?sha={oaBranch}" if oaBranch else ""
+except Exception:
+	oaBranch = ""
 commitLogs = [
 	("OpenATV Enigma2", f"https://api.github.com/repos/openatv/enigma2/commits{branch}"),
+	("OE-Alliance Core", f"https://api.github.com/repos/oe-alliance/oe-alliance-core/commits{oaBranch}"),
 	("OE-Alliance Plugins", "https://api.github.com/repos/oe-alliance/oe-alliance-plugins/commits"),
 	("Enigma2 Plugins", "https://api.github.com/repos/oe-alliance/enigma2-plugins/commits"),
 	("OpenWebif", "https://api.github.com/repos/E2OpenPlugins/e2openplugin-OpenWebif/commits"),
@@ -363,7 +368,7 @@ BoxInfo.setItem("InformationCommitLogs", commitLogs)
 # ]
 # BoxInfo.setItem("InformationDistributionWelcome", welcome)
 
-BoxInfo.setItem("12V_Output", Misc_Options.getInstance().detected_12V_output())  #FIXME : Do we need this?
+BoxInfo.setItem("12V_Output", Misc_Options.getInstance().detected_12V_output())  # FIXME : Do we need this?
 BoxInfo.setItem("3DMode", fileCheck("/proc/stb/fb/3dmode") or fileCheck("/proc/stb/fb/primary/3d"))
 BoxInfo.setItem("3DZNorm", fileCheck("/proc/stb/fb/znorm") or fileCheck("/proc/stb/fb/primary/zoffset"))
 BoxInfo.setItem("7segment", DISPLAYTYPE in ("7segment",))
@@ -407,6 +412,7 @@ BoxInfo.setItem("HaveCISSL", fileCheck("/etc/ssl/certs/customer.pem") and fileCh
 BoxInfo.setItem("HaveID", fileCheck("/etc/.id"))
 BoxInfo.setItem("HAVEINITCAM", hasInitCam())
 BoxInfo.setItem("HAVEINITCARDSERVER", hasInitCardServer())
+BoxInfo.setItem("HasSoftCSA", eDVBCSAEngine.isAvailable())
 BoxInfo.setItem("HaveTouchSensor", MACHINEBUILD in ("dm520", "dm525", "dm900", "dm920"))
 BoxInfo.setItem("HDMICEC", fileExists("/dev/hdmi_cec") or fileExists("/dev/misc/hdmi_cec0"))
 BoxInfo.setItem("HDMIin", BoxInfo.getItem("hdmifhdin") or BoxInfo.getItem("hdmihdin"))
@@ -454,6 +460,8 @@ BoxInfo.setItem("WakeOnLANType", getWakeOnLANType(BoxInfo.getItem("WakeOnLAN")))
 BoxInfo.setItem("XcoreVFD", MODEL in ("xc7346", "xc7439"))
 BoxInfo.setItem("ZapMode", fileCheck("/proc/stb/video/zapmode") or fileCheck("/proc/stb/video/zapping_mode"))
 BoxInfo.setItem("DisplaySetup", MODEL not in ("dreamone",))
+BoxInfo.setItem("DM9X0", MODEL in ("dm900", "dm920"))
+
 
 # Dont't sort.
 BoxInfo.setItem("ConfigDisplay", BoxInfo.getItem("FrontpanelDisplay") and DISPLAYTYPE not in ("7segment",))

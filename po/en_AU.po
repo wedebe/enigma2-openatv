@@ -5,9 +5,9 @@
 # jbleyel <jbleyel@gmx.net>, 2022, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 09:08+0000\n"
+"POT-Creation-Date: 2026-03-02 11:34+0000\n"
 "PO-Revision-Date: 2025-10-20 17:11+0000\n"
 "Last-Translator: jbleyel <jbleyel@gmx.net>\n"
 "Language-Team: English (Australia) <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/en_AU/>\n"
@@ -914,7 +914,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #, python-format
-msgid "%d package has an update"
+msgid "%d package has an update."
 msgid_plural "%d packages have updates."
 msgstr[0] ""
 msgstr[1] ""
@@ -2021,6 +2021,9 @@ msgstr ""
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr ""
 
+msgid "Adjusts compensation for hardware buffer latency for DM9x0."
+msgstr ""
+
 msgid "Adult"
 msgstr ""
 
@@ -2632,6 +2635,9 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
+msgid "Auto (not available)"
+msgstr ""
+
 msgid "Auto Language"
 msgstr ""
 
@@ -2687,9 +2693,6 @@ msgid "Auto video mode selected"
 msgstr ""
 
 msgid "Auto video mode selected for the TV."
-msgstr ""
-
-msgid "Auto(not available)"
 msgstr ""
 
 msgid "AutoCam Settings"
@@ -2750,6 +2753,9 @@ msgid "Automatically update Log-Fullscreen View"
 msgstr ""
 
 msgid "Autostart"
+msgstr ""
+
+msgid "Available"
 msgstr ""
 
 msgid "Available format variables"
@@ -3043,6 +3049,9 @@ msgid "Black screen till locked"
 msgstr ""
 
 msgid "Blacklist"
+msgstr ""
+
+msgid "Blank screen"
 msgstr ""
 
 msgid "Blinking REC"
@@ -4066,6 +4075,9 @@ msgid "Choose the target location for the slots."
 msgstr ""
 
 msgid "Choose time interval to which the graphics will be rounded off."
+msgstr ""
+
+msgid "Choose what appears when the screen saver is active."
 msgstr ""
 
 msgid "Choose what you want the button '0' to do when PiP is active."
@@ -5654,6 +5666,15 @@ msgstr ""
 msgid "Debug log time format *"
 msgstr ""
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start delay"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr ""
 
@@ -5706,7 +5727,7 @@ msgstr ""
 msgid "Default right column directory"
 msgstr ""
 
-msgid "Default sort order for directories in the left column"
+msgid "Default sort order for directories in the left column."
 msgstr ""
 
 msgid "Default sort order for directories in the right column."
@@ -7027,15 +7048,6 @@ msgstr ""
 msgid "Enable VPS"
 msgstr ""
 
-msgid "Select 'Yes' to set the VPS flag on all new timers by default."
-msgstr ""
-
-msgid "VPS on instant recordings"
-msgstr ""
-
-msgid "Enable VPS-Plugin"
-msgstr ""
-
 msgid "Enable ViaSat EPG"
 msgstr ""
 
@@ -7581,9 +7593,6 @@ msgstr ""
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr ""
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr ""
-
 msgid "Error text:"
 msgstr ""
 
@@ -7857,9 +7866,6 @@ msgstr ""
 msgid "Exit editor and save any changes"
 msgstr ""
 
-msgid "Exit image viewer"
-msgstr ""
-
 msgid "Exit input device selection."
 msgstr ""
 
@@ -7885,6 +7891,9 @@ msgid "Exit network interface list"
 msgstr ""
 
 msgid "Exit network wizard"
+msgstr ""
+
+msgid "Exit picture viewer"
 msgstr ""
 
 msgid "Exit quad PiP"
@@ -8253,12 +8262,6 @@ msgstr ""
 msgid "File Commander Hashes / Checksums"
 msgstr ""
 
-msgid "File Commander Image Viewer"
-msgstr ""
-
-msgid "File Commander Image Viewer Actions"
-msgstr ""
-
 msgid "File Commander Information Actions"
 msgstr ""
 
@@ -8272,6 +8275,12 @@ msgid "File Commander Move"
 msgstr ""
 
 msgid "File Commander Navigation Actions"
+msgstr ""
+
+msgid "File Commander Picture Viewer"
+msgstr ""
+
+msgid "File Commander Picture Viewer Actions"
 msgstr ""
 
 msgid "File Commander Selection Actions"
@@ -8299,11 +8308,6 @@ msgid "File appears to be busy!\n"
 msgstr ""
 
 msgid "File compression"
-msgstr ""
-
-msgid ""
-"File oscam.conf not found.\n"
-"Please enter username/password manually."
 msgstr ""
 
 msgid "File system"
@@ -8349,6 +8353,9 @@ msgid "Finance"
 msgstr ""
 
 msgid "Find Currently Playing Service"
+msgstr ""
+
+msgid "Find connected events"
 msgstr ""
 
 #, python-format
@@ -9070,6 +9077,9 @@ msgstr ""
 msgid "Hardware information"
 msgstr ""
 
+msgid "Hardware latency correction"
+msgstr ""
+
 msgid "Hardware serial"
 msgstr ""
 
@@ -9334,6 +9344,9 @@ msgstr ""
 msgid "Hours Minutes Seconds"
 msgstr ""
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr ""
 
@@ -9510,13 +9523,10 @@ msgstr ""
 msgid "If EPG available"
 msgstr ""
 
-msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr ""
-
 msgid "If an action is user-configurable, its help entry will be flagged with a '(C)' suffix."
 msgstr ""
 
-msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
+msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
 msgstr ""
 
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
@@ -9538,9 +9548,6 @@ msgid "If enabled, the new GStreamer playback engine will be used."
 msgstr ""
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
-msgstr ""
-
-msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
 msgstr ""
 
 msgid "If set to 'Yes', allows the use of time shift with alternative audio plugins."
@@ -10797,6 +10804,9 @@ msgstr ""
 msgid "Login to IceTV server"
 msgstr ""
 
+msgid "Logo"
+msgstr ""
+
 msgid "Logs Settings"
 msgstr ""
 
@@ -11110,6 +11120,9 @@ msgid "Maximum number of days in EPG"
 msgstr ""
 
 msgid "Maximum space used (MB)"
+msgstr ""
+
+msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
 msgstr ""
 
 msgid "Mayotte"
@@ -13745,10 +13758,10 @@ msgstr ""
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr ""
 
-msgid "Please wait, loading image..."
+msgid "Please wait, loading picture..."
 msgstr ""
 
-msgid "Please wait, swap is is being created. This could take a few minutes to complete."
+msgid "Please wait, swap is being created. This could take a few minutes to complete."
 msgstr ""
 
 msgid "Please wait..."
@@ -15686,7 +15699,7 @@ msgstr ""
 msgid "Scaler sharpness"
 msgstr ""
 
-msgid "Scaler vertical dejagging"
+msgid "Scaler vertical anti-aliasing"
 msgstr ""
 
 msgid "Scaling mode"
@@ -15805,6 +15818,9 @@ msgstr ""
 msgid "Scope"
 msgstr ""
 
+msgid "Screen saver mode"
+msgstr ""
+
 msgid "Screen saver movement"
 msgstr ""
 
@@ -15904,9 +15920,6 @@ msgstr ""
 msgid "SeekBar sensibility"
 msgstr ""
 
-msgid "Find connected events"
-msgstr ""
-
 msgid "Select"
 msgstr ""
 
@@ -15971,6 +15984,9 @@ msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media
 msgstr ""
 
 msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
+msgstr ""
+
+msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr ""
 
 msgid "Select 'Yes' to allow use of the SeekBar to jump to a selected point within the event."
@@ -16090,6 +16106,9 @@ msgstr ""
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr ""
 
+msgid "Select 'Yes' to set the VPS flag on all new timers by default."
+msgstr ""
+
 msgid "Select 'Yes' to set the cursor position to the end of the line when editing a text file.  Select 'No' to set the cursor to the start of the line."
 msgstr ""
 
@@ -16180,6 +16199,9 @@ msgstr ""
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr ""
 
+msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
+msgstr ""
+
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr ""
 
@@ -16190,6 +16212,9 @@ msgid "Select 'Yes' to use signal values (SNR, etc) calculated from the older AP
 msgstr ""
 
 msgid "Select 'Yes' to use the number keys for quick selection of files / directories, select 'No' to use the number keys for MENU option shortcuts."
+msgstr ""
+
+msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
 msgstr ""
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
@@ -16408,6 +16433,9 @@ msgid "Select how quickly the dish should move between satellites."
 msgstr ""
 
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
+msgstr ""
+
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
 msgstr ""
 
 msgid "Select how the number buttons will act during seek actions."
@@ -16641,6 +16669,9 @@ msgstr ""
 msgid "Select the delay before the timer activates."
 msgstr ""
 
+msgid "Select the delay to buffer descrambled data before starting playback. This can reduce AC3 audio dropouts by ensuring enough data is available when the decoder starts. Higher values are more stable but increase channel switch time."
+msgstr ""
+
 msgid "Select the delay to use when closing a Stream Relay service before reallocating the tuner for another service. Using '0' is only recommended for receivers with multiple satellite tuners."
 msgstr ""
 
@@ -16674,8 +16705,9 @@ msgstr ""
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr ""
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
+msgid "Select the file sort order for the %s:"
 msgstr ""
 
 msgid "Select the file system for the device."
@@ -17287,6 +17319,9 @@ msgid "Set Scaling governor"
 msgstr ""
 
 msgid "Set Time"
+msgstr ""
+
+msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
 msgstr ""
 
 msgid "Set action for 'Info' key"
@@ -18092,7 +18127,7 @@ msgstr ""
 msgid "Show files backed up by default"
 msgstr ""
 
-msgid "Show first image"
+msgid "Show first picture"
 msgstr ""
 
 msgid "Show free space in timer view"
@@ -18132,7 +18167,7 @@ msgstr ""
 msgid "Show job tasks in Extension Menu"
 msgstr ""
 
-msgid "Show last image"
+msgid "Show last picture"
 msgstr ""
 
 msgid "Show list of bouquets"
@@ -18175,9 +18210,6 @@ msgid "Show next debug log file"
 msgstr ""
 
 msgid "Show next event"
-msgstr ""
-
-msgid "Show next image"
 msgstr ""
 
 msgid "Show next page"
@@ -18241,9 +18273,6 @@ msgid "Show previous debug log file"
 msgstr ""
 
 msgid "Show previous event"
-msgstr ""
-
-msgid "Show previous image"
 msgstr ""
 
 msgid "Show previous page"
@@ -18844,6 +18873,9 @@ msgstr ""
 msgid "Socket"
 msgstr ""
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr ""
 
@@ -18884,6 +18916,9 @@ msgid "Software Update"
 msgstr ""
 
 msgid "Software Update Actions"
+msgstr ""
+
+msgid "Software descrambling"
 msgstr ""
 
 msgid "Software information"
@@ -19712,6 +19747,9 @@ msgstr ""
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Synchronise system time using transponder or Internet."
 
+msgid "Synchronous"
+msgstr ""
+
 msgid "Syrian Arab Republic"
 msgstr ""
 
@@ -20231,6 +20269,13 @@ msgstr ""
 msgid "The loopthrough setting is wrong."
 msgstr ""
 
+msgid ""
+"The network wizard extension is not installed!\n"
+"Please install it."
+msgstr ""
+"The network wizard extension is not installed!\n"
+"Please install it."
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr ""
 
@@ -20428,34 +20473,10 @@ msgstr ""
 msgid "This option allows to set the level of dynamic contrast of the picture."
 msgstr ""
 
-msgid "This option allows you can config the Colordepth for UHD"
-msgstr "This option allows you can configure the colour depth for UHD"
-
-msgid "This option allows you can config the Colorimetry for HDR"
-msgstr "This option allows you can configure the Colorimetry for HDR"
-
-msgid "This option allows you can config the Colorspace from Auto to RGB"
+msgid "Control the smoothing filter used for the dithering process."
 msgstr ""
 
-msgid "This option allows you can enable or disable the 10 Bit Color Mode"
-msgstr "This option allows you can enable or disable the 10 Bit colour Mode"
-
-msgid "This option allows you can enable or disable the 12 Bit Color Mode"
-msgstr "This option allows you can enable or disable the 12 Bit colour Mode"
-
-msgid "This option allows you can force the HDR Modes for UHD"
-msgstr ""
-
-msgid "This option allows you can force the HDR10 Modes for UHD"
-msgstr ""
-
-msgid "This option allows you can force the HLG Modes for UHD"
-msgstr ""
-
-msgid "This option allows you enable smoothing filter to control the dithering process."
-msgstr ""
-
-msgid "This option allows you enable the vertical scaler dejagging."
+msgid "Control the use of vertical scaler anti-aliasing."
 msgstr ""
 
 msgid "This option allows you to Power Off the display."
@@ -20470,7 +20491,7 @@ msgstr ""
 msgid "This option allows you to boost the green tones in the picture."
 msgstr ""
 
-msgid "This option allows you to bypass HDMI EDID check"
+msgid "This option allows you to bypass HDMI EDID check."
 msgstr ""
 
 msgid "This option allows you to change the virtual loudspeaker position."
@@ -20536,7 +20557,31 @@ msgstr ""
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr ""
 
+msgid "This option allows you to config the Colordepth for UHD."
+msgstr "This option allows you to configure the colour depth for UHD"
+
+msgid "This option allows you to config the Colorimetry for HDR."
+msgstr "This option allows you to configure the Colorimetry for HDR"
+
+msgid "This option allows you to config the Colorspace from Auto to RGB."
+msgstr ""
+
 msgid "This option allows you to enable 3D Surround Sound."
+msgstr ""
+
+msgid "This option allows you to enable or disable the 10 Bit Color Mode."
+msgstr "This option allows you to enable or disable the 10 Bit colour Mode"
+
+msgid "This option allows you to enable or disable the 12 Bit Color Mode."
+msgstr "This option allows you to enable or disable the 12 Bit colour Mode"
+
+msgid "This option allows you to force the HDR Modes for UHD."
+msgstr ""
+
+msgid "This option allows you to force the HDR10 Modes for UHD."
+msgstr ""
+
+msgid "This option allows you to force the HLG Modes for UHD."
 msgstr ""
 
 msgid "This option allows you to set offset values for different Letterbox resolutions."
@@ -20554,7 +20599,7 @@ msgstr ""
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr ""
 
-msgid "This option allows you to use all HDMI Modes"
+msgid "This option allows you to use all HDMI Modes."
 msgstr ""
 
 msgid "This option allows you to view the old and new settings side by side."
@@ -20633,9 +20678,6 @@ msgid "This option sets the video picture contrast."
 msgstr ""
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
-msgstr ""
-
-msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
@@ -20996,10 +21038,10 @@ msgstr ""
 msgid "Toggle between the available TV and RADIO services"
 msgstr ""
 
-msgid "Toggle display of image information"
+msgid "Toggle display of picture information"
 msgstr ""
 
-msgid "Toggle display of the image status overlay"
+msgid "Toggle display of the picture status overlay"
 msgstr ""
 
 msgid "Toggle enable/disable of the currently selected timer"
@@ -21928,6 +21970,9 @@ msgstr ""
 msgid "Use the extended List"
 msgstr ""
 
+msgid "Use the network wizard to configure selected network adapter"
+msgstr ""
+
 msgid "Use the network wizard to configure your Network."
 msgstr ""
 
@@ -22050,6 +22095,9 @@ msgid "VPS Settings"
 msgstr ""
 
 msgid "VPS enabled by default"
+msgstr ""
+
+msgid "VPS on instant recordings"
 msgstr ""
 
 msgid "VPS-Plugin Information"
@@ -22424,13 +22472,13 @@ msgstr ""
 msgid "Waiting for partition"
 msgstr ""
 
+msgid "Wake from Shutdown allowed"
+msgstr ""
+
 msgid "Wake up"
 msgstr ""
 
 msgid "Wake up TV from Standby"
-msgstr ""
-
-msgid "Wake from Shutdown allowed"
 msgstr ""
 
 msgid "Wake up time before a timer begins"
@@ -22781,9 +22829,6 @@ msgid "When the red box is correctly visible press the GREEN button to save the 
 msgstr ""
 
 msgid "When tuned to a service, the system normally scans the transponder for changes and saves them. Enable only if you know what you're doing."
-msgstr ""
-
-msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
 msgstr ""
 
 msgid "Where do you want to backup your settings?"
@@ -23682,6 +23727,9 @@ msgstr ""
 msgid "left"
 msgstr ""
 
+msgid "left column"
+msgstr ""
+
 msgid "length"
 msgstr ""
 
@@ -23821,6 +23869,9 @@ msgid "rewind to the previous chapter"
 msgstr ""
 
 msgid "right"
+msgstr ""
+
+msgid "right column"
 msgstr ""
 
 msgid ""
@@ -24009,13 +24060,6 @@ msgstr ""
 
 msgid "®"
 msgstr ""
-
-#~ msgid ""
-#~ "The network wizard extension is not installed!\n"
-#~ "Please install it."
-#~ msgstr ""
-#~ "The network wizard extension is not installed!\n"
-#~ "Please install it."
 
 #~ msgid ""
 #~ "The DreamPlex plugin is not installed!\n"

@@ -116,6 +116,11 @@ def InitUsageConfig():
 	config.usage.show_spinner = ConfigYesNo(default=True)
 	config.usage.screenSaverStartTimer = ConfigSelection(default=0, choices=[(0, _("Disabled"))] + [(x, ngettext("%d Second", "%d Seconds", x) % x) for x in (5, 10, 20, 30, 40, 50)] + [(x * 60, ngettext("%d Minute", "%d Minutes", x) % x) for x in (1, 5, 10, 15, 20, 30, 45, 60)])
 	config.usage.screenSaverMoveTimer = ConfigSelection(default=10, choices=[(x, ngettext("%d Second", "%d Seconds", x) % x) for x in range(1, 61)])
+	config.usage.screenSaverMode = ConfigSelection(default=1, choices=[
+		(0, _("Blank screen")),
+		(1, _("Logo")),
+		(2, _("Picon"))
+	])
 	config.usage.informationShowAllMenuScreens = ConfigYesNo(default=False)
 	config.usage.informationExtraSpacing = ConfigYesNo(False)
 	config.usage.movieSelectionInMenu = ConfigYesNo(False)
@@ -1902,31 +1907,31 @@ def InitUsageConfig():
 	])
 	config.subtitles.ai_connection_speed.addNotifier(setAiConnectionSpeed)
 
-	langsAI = ['af', 'sq', 'am', 'ar', 'hy', 'az', 'eu', 'be', 'bn', 'bs', 'bg', 'ca', 'zh', 'co', 'hr', 'cs', 'da', 'nl', 'en', 'eo', 'fr', 'fi', 'fy', 'gl', 'ka', 'de', 'el', 'ht', 'ha', 'hu', 'is', 'ig', 'ga', 'it', 'ja', 'jv', 'kn', 'kk', 'km', 'rw', 'ko', 'ku', 'ky', 'lo', 'la', 'lv', 'lt', 'lb', 'mk', 'mg', 'ms', 'mt', 'mi', 'mr', 'mn', 'no', 'ny', 'or', 'ps', 'fa', 'pl', 'pt', 'ro', 'ru', 'sm', 'gd', 'sr', 'st', 'sn', 'sk', 'sl', 'so', 'es', 'su', 'sw', 'sv', 'tl', 'tg', 'te', 'th', 'tr', 'tk', 'uk', 'ur', 'ug', 'uz', 'cy', 'xh', 'yi', 'yo', 'zu']
-	langsAI = [(x, international.LANGUAGE_DATA[x][1]) for x in langsAI]
-	langsAI.append(("zh-CN", _("Chinese (Simplified)")))
-	langsAI.append(("ceb", _("Cebuano")))
-	langsAI.append(("haw", _("Hawaiian")))
-	langsAI.append(("iw", _("Hebrew")))
-	langsAI.append(("hmn", _("Hmong")))
-	langsAI.append(("ar_eg", _("Arabic (Egyptian)")))
-	langsAI.append(("ar_ma", _("Arabic (Moroccan)")))
-	langsAI.append(("ar_sy", _("Arabic (Syro-Lebanese)")))
-	langsAI.append(("ar_iq", _("Arabic (Iraq)")))
-	langsAI.append(("ar_tn", _("Arabic (Tunisian)")))
-	langsAI.sort(key=lambda x: x[1])
+	langs_ai = ["af", "sq", "am", "ar", "hy", "az", "eu", "be", "bn", "bs", "bg", "ca", "zh", "co", "hr", "cs", "da", "nl", "en", "eo", "fr", "fi", "fy", "gl", "ka", "de", "el", "ht", "ha", "hu", "is", "ig", "ga", "it", "ja", "jv", "kn", "kk", "km", "rw", "ko", "ku", "ky", "lo", "la", "lv", "lt", "lb", "mk", "mg", "ms", "mt", "mi", "mr", "mn", "no", "ny", "or", "ps", "fa", "pl", "pt", "ro", "ru", "sm", "gd", "sr", "st", "sn", "sk", "sl", "so", "es", "su", "sw", "sv", "tl", "tg", "te", "th", "tr", "tk", "uk", "ur", "ug", "uz", "cy", "xh", "yi", "yo", "zu", "et"]
+	langs_ai = [(x, international.LANGUAGE_DATA[x][1]) for x in langs_ai]
+	langs_ai.append(("zh-CN", _("Chinese (Simplified)")))
+	langs_ai.append(("ceb", _("Cebuano")))
+	langs_ai.append(("haw", _("Hawaiian")))
+	langs_ai.append(("iw", _("Hebrew")))
+	langs_ai.append(("hmn", _("Hmong")))
+	langs_ai.append(("ar_eg", _("Arabic (Egyptian)")))
+	langs_ai.append(("ar_ma", _("Arabic (Moroccan)")))
+	langs_ai.append(("ar_sy", _("Arabic (Syro-Lebanese)")))
+	langs_ai.append(("ar_iq", _("Arabic (Iraq)")))
+	langs_ai.append(("ar_tn", _("Arabic (Tunisian)")))
+	langs_ai.sort(key=lambda x: x[1])
 
 	default = config.misc.locale.value
 	default = default.split("_")[0] if "_" in default else default
 	if default == "zh":
 		default = "zh-CN"
-	if default not in [x[0] for x in langsAI]:
+	if default not in [x[0] for x in langs_ai]:
 		default = "en"
 
 	def setAiTranslateTo(configElement):
 		eSubtitleSettings.setAiTranslateTo(configElement.value)
 
-	config.subtitles.ai_translate_to = ConfigSelection(default=default, choices=langsAI)
+	config.subtitles.ai_translate_to = ConfigSelection(default=default, choices=langs_ai)
 	config.subtitles.ai_translate_to.addNotifier(setAiTranslateTo)
 
 	def setAiMode(configElement):
@@ -2346,6 +2351,24 @@ def InitUsageConfig():
 	config.oscaminfo.autoUpdateLog = ConfigSelection(default=0, choices=choiceList)
 	BoxInfo.setItem("OScamInstalled", False)
 
+	config.softcsa = ConfigSubsection()
+	config.softcsa.decoderRelease = ConfigSelection(default=0, choices=[
+			(0, _("Quick")),
+			(1, _("Normal"))
+	])
+	config.softcsa.syncMode = ConfigSelection(default=0, choices=[
+			(0, _("Automatic")),
+			(1, _("Synchronous"))
+	])
+	config.softcsa.waitForDataTimeout = ConfigSelection(
+		default=0,
+		choices=[(0, _("Disabled"))] + [(x, _("%d ms") % x) for x in range(100, 2001, 100)]
+	)
+	config.softcsa.bufferTime = ConfigSelection(
+		default=0,
+		choices=[(0, _("Disabled"))] + [(x, _("%d ms") % x) for x in range(100, 2001, 100)]
+	)
+
 	config.misc.softcam_streamrelay_url = ConfigIP(default=[127, 0, 0, 1], auto_jump=True)
 	config.misc.softcam_streamrelay_port = ConfigInteger(default=17999, limits=(0, 65535))
 	config.misc.softcam_streamrelay_delay = ConfigSelectionNumber(min=0, max=2000, stepwidth=50, default=0, wraparound=True)
@@ -2474,6 +2497,7 @@ def InitUsageConfig():
 	config.timeshift.startDelay = ConfigSelection(default=0, choices=choiceList)
 	config.timeshift.stopWhileRecording = ConfigYesNo(default=False)
 	config.timeshift.recoveryBufferDelay = ConfigSelection(default=300, choices=[(x, _("%d ms") % x) for x in range(100, 1500, 100)])
+	config.timeshift.hwLatencyCorrection = ConfigSelection(default=2000, choices=[(x, _("%d ms") % x) for x in range(0, 2100, 100)])
 
 	defaultPath = resolveFilename(SCOPE_TIMESHIFT)
 	config.timeshift.allowedPaths = ConfigLocations(default=[defaultPath])

@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 09:08+0000\n"
+"POT-Creation-Date: 2026-03-02 11:34+0000\n"
 "PO-Revision-Date: 2019-07-27 12:19+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -933,7 +933,7 @@ msgid_plural "%d packages found."
 msgstr[0] ""
 
 #, python-format
-msgid "%d package has an update"
+msgid "%d package has an update."
 msgid_plural "%d packages have updates."
 msgstr[0] ""
 
@@ -2060,6 +2060,9 @@ msgstr "Điều chỉnh vị trí ngang của các chữ cái được sử dụ
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Điều chỉnh vị trí dọc của các chữ cái được sử dụng cho teletext."
 
+msgid "Adjusts compensation for hardware buffer latency for DM9x0."
+msgstr ""
+
 msgid "Adult"
 msgstr ""
 
@@ -2691,6 +2694,9 @@ msgstr "Chế độ ủy quyền"
 msgid "Auto"
 msgstr "Tự động"
 
+msgid "Auto (not available)"
+msgstr "Tự động (không khả dụng)"
+
 msgid "Auto Language"
 msgstr "Chọn ngôn ngữ tự động"
 
@@ -2748,9 +2754,6 @@ msgstr ""
 
 msgid "Auto video mode selected for the TV."
 msgstr ""
-
-msgid "Auto(not available)"
-msgstr "Tự động (không khả dụng)"
 
 msgid "AutoCam Settings"
 msgstr ""
@@ -2811,6 +2814,9 @@ msgstr ""
 
 msgid "Autostart"
 msgstr "Tự động bắt đầu"
+
+msgid "Available"
+msgstr ""
 
 msgid "Available format variables"
 msgstr "Biến định dạng có sẵn"
@@ -3109,6 +3115,9 @@ msgid "Black screen till locked"
 msgstr "Màn hình đen cho đến khi bị khóa"
 
 msgid "Blacklist"
+msgstr ""
+
+msgid "Blank screen"
 msgstr ""
 
 msgid "Blinking REC"
@@ -4147,6 +4156,9 @@ msgstr ""
 
 msgid "Choose time interval to which the graphics will be rounded off."
 msgstr "Chọn khoảng thời gian mà đồ họa sẽ được làm tròn."
+
+msgid "Choose what appears when the screen saver is active."
+msgstr ""
 
 msgid "Choose what you want the button '0' to do when PiP is active."
 msgstr "Chọn những gì bạn muốn nút '0' để làm khi PIP hoạt động."
@@ -5759,6 +5771,15 @@ msgstr "Gỡ lỗi để tập tin"
 msgid "Debug log time format *"
 msgstr ""
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start delay"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "Giải mã & Kiểm soát của cha mẹ"
 
@@ -5811,7 +5832,7 @@ msgstr "Kiểu ghi mặc định"
 msgid "Default right column directory"
 msgstr ""
 
-msgid "Default sort order for directories in the left column"
+msgid "Default sort order for directories in the left column."
 msgstr ""
 
 msgid "Default sort order for directories in the right column."
@@ -7170,15 +7191,6 @@ msgstr "Bật hoán đổi khi khởi động"
 msgid "Enable VPS"
 msgstr ""
 
-msgid "Select 'Yes' to set the VPS flag on all new timers by default."
-msgstr ""
-
-msgid "VPS on instant recordings"
-msgstr ""
-
-msgid "Enable VPS-Plugin"
-msgstr ""
-
 msgid "Enable ViaSat EPG"
 msgstr "Kích hoạt ViaSat EPG"
 
@@ -7740,9 +7752,6 @@ msgstr "Lỗi đọc trang web!"
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr ""
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr ""
-
 msgid "Error text:"
 msgstr ""
 
@@ -8021,9 +8030,6 @@ msgstr ""
 msgid "Exit editor and save any changes"
 msgstr ""
 
-msgid "Exit image viewer"
-msgstr ""
-
 msgid "Exit input device selection."
 msgstr "Thoát lựa chọn thiết bị đầu vào."
 
@@ -8050,6 +8056,9 @@ msgstr "Thoát khỏi danh sách giao diện mạng"
 
 msgid "Exit network wizard"
 msgstr "Thoát khỏi thuật sĩ mạng"
+
+msgid "Exit picture viewer"
+msgstr ""
 
 msgid "Exit quad PiP"
 msgstr "Thoát khỏi PiP"
@@ -8423,12 +8432,6 @@ msgstr ""
 msgid "File Commander Hashes / Checksums"
 msgstr ""
 
-msgid "File Commander Image Viewer"
-msgstr ""
-
-msgid "File Commander Image Viewer Actions"
-msgstr ""
-
 msgid "File Commander Information Actions"
 msgstr ""
 
@@ -8442,6 +8445,12 @@ msgid "File Commander Move"
 msgstr ""
 
 msgid "File Commander Navigation Actions"
+msgstr ""
+
+msgid "File Commander Picture Viewer"
+msgstr ""
+
+msgid "File Commander Picture Viewer Actions"
 msgstr ""
 
 msgid "File Commander Selection Actions"
@@ -8470,13 +8479,6 @@ msgstr "Tập tin có vẻ bận rộn.\n"
 
 msgid "File compression"
 msgstr ""
-
-msgid ""
-"File oscam.conf not found.\n"
-"Please enter username/password manually."
-msgstr ""
-"Không tìm thấy tệp oscam.conf.\n"
-"Vui lòng nhập tên người dùng / mật khẩu bằng tay."
 
 msgid "File system"
 msgstr ""
@@ -8524,6 +8526,9 @@ msgstr "Pháp"
 
 msgid "Find Currently Playing Service"
 msgstr "tìm dịch vụ hiện đang chơi"
+
+msgid "Find connected events"
+msgstr ""
 
 #, python-format
 msgid "Find out more at %s"
@@ -9258,6 +9263,9 @@ msgstr ""
 msgid "Hardware information"
 msgstr ""
 
+msgid "Hardware latency correction"
+msgstr ""
+
 msgid "Hardware serial"
 msgstr ""
 
@@ -9530,6 +9538,9 @@ msgstr "Giờ tối thiểu"
 msgid "Hours Minutes Seconds"
 msgstr "Giờ phút giây"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr ""
 
@@ -9715,13 +9726,10 @@ msgstr "Nếu 'không bao giờ', sẽ viết nhật ký sự cố mặc dù đ�
 msgid "If EPG available"
 msgstr ""
 
-msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr ""
-
 msgid "If an action is user-configurable, its help entry will be flagged with a '(C)' suffix."
 msgstr ""
 
-msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
+msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
 msgstr ""
 
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
@@ -9744,9 +9752,6 @@ msgstr ""
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Nếu các bản ghi đang sử dụng không gian tối đa đã đặt, phần lớn nhất sẽ bị xóa."
-
-msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
-msgstr ""
 
 msgid "If set to 'Yes', allows the use of time shift with alternative audio plugins."
 msgstr ""
@@ -11024,6 +11029,9 @@ msgstr "Núi thất bại"
 msgid "Login to IceTV server"
 msgstr ""
 
+msgid "Logo"
+msgstr ""
+
 msgid "Logs Settings"
 msgstr "Nhật ký cài đặt"
 
@@ -11349,6 +11357,9 @@ msgstr "Đa số không có ngày EPG"
 
 msgid "Maximum space used (MB)"
 msgstr "Dung lượng tối đa được sử dụng (MB):"
+
+msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
+msgstr ""
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -14067,10 +14078,10 @@ msgstr ""
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr ""
 
-msgid "Please wait, loading image..."
+msgid "Please wait, loading picture..."
 msgstr ""
 
-msgid "Please wait, swap is is being created. This could take a few minutes to complete."
+msgid "Please wait, swap is being created. This could take a few minutes to complete."
 msgstr ""
 
 msgid "Please wait..."
@@ -16042,7 +16053,7 @@ msgstr "Lưu tập tin Timeshift"
 msgid "Scaler sharpness"
 msgstr "Độ sắc nét"
 
-msgid "Scaler vertical dejagging"
+msgid "Scaler vertical anti-aliasing"
 msgstr "Khử nhiễu dọc"
 
 msgid "Scaling mode"
@@ -16158,6 +16169,9 @@ msgstr "khoa học viễn tưởng / giả tưởng / kinh dị"
 msgid "Scope"
 msgstr ""
 
+msgid "Screen saver mode"
+msgstr ""
+
 msgid "Screen saver movement"
 msgstr ""
 
@@ -16258,9 +16272,6 @@ msgstr "Tìm kiếm kích hoạt"
 msgid "SeekBar sensibility"
 msgstr "Tìm kiếm sự nhạy cảm"
 
-msgid "Find connected events"
-msgstr ""
-
 msgid "Select"
 msgstr "Lựa chọn"
 
@@ -16325,6 +16336,9 @@ msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media
 msgstr "Nếu được đặt thành 'có; infobar sẽ vẫn hiển thị vĩnh viễn ở trạng thái 'tạm dừng' (không có thời gian chờ)."
 
 msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
+msgstr ""
+
+msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr ""
 
 msgid "Select 'Yes' to allow use of the SeekBar to jump to a selected point within the event."
@@ -16444,6 +16458,9 @@ msgstr ""
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr ""
 
+msgid "Select 'Yes' to set the VPS flag on all new timers by default."
+msgstr ""
+
 msgid "Select 'Yes' to set the cursor position to the end of the line when editing a text file.  Select 'No' to set the cursor to the start of the line."
 msgstr ""
 
@@ -16534,6 +16551,9 @@ msgstr ""
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr ""
 
+msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
+msgstr ""
+
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr ""
 
@@ -16544,6 +16564,9 @@ msgid "Select 'Yes' to use signal values (SNR, etc) calculated from the older AP
 msgstr "Nếu được đặt thành giá trị tín hiệu 'có' (SNR, v.v.) sẽ được tính từ API V3. Đây là một phiên bản API cũ đã được thay thế."
 
 msgid "Select 'Yes' to use the number keys for quick selection of files / directories, select 'No' to use the number keys for MENU option shortcuts."
+msgstr ""
+
+msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
 msgstr ""
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
@@ -16762,6 +16785,9 @@ msgid "Select how quickly the dish should move between satellites."
 msgstr "Chọn cách nhanh chóng các chảo nên di chuyển giữa các vệ tinh."
 
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
+msgstr ""
+
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
 msgstr ""
 
 msgid "Select how the number buttons will act during seek actions."
@@ -16996,6 +17022,9 @@ msgstr ""
 msgid "Select the delay before the timer activates."
 msgstr ""
 
+msgid "Select the delay to buffer descrambled data before starting playback. This can reduce AC3 audio dropouts by ensuring enough data is available when the decoder starts. Higher values are more stable but increase channel switch time."
+msgstr ""
+
 msgid "Select the delay to use when closing a Stream Relay service before reallocating the tuner for another service. Using '0' is only recommended for receivers with multiple satellite tuners."
 msgstr ""
 
@@ -17029,8 +17058,9 @@ msgstr "Định cấu hình thời lượng tính bằng phút cho trình bảo 
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr ""
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
+msgid "Select the file sort order for the %s:"
 msgstr ""
 
 msgid "Select the file system for the device."
@@ -17663,6 +17693,9 @@ msgid "Set Scaling governor"
 msgstr ""
 
 msgid "Set Time"
+msgstr ""
+
+msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
 msgstr ""
 
 msgid "Set action for 'Info' key"
@@ -18474,7 +18507,7 @@ msgstr "Hiển thị danh sách yêu thích"
 msgid "Show files backed up by default"
 msgstr "Hiển thị tập tin được sao lưu theo mặc định"
 
-msgid "Show first image"
+msgid "Show first picture"
 msgstr ""
 
 msgid "Show free space in timer view"
@@ -18514,7 +18547,7 @@ msgstr "Hiển thị dòng thông tin"
 msgid "Show job tasks in Extension Menu"
 msgstr "Hiển thị nhiệm vụ công việc trong phần mở rộng"
 
-msgid "Show last image"
+msgid "Show last picture"
 msgstr ""
 
 msgid "Show list of bouquets"
@@ -18557,9 +18590,6 @@ msgid "Show next debug log file"
 msgstr ""
 
 msgid "Show next event"
-msgstr ""
-
-msgid "Show next image"
 msgstr ""
 
 msgid "Show next page"
@@ -18623,9 +18653,6 @@ msgid "Show previous debug log file"
 msgstr ""
 
 msgid "Show previous event"
-msgstr ""
-
-msgid "Show previous image"
 msgstr ""
 
 msgid "Show previous page"
@@ -19227,6 +19254,9 @@ msgstr ""
 msgid "Socket"
 msgstr "Ổ cắm"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -19267,6 +19297,9 @@ msgid "Software Update"
 msgstr "Cập nhật phần mềm"
 
 msgid "Software Update Actions"
+msgstr ""
+
+msgid "Software descrambling"
 msgstr ""
 
 msgid "Software information"
@@ -20113,6 +20146,9 @@ msgstr "Đồng bộ hóa thời gian sử dụng"
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Đồng bộ hóa thời gian hệ thống bằng cách sử dụng transponder hoặc internet."
 
+msgid "Synchronous"
+msgstr ""
+
 msgid "Syrian Arab Republic"
 msgstr "Cộng Hòa Arab Syrian"
 
@@ -20653,6 +20689,13 @@ msgstr "Chiều cao của hình ảnh. Đầu vào sẽ được thu nhỏ để
 msgid "The loopthrough setting is wrong."
 msgstr "Cài đặt vòng lặp là sai."
 
+msgid ""
+"The network wizard extension is not installed!\n"
+"Please install it."
+msgstr ""
+"Phần mở rộng thuật sĩ mạng không được cài đặt!\n"
+"Vui lòng cài đặt nó."
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr ""
 
@@ -20858,34 +20901,10 @@ msgstr "Tùy chọn này cho phép giảm nhiễu khối trong ảnh. Rõ ràng 
 msgid "This option allows to set the level of dynamic contrast of the picture."
 msgstr "Tùy chọn này cho phép đặt mức độ tương phản động của hình ảnh."
 
-msgid "This option allows you can config the Colordepth for UHD"
-msgstr "Tùy chọn này cho phép bạn có thể định cấu hình Colordepth cho UHD"
-
-msgid "This option allows you can config the Colorimetry for HDR"
-msgstr "Tùy chọn này cho phép bạn có thể định cấu hình Phép đo màu cho HDR"
-
-msgid "This option allows you can config the Colorspace from Auto to RGB"
-msgstr "Tùy chọn này cho phép bạn có thể định cấu hình Không gian màu từ Tự động sang RGB"
-
-msgid "This option allows you can enable or disable the 10 Bit Color Mode"
-msgstr "Tùy chọn này cho phép bạn có thể bật hoặc tắt Chế độ màu 10 bit"
-
-msgid "This option allows you can enable or disable the 12 Bit Color Mode"
-msgstr "Tùy chọn này cho phép bạn có thể bật hoặc tắt Chế độ màu 12 bit"
-
-msgid "This option allows you can force the HDR Modes for UHD"
-msgstr "Tùy chọn này cho phép bạn có thể buộc các Chế độ HDR cho UHD"
-
-msgid "This option allows you can force the HDR10 Modes for UHD"
-msgstr "Tùy chọn này cho phép bạn có thể buộc các chế độ HDR10 cho UHD"
-
-msgid "This option allows you can force the HLG Modes for UHD"
-msgstr "Tùy chọn này cho phép bạn có thể buộc các chế độ HLG cho UHD"
-
-msgid "This option allows you enable smoothing filter to control the dithering process."
+msgid "Control the smoothing filter used for the dithering process."
 msgstr "Tùy chọn này cho phép bạn kích hoạt bộ lọc làm mịn để kiểm soát quá trình phối màu."
 
-msgid "This option allows you enable the vertical scaler dejagging."
+msgid "Control the use of vertical scaler anti-aliasing."
 msgstr "Tùy chọn này cho phép bạn kích hoạt tính năng mở rộng quy mô dọc."
 
 msgid "This option allows you to Power Off the display."
@@ -20900,7 +20919,7 @@ msgstr "Tùy chọn này cho phép bạn tăng tông màu xanh trong ảnh."
 msgid "This option allows you to boost the green tones in the picture."
 msgstr "Tùy chọn này cho phép bạn tăng tông màu xanh lục trong ảnh."
 
-msgid "This option allows you to bypass HDMI EDID check"
+msgid "This option allows you to bypass HDMI EDID check."
 msgstr "Tùy chọn này cho phép bạn bỏ qua kiểm tra HDMI EDID"
 
 msgid "This option allows you to change the virtual loudspeaker position."
@@ -20967,8 +20986,32 @@ msgstr "Tùy chọn này cho phép bạn chọn nút nào đầu tiên nhấn v�
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "Tùy chọn này cho phép bạn chọn cách hiển thị thời gian còn lại / trôi qua cho truyền hình trực tiếp."
 
+msgid "This option allows you to config the Colordepth for UHD."
+msgstr "Tùy chọn này cho phép bạn có thể định cấu hình Colordepth cho UHD"
+
+msgid "This option allows you to config the Colorimetry for HDR."
+msgstr "Tùy chọn này cho phép bạn có thể định cấu hình Phép đo màu cho HDR"
+
+msgid "This option allows you to config the Colorspace from Auto to RGB."
+msgstr "Tùy chọn này cho phép bạn có thể định cấu hình Không gian màu từ Tự động sang RGB"
+
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Tùy chọn này cho phép bạn bật Âm thanh vòm 3D."
+
+msgid "This option allows you to enable or disable the 10 Bit Color Mode."
+msgstr "Tùy chọn này cho phép bạn có thể bật hoặc tắt Chế độ màu 10 bit"
+
+msgid "This option allows you to enable or disable the 12 Bit Color Mode."
+msgstr "Tùy chọn này cho phép bạn có thể bật hoặc tắt Chế độ màu 12 bit"
+
+msgid "This option allows you to force the HDR Modes for UHD."
+msgstr "Tùy chọn này cho phép bạn có thể buộc các Chế độ HDR cho UHD"
+
+msgid "This option allows you to force the HDR10 Modes for UHD."
+msgstr "Tùy chọn này cho phép bạn có thể buộc các chế độ HDR10 cho UHD"
+
+msgid "This option allows you to force the HLG Modes for UHD."
+msgstr "Tùy chọn này cho phép bạn có thể buộc các chế độ HLG cho UHD"
 
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr ""
@@ -20985,7 +21028,7 @@ msgstr "Tùy chọn này cho phép bạn chuyển Âm thanh sang Loa BT."
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Tùy chọn này cho phép bạn SNR theo tỷ lệ phần trăm (không phải tất cả các máy thu đều hỗ trợ điều này)."
 
-msgid "This option allows you to use all HDMI Modes"
+msgid "This option allows you to use all HDMI Modes."
 msgstr "Tùy chọn này cho phép bạn sử dụng tất cả các Chế độ HDMI"
 
 msgid "This option allows you to view the old and new settings side by side."
@@ -21066,9 +21109,6 @@ msgstr ""
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Tùy chọn này thiết lập độ sắc nét của hình ảnh, được sử dụng khi hình ảnh được nâng cấp."
-
-msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "dịch vụ này được bảo vệ bởi pin kiểm soát của phụ huynh"
@@ -21446,10 +21486,10 @@ msgstr "Chuyển đổi giữa các danh sách bó / epg"
 msgid "Toggle between the available TV and RADIO services"
 msgstr ""
 
-msgid "Toggle display of image information"
+msgid "Toggle display of picture information"
 msgstr ""
 
-msgid "Toggle display of the image status overlay"
+msgid "Toggle display of the picture status overlay"
 msgstr ""
 
 msgid "Toggle enable/disable of the currently selected timer"
@@ -22394,6 +22434,9 @@ msgstr ""
 msgid "Use the extended List"
 msgstr "Sử dụng Danh sách mở rộng"
 
+msgid "Use the network wizard to configure selected network adapter"
+msgstr "Sử dụng trình hướng dẫn mạng để định cấu hình bộ điều hợp mạng đã chọn"
+
 msgid "Use the network wizard to configure your Network."
 msgstr ""
 
@@ -22518,6 +22561,9 @@ msgid "VPS Settings"
 msgstr ""
 
 msgid "VPS enabled by default"
+msgstr ""
+
+msgid "VPS on instant recordings"
 msgstr ""
 
 msgid "VPS-Plugin Information"
@@ -22900,14 +22946,14 @@ msgstr "Đang chờ đợi"
 msgid "Waiting for partition"
 msgstr "Chờ phân vùng"
 
+msgid "Wake from Shutdown allowed"
+msgstr ""
+
 msgid "Wake up"
 msgstr "Thức dậy"
 
 msgid "Wake up TV from Standby"
 msgstr "Wake Up TV từ chế độ chờ"
-
-msgid "Wake from Shutdown allowed"
-msgstr ""
 
 msgid "Wake up time before a timer begins"
 msgstr "Thời gian thức dậy trước khi hẹn giờ bắt đầu [phút]"
@@ -23267,9 +23313,6 @@ msgstr ""
 
 msgid "When tuned to a service, the system normally scans the transponder for changes and saves them. Enable only if you know what you're doing."
 msgstr "Khi được điều chỉnh đến một dịch vụ, hệ thống thường sẽ quét bộ phát đáp xem có bất kỳ thay đổi nào không và lưu chúng. Chỉ đặt thành 'có' nếu bạn hoàn toàn chắc chắn những gì bạn đang làm."
-
-msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr ""
 
 msgid "Where do you want to backup your settings?"
 msgstr "Bạn có muốn khôi phục cài đặt của bạn?"
@@ -24183,6 +24226,9 @@ msgstr "nhảy đến chương theo số"
 msgid "left"
 msgstr "trái"
 
+msgid "left column"
+msgstr ""
+
 msgid "length"
 msgstr "chiều dài"
 
@@ -24324,6 +24370,9 @@ msgstr "tua lại chương trước"
 
 msgid "right"
 msgstr "phải"
+
+msgid "right column"
+msgstr ""
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -24516,6 +24565,13 @@ msgstr "có (giữ thức ăn)"
 msgid "®"
 msgstr ""
 
+#~ msgid ""
+#~ "File oscam.conf not found.\n"
+#~ "Please enter username/password manually."
+#~ msgstr ""
+#~ "Không tìm thấy tệp oscam.conf.\n"
+#~ "Vui lòng nhập tên người dùng / mật khẩu bằng tay."
+
 #~ msgid "Configure whether multichannel audio tracks should be downmixed to stereo."
 #~ msgstr "Định cấu hình xem các bản âm thanh đa kênh có được trộn lẫn thành âm thanh nổi hay không."
 
@@ -24552,16 +24608,6 @@ msgstr ""
 #, python-format
 #~ msgid "Set the MAC address of your %s %s."
 #~ msgstr "Đặt địa chỉ MAC của % s% s của bạn."
-
-#~ msgid ""
-#~ "The network wizard extension is not installed!\n"
-#~ "Please install it."
-#~ msgstr ""
-#~ "Phần mở rộng thuật sĩ mạng không được cài đặt!\n"
-#~ "Vui lòng cài đặt nó."
-
-#~ msgid "Use the network wizard to configure selected network adapter"
-#~ msgstr "Sử dụng trình hướng dẫn mạng để định cấu hình bộ điều hợp mạng đã chọn"
 
 #, fuzzy
 #~ msgid "OpenDNS Home"

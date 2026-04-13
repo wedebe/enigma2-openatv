@@ -4,9 +4,9 @@
 # Daniel Nylander <daniel@danielnylander.se>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenATV\n"
+"Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 09:08+0000\n"
+"POT-Creation-Date: 2026-03-02 11:34+0000\n"
 "PO-Revision-Date: 2025-11-11 20:51+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/sv/>\n"
@@ -930,7 +930,7 @@ msgstr[0] "%d Paketet hittades."
 msgstr[1] "%d paket hittades."
 
 #, python-format
-msgid "%d package has an update"
+msgid "%d package has an update."
 msgid_plural "%d packages have updates."
 msgstr[0] "%d paketet har en uppdatering"
 msgstr[1] "%d paket har uppdateringar."
@@ -2133,6 +2133,9 @@ msgstr "Justera den horisontella positionen för de bokstäver som används för
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Justera den vertikala positionen för de bokstäver som används för text-TV."
 
+msgid "Adjusts compensation for hardware buffer latency for DM9x0."
+msgstr ""
+
 msgid "Adult"
 msgstr "Vuxen"
 
@@ -2790,6 +2793,9 @@ msgstr "Läge för författande"
 msgid "Auto"
 msgstr "Auto"
 
+msgid "Auto (not available)"
+msgstr "Auto(ej tillgänglig)"
+
 msgid "Auto Language"
 msgstr "Auto Språk"
 
@@ -2854,9 +2860,6 @@ msgstr "Auto-videoläge valt"
 msgid "Auto video mode selected for the TV."
 msgstr "Auto-videoläge valt för TV:n."
 
-msgid "Auto(not available)"
-msgstr "Auto(ej tillgänglig)"
-
 msgid "AutoCam Settings"
 msgstr "AutoCam-inställningar"
 
@@ -2919,6 +2922,9 @@ msgstr "Uppdatera loggen automatiskt - Fullskärmsvy"
 
 msgid "Autostart"
 msgstr "Autostart"
+
+msgid "Available"
+msgstr ""
 
 #
 msgid "Available format variables"
@@ -3233,6 +3239,9 @@ msgstr "Svart skärm tills låst"
 
 msgid "Blacklist"
 msgstr "Svartlista"
+
+msgid "Blank screen"
+msgstr ""
 
 msgid "Blinking REC"
 msgstr "Blinkar REC"
@@ -4304,6 +4313,9 @@ msgstr "Välj målplats för spelautomaterna."
 
 msgid "Choose time interval to which the graphics will be rounded off."
 msgstr "Välj det tidsintervall som grafiken ska avrundas till."
+
+msgid "Choose what appears when the screen saver is active."
+msgstr ""
 
 msgid "Choose what you want the button '0' to do when PiP is active."
 msgstr "Välj vad du vill att knappen \"0\" ska göra när PiP är aktiv."
@@ -5974,6 +5986,15 @@ msgstr "Felsökningsloggar"
 msgid "Debug log time format *"
 msgstr "Tidsformat för debugglogg *"
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start delay"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 #
 msgid "Decryption & Parental Control"
 msgstr "Dekryptering och föräldrakontroll"
@@ -6032,7 +6053,7 @@ msgstr "Standard inspelningstyp"
 msgid "Default right column directory"
 msgstr "Standardkatalog för höger kolumn"
 
-msgid "Default sort order for directories in the left column"
+msgid "Default sort order for directories in the left column."
 msgstr "Standard sorteringsordning för kataloger i den vänstra kolumnen"
 
 msgid "Default sort order for directories in the right column."
@@ -7472,15 +7493,6 @@ msgstr "Aktivera swap vid start"
 msgid "Enable VPS"
 msgstr "Aktivera VPS"
 
-msgid "Select 'Yes' to set the VPS flag on all new timers by default."
-msgstr "Aktivera VPS som standard (nya timers)"
-
-msgid "VPS on instant recordings"
-msgstr "Aktivera VPS på omedelbara poster"
-
-msgid "Enable VPS-Plugin"
-msgstr "Aktivera VPS-plugin"
-
 msgid "Enable ViaSat EPG"
 msgstr "Aktivera ViaSat EPG"
 
@@ -8057,9 +8069,6 @@ msgstr "Fel vid läsning av webbsida!"
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr "Fel vid hämtning av 'epg.dat' från fjärrmottagaren!"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Fel vid hämtning av platsen för 'epg.dat' på fjärrmottagaren!"
-
 msgid "Error text:"
 msgstr "Felaktig text:"
 
@@ -8359,9 +8368,6 @@ msgstr "Avsluta editorn och kassera eventuella ändringar"
 msgid "Exit editor and save any changes"
 msgstr "Avsluta editorn och spara eventuella ändringar"
 
-msgid "Exit image viewer"
-msgstr "Avsluta bildvisaren"
-
 msgid "Exit input device selection."
 msgstr "Avsluta valet av inmatningsenhet."
 
@@ -8394,6 +8400,9 @@ msgstr "Avsluta lista över nätverksgränssnitt"
 #
 msgid "Exit network wizard"
 msgstr "Avsluta nätverksguiden"
+
+msgid "Exit picture viewer"
+msgstr "Avsluta bildvisaren"
 
 msgid "Exit quad PiP"
 msgstr "Utgång Quad PiP"
@@ -8777,12 +8786,6 @@ msgstr "File Commander Hash / Checksum Åtgärder"
 msgid "File Commander Hashes / Checksums"
 msgstr "File Commander Hashes / Checksummor"
 
-msgid "File Commander Image Viewer"
-msgstr "File Commander Bildvisare"
-
-msgid "File Commander Image Viewer Actions"
-msgstr "File Commander Bildvisare Åtgärder"
-
 msgid "File Commander Information Actions"
 msgstr "File Commander Information Åtgärder"
 
@@ -8797,6 +8800,12 @@ msgstr "File Commander Flytta"
 
 msgid "File Commander Navigation Actions"
 msgstr "Åtgärder för navigering i File Commander"
+
+msgid "File Commander Picture Viewer"
+msgstr "File Commander Bildvisare"
+
+msgid "File Commander Picture Viewer Actions"
+msgstr "File Commander Bildvisare Åtgärder"
 
 msgid "File Commander Selection Actions"
 msgstr "Val av åtgärder i File Commander"
@@ -8825,13 +8834,6 @@ msgstr "File ser ut att vara upptagen!\n"
 
 msgid "File compression"
 msgstr "Komprimering av filer"
-
-msgid ""
-"File oscam.conf not found.\n"
-"Please enter username/password manually."
-msgstr ""
-"Filen oscam.conf hittades inte.\n"
-"Vänligen ange användarnamn/lösenord manuellt."
 
 msgid "File system"
 msgstr "Filsystem"
@@ -8878,6 +8880,9 @@ msgstr "Finans"
 
 msgid "Find Currently Playing Service"
 msgstr "Hitta tjänst som spelas för närvarande"
+
+msgid "Find connected events"
+msgstr "Söker anslutna evenemang"
 
 #, python-format
 msgid "Find out more at %s"
@@ -9642,6 +9647,9 @@ msgstr "Hårdvara MultiBoot-enhet"
 msgid "Hardware information"
 msgstr "Information om hårdvara"
 
+msgid "Hardware latency correction"
+msgstr ""
+
 msgid "Hardware serial"
 msgstr "Seriell hårdvara"
 
@@ -9913,6 +9921,9 @@ msgstr "Timmar Minuter"
 msgid "Hours Minutes Seconds"
 msgstr "Timmar Minuter Sekunder"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr "Fördröjning av start av Http(s)-ström"
 
@@ -10105,14 +10116,11 @@ msgstr "Om \"aldrig\", kommer att skriva kraschlogg trots att det är första kr
 msgid "If EPG available"
 msgstr "Om EPG finns tillgänglig"
 
-msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr "Om ett program avbryts och delas in i separata händelser söker plugin-programmet efter de anslutna händelserna."
-
 msgid "If an action is user-configurable, its help entry will be flagged with a '(C)' suffix."
 msgstr "Om en åtgärd kan konfigureras av användaren kommer dess hjälptext att flaggas med suffixet \"(C)\"."
 
-msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
-msgstr "Om det är aktiverat och nödvändigt kommer plugin-programmet att väcka mottagaren från Deep-Standby för den definierade starttiden för att kontrollera om programmet börjar tidigare."
+msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
+msgstr "Om ett program avbryts och delas in i separata händelser söker plugin-programmet efter de anslutna händelserna."
 
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
 msgstr "Om den är aktiverad kommer boxens utmatningsupplösning att försöka matcha upplösningen för videoinnehållets upplösning"
@@ -10134,9 +10142,6 @@ msgstr "Om den är aktiverad kommer den nya GStreamer-uppspelningsmotorn att anv
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Om loggarna använder det inställda maximala utrymmet raderas den äldsta loggen."
-
-msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
-msgstr "Om möjligt, x minuter innan en timer startar kommer VPS-Plugin att styra om programmet startar tidigare. (0 avaktiverar funktionen)"
 
 msgid "If set to 'Yes', allows the use of time shift with alternative audio plugins."
 msgstr "Om inställningen är \"yes\" kan du använda timeshift med alternativa ljudplugins."
@@ -11483,6 +11488,9 @@ msgstr "Felaktig inloggning"
 msgid "Login to IceTV server"
 msgstr "Logga in på IceTV-servern"
 
+msgid "Logo"
+msgstr ""
+
 msgid "Logs Settings"
 msgstr "Inställningar för loggar"
 
@@ -11815,6 +11823,9 @@ msgstr "Maximalt antal dagar i EPG"
 
 msgid "Maximum space used (MB)"
 msgstr "Maximalt använt utrymme (MB)"
+
+msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
+msgstr ""
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -14651,10 +14662,10 @@ msgstr "Vänligen vänta, kopian av flashminnet håller på att raderas. Detta k
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr "Vänta lite, flashminnet kopieras till denna flashexpander. Detta kan ta ett antal minuter att slutföra."
 
-msgid "Please wait, loading image..."
+msgid "Please wait, loading picture..."
 msgstr "Vänligen vänta, laddar bilden..."
 
-msgid "Please wait, swap is is being created. This could take a few minutes to complete."
+msgid "Please wait, swap is being created. This could take a few minutes to complete."
 msgstr "Vänligen vänta, swap håller på att skapas. Detta kan ta några minuter att slutföra."
 
 #
@@ -16747,7 +16758,7 @@ msgstr "Spara filer för tidsförskjutning"
 msgid "Scaler sharpness"
 msgstr "Skalarens skärpa"
 
-msgid "Scaler vertical dejagging"
+msgid "Scaler vertical anti-aliasing"
 msgstr "Fininnstill vertikal dejagging"
 
 #
@@ -16872,6 +16883,9 @@ msgstr "science fiction/fantasy/skräck"
 msgid "Scope"
 msgstr "Omfång"
 
+msgid "Screen saver mode"
+msgstr ""
+
 msgid "Screen saver movement"
 msgstr "Rörelse i skärmsläckaren"
 
@@ -16982,9 +16996,6 @@ msgstr "Aktivering av SeekBar"
 msgid "SeekBar sensibility"
 msgstr "SeekBar känslighet"
 
-msgid "Find connected events"
-msgstr "Söker anslutna evenemang"
-
 #
 msgid "Select"
 msgstr "Välj"
@@ -17051,6 +17062,9 @@ msgstr "Välj \"Ja\" om InfoBar ska fortsätta att visas, utan tidsgräns, när 
 
 msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
 msgstr "Välj \"Yes\" om du vill att varje identifierad lagringsenhet automatiskt ska exporteras som samba-delning."
+
+msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
+msgstr "Denna plugin kan avgöra om ett program börjar tidigare eller varar längre. Kanalen måste tillhandahålla tillförlitliga data."
 
 msgid "Select 'Yes' to allow use of the SeekBar to jump to a selected point within the event."
 msgstr "Välj \"Yes\" för att tillåta användning av SeekBar för att hoppa till en vald punkt i evenemanget."
@@ -17169,6 +17183,9 @@ msgstr ""
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "Välj \"Yes\" för att återställa nätverkskonfigurationen till standardinställningarna. Detta aktiverar Ethernet-porten om den finns och ställer in mottagaren så att den använder DHCP. Alla andra nätverksgränssnitt kommer att raderas."
 
+msgid "Select 'Yes' to set the VPS flag on all new timers by default."
+msgstr "Aktivera VPS som standard (nya timers)"
+
 msgid "Select 'Yes' to set the cursor position to the end of the line when editing a text file.  Select 'No' to set the cursor to the start of the line."
 msgstr "Välj \"Ja\" för att ställa in markörens position till slutet av raden när du redigerar en textfil.  Välj \"Nej\" för att ställa in markören till början av raden."
 
@@ -17259,6 +17276,9 @@ msgstr "Välj \"Yes\" för att stänga av omedelbart istället för att starta a
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Välj \"Ja\" för att dela upp uppgifter i separata åtgärder."
 
+msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
+msgstr "När ja, kommer VPS att aktiveras på omedelbara poster (stopp efter aktuell händelse), om kanalen stöder VPS."
+
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr "Välj \"Ja\" för att använda alternativa IP-adresser för GitHub-flöden. Detta kan vara till hjälp om du använder ett VPN och de normala flödena inte kan nås via de publicerade DNS-namnen."
 
@@ -17270,6 +17290,9 @@ msgstr "Välj \"Yes\" för att använda signalvärden (SNR, etc) som beräknats 
 
 msgid "Select 'Yes' to use the number keys for quick selection of files / directories, select 'No' to use the number keys for MENU option shortcuts."
 msgstr "Välj \"Yes\" för att använda siffertangenterna för snabbval av filer/kataloger, välj \"No\" för att använda siffertangenterna för genvägar till MENU-alternativet."
+
+msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
+msgstr "Om det är aktiverat och nödvändigt kommer plugin-programmet att väcka mottagaren från Deep-Standby för den definierade starttiden för att kontrollera om programmet börjar tidigare."
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
 msgstr "Välj \"Yes\" för att visa InfoBar vid snabbspolning framåt eller bakåt under mediauppspelning."
@@ -17498,6 +17521,9 @@ msgstr "Välj hur snabbt parabolen ska förflytta sig mellan satelliterna."
 
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr "Välj hur pilknapparna ('UP', 'DOWN', 'LEFT' och 'RIGHT') ska fungera under sökningen."
+
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr ""
 
 msgid "Select how the number buttons will act during seek actions."
 msgstr "Välj hur sifferknapparna ska fungera under sökningar."
@@ -17736,6 +17762,9 @@ msgstr "Välj den standardkatalog som ska användas om katalogen för högerkolu
 msgid "Select the delay before the timer activates."
 msgstr "Välj fördröjning innan timern aktiveras."
 
+msgid "Select the delay to buffer descrambled data before starting playback. This can reduce AC3 audio dropouts by ensuring enough data is available when the decoder starts. Higher values are more stable but increase channel switch time."
+msgstr ""
+
 msgid "Select the delay to use when closing a Stream Relay service before reallocating the tuner for another service. Using '0' is only recommended for receivers with multiple satellite tuners."
 msgstr "Välj den fördröjning som ska användas när en Stream Relay-tjänst stängs innan tunern omfördelas till en annan tjänst. Användning av '0' rekommenderas endast för boxar med flera satellitmottagare."
 
@@ -17769,9 +17798,10 @@ msgstr "Välj hur lång tid inaktiviteten ska vara innan skärmsläckaren visas.
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr ""
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
-msgstr "Välj sorteringsordning för filen i kolumnen %s:"
+msgid "Select the file sort order for the %s:"
+msgstr ""
 
 msgid "Select the file system for the device."
 msgstr "Välj filsystem för enheten."
@@ -18429,6 +18459,9 @@ msgstr "Ställ in skalning av guvernör"
 
 msgid "Set Time"
 msgstr "Ställ in tid"
+
+msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
+msgstr "Om möjligt, x minuter innan en timer startar kommer VPS-Plugin att styra om programmet startar tidigare. (0 avaktiverar funktionen)"
 
 msgid "Set action for 'Info' key"
 msgstr "Ställ in åtgärd för \"Info\"-knappen"
@@ -19270,7 +19303,7 @@ msgstr "Visa favoritlista"
 msgid "Show files backed up by default"
 msgstr "Visa filer som säkerhetskopieras som standard"
 
-msgid "Show first image"
+msgid "Show first picture"
 msgstr "Visa första bilden"
 
 msgid "Show free space in timer view"
@@ -19313,7 +19346,7 @@ msgstr "Visa informationslinje"
 msgid "Show job tasks in Extension Menu"
 msgstr "Visa arbetsuppgifter i tilläggsmenyn"
 
-msgid "Show last image"
+msgid "Show last picture"
 msgstr "Visa sista bilden"
 
 msgid "Show list of bouquets"
@@ -19359,9 +19392,6 @@ msgstr "Visa nästa felsökningsloggfil"
 
 msgid "Show next event"
 msgstr "Visa nästa händelse"
-
-msgid "Show next image"
-msgstr "Visa nästa bild"
 
 msgid "Show next page"
 msgstr "Visa nästa sida"
@@ -19429,9 +19459,6 @@ msgstr "Visa föregående felsökningsloggfil"
 
 msgid "Show previous event"
 msgstr "Visa tidigare händelse"
-
-msgid "Show previous image"
-msgstr "Visa föregående bild"
 
 msgid "Show previous page"
 msgstr "Visa föregående sida"
@@ -20068,6 +20095,9 @@ msgstr "Samhälle & kultur"
 msgid "Socket"
 msgstr "Uttag"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -20111,6 +20141,9 @@ msgstr "Uppdatering av programvara"
 
 msgid "Software Update Actions"
 msgstr "Åtgärder för uppdatering av programvara"
+
+msgid "Software descrambling"
+msgstr ""
 
 msgid "Software information"
 msgstr "Programinformation"
@@ -20998,6 +21031,9 @@ msgstr "Synkronisera tid med hjälp av"
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Synkronisera systemtiden med hjälp av transponder eller Internet."
 
+msgid "Synchronous"
+msgstr ""
+
 msgid "Syrian Arab Republic"
 msgstr "Syrien"
 
@@ -21571,6 +21607,14 @@ msgstr "Bildens höjd. Inmatningen kommer att skalas för att matcha detta värd
 msgid "The loopthrough setting is wrong."
 msgstr "Inställningen för loopthrough är fel."
 
+#
+msgid ""
+"The network wizard extension is not installed!\n"
+"Please install it."
+msgstr ""
+"Tillägget för nätverksguiden är inte installerat!\n"
+"Vänligen installera det."
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "Katalogen picon finns redan och måste tas bort. Vill du fortsätta?"
 
@@ -21792,34 +21836,10 @@ msgstr "Detta alternativ gör det möjligt att minska blockbruset i bilden. Sjä
 msgid "This option allows to set the level of dynamic contrast of the picture."
 msgstr "Med detta alternativ kan du ställa in nivån på bildens dynamiska kontrast."
 
-msgid "This option allows you can config the Colordepth for UHD"
-msgstr "Med det här alternativet kan du konfigurera färgdjupet för UHD"
-
-msgid "This option allows you can config the Colorimetry for HDR"
-msgstr "Med det här alternativet kan du konfigurera kolorimetri för HDR"
-
-msgid "This option allows you can config the Colorspace from Auto to RGB"
-msgstr "Med det här alternativet kan du konfigurera färgrymden från Auto till RGB"
-
-msgid "This option allows you can enable or disable the 10 Bit Color Mode"
-msgstr "Med det här alternativet kan du aktivera eller inaktivera 10-bitars färgläge"
-
-msgid "This option allows you can enable or disable the 12 Bit Color Mode"
-msgstr "Med det här alternativet kan du aktivera eller inaktivera 12-bitars färgläge"
-
-msgid "This option allows you can force the HDR Modes for UHD"
-msgstr "Med detta alternativ kan du tvinga fram HDR-lägena för UHD"
-
-msgid "This option allows you can force the HDR10 Modes for UHD"
-msgstr "Med detta alternativ kan du tvinga fram HDR10-lägena för UHD"
-
-msgid "This option allows you can force the HLG Modes for UHD"
-msgstr "Med detta alternativ kan du tvinga fram HLG-lägena för UHD"
-
-msgid "This option allows you enable smoothing filter to control the dithering process."
+msgid "Control the smoothing filter used for the dithering process."
 msgstr "Med det här alternativet kan du aktivera ett utjämningsfilter för att styra ditheringprocessen."
 
-msgid "This option allows you enable the vertical scaler dejagging."
+msgid "Control the use of vertical scaler anti-aliasing."
 msgstr "Med det här alternativet kan du aktivera den vertikala skalarens dejagging."
 
 msgid "This option allows you to Power Off the display."
@@ -21834,7 +21854,7 @@ msgstr "Med det här alternativet kan du förstärka de blå tonerna i bilden."
 msgid "This option allows you to boost the green tones in the picture."
 msgstr "Med det här alternativet kan du förstärka de gröna tonerna i bilden."
 
-msgid "This option allows you to bypass HDMI EDID check"
+msgid "This option allows you to bypass HDMI EDID check."
 msgstr "Detta alternativ gör att du kan kringgå HDMI EDID-kontrollen"
 
 msgid "This option allows you to change the virtual loudspeaker position."
@@ -21900,8 +21920,32 @@ msgstr "Med det här alternativet kan du välja vad den första knapptryckningen
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "Med det här alternativet kan du välja om du vill visa genreinformation för evenemanget eller inte."
 
+msgid "This option allows you to config the Colordepth for UHD."
+msgstr "Med det här alternativet kan du konfigurera färgdjupet för UHD"
+
+msgid "This option allows you to config the Colorimetry for HDR."
+msgstr "Med det här alternativet kan du konfigurera kolorimetri för HDR"
+
+msgid "This option allows you to config the Colorspace from Auto to RGB."
+msgstr "Med det här alternativet kan du konfigurera färgrymden från Auto till RGB"
+
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Med det här alternativet kan du aktivera 3D Surround Sound."
+
+msgid "This option allows you to enable or disable the 10 Bit Color Mode."
+msgstr "Med det här alternativet kan du aktivera eller inaktivera 10-bitars färgläge"
+
+msgid "This option allows you to enable or disable the 12 Bit Color Mode."
+msgstr "Med det här alternativet kan du aktivera eller inaktivera 12-bitars färgläge"
+
+msgid "This option allows you to force the HDR Modes for UHD."
+msgstr "Med detta alternativ kan du tvinga fram HDR-lägena för UHD"
+
+msgid "This option allows you to force the HDR10 Modes for UHD."
+msgstr "Med detta alternativ kan du tvinga fram HDR10-lägena för UHD"
+
+msgid "This option allows you to force the HLG Modes for UHD."
+msgstr "Med detta alternativ kan du tvinga fram HLG-lägena för UHD"
 
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr "Med det här alternativet kan du ställa in offsetvärden för olika Letterbox-upplösningar."
@@ -21918,7 +21962,7 @@ msgstr "Med detta alternativ kan du växla ljud till BT-högtalare."
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Med detta alternativ kan du ange SNR i procent (detta stöds inte av alla mottagare)."
 
-msgid "This option allows you to use all HDMI Modes"
+msgid "This option allows you to use all HDMI Modes."
 msgstr "Med detta alternativ kan du använda alla HDMI-lägen"
 
 msgid "This option allows you to view the old and new settings side by side."
@@ -21998,9 +22042,6 @@ msgstr "Detta alternativ ställer in kontrasten för videobilden."
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Detta alternativ ställer in bildskärpan, som används när bilden skalas upp."
-
-msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr "Denna plugin kan avgöra om ett program börjar tidigare eller varar längre. Kanalen måste tillhandahålla tillförlitliga data."
 
 #
 msgid "This service is protected by a parental control PIN!"
@@ -22402,10 +22443,10 @@ msgstr "Växla mellan bukett/EPG-listor"
 msgid "Toggle between the available TV and RADIO services"
 msgstr "Växla mellan tillgängliga TV- och RADIO-tjänster"
 
-msgid "Toggle display of image information"
+msgid "Toggle display of picture information"
 msgstr "Växla visning av bildinformation"
 
-msgid "Toggle display of the image status overlay"
+msgid "Toggle display of the picture status overlay"
 msgstr "Växla visning av bildstatusöverlägget"
 
 msgid "Toggle enable/disable of the currently selected timer"
@@ -23396,6 +23437,10 @@ msgstr "Använd det aktuella valet och avsluta"
 msgid "Use the extended List"
 msgstr "Använd den utökade listan"
 
+#
+msgid "Use the network wizard to configure selected network adapter"
+msgstr "Använd nätverksguiden för att konfigurera det valda nätverksadaptern"
+
 msgid "Use the network wizard to configure your Network."
 msgstr "Använd nätverksguiden för att konfigurera ditt nätverk."
 
@@ -23527,6 +23572,9 @@ msgstr "VPS-inställningar"
 
 msgid "VPS enabled by default"
 msgstr "VPS aktiverat som standard"
+
+msgid "VPS on instant recordings"
+msgstr "Aktivera VPS på omedelbara poster"
 
 msgid "VPS-Plugin Information"
 msgstr "Information om VPS-plugin"
@@ -23951,14 +23999,14 @@ msgstr "Väntar"
 msgid "Waiting for partition"
 msgstr "Väntar på partition"
 
+msgid "Wake from Shutdown allowed"
+msgstr "Uppvaknande från Deep-Standby är tillåtet"
+
 msgid "Wake up"
 msgstr "Vakna upp"
 
 msgid "Wake up TV from Standby"
 msgstr "Väck TV:n från standby"
-
-msgid "Wake from Shutdown allowed"
-msgstr "Uppvaknande från Deep-Standby är tillåtet"
 
 msgid "Wake up time before a timer begins"
 msgstr "Uppvakningstid innan en timer startar [min]"
@@ -24327,9 +24375,6 @@ msgstr "När den röda rutan är korrekt synlig trycker du på den GRÖNA knappe
 
 msgid "When tuned to a service, the system normally scans the transponder for changes and saves them. Enable only if you know what you're doing."
 msgstr "När systemet är inställt på en service skannar det normalt transpondern efter eventuella ändringar och sparar dem. Ställ endast in på \"yes\" om du är helt säker på vad du gör."
-
-msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr "När ja, kommer VPS att aktiveras på omedelbara poster (stopp efter aktuell händelse), om kanalen stöder VPS."
 
 #
 msgid "Where do you want to backup your settings?"
@@ -25314,6 +25359,9 @@ msgstr "hoppa till kapitel efter nummer"
 msgid "left"
 msgstr "vänster"
 
+msgid "left column"
+msgstr ""
+
 #
 msgid "length"
 msgstr "längd"
@@ -25480,6 +25528,9 @@ msgstr "spola tillbaka till föregående kapitel"
 #
 msgid "right"
 msgstr "höger"
+
+msgid "right column"
+msgstr ""
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -25698,6 +25749,23 @@ msgstr "ja (behåller flöden)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+#~ msgstr "Fel vid hämtning av platsen för 'epg.dat' på fjärrmottagaren!"
+
+#, python-format
+#~ msgid "Select the file sort order for the %s column:"
+#~ msgstr "Välj sorteringsordning för filen i kolumnen %s:"
+
+#~ msgid ""
+#~ "File oscam.conf not found.\n"
+#~ "Please enter username/password manually."
+#~ msgstr ""
+#~ "Filen oscam.conf hittades inte.\n"
+#~ "Vänligen ange användarnamn/lösenord manuellt."
+
+#~ msgid "Enable VPS-Plugin"
+#~ msgstr "Aktivera VPS-plugin"
+
 #~ msgid "Configure whether multichannel audio tracks should be downmixed to stereo."
 #~ msgstr "Ställ in om flerkanaliga ljudspår ska nedmixas till stereo."
 
@@ -25757,18 +25825,6 @@ msgstr "®"
 #, python-format
 #~ msgid "Set the MAC address of your %s %s."
 #~ msgstr "Ställ in MAC-adressen för din %s %s."
-
-#
-#~ msgid ""
-#~ "The network wizard extension is not installed!\n"
-#~ "Please install it."
-#~ msgstr ""
-#~ "Tillägget för nätverksguiden är inte installerat!\n"
-#~ "Vänligen installera det."
-
-#
-#~ msgid "Use the network wizard to configure selected network adapter"
-#~ msgstr "Använd nätverksguiden för att konfigurera det valda nätverksadaptern"
 
 #~ msgid "white"
 #~ msgstr "vit"

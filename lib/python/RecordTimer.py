@@ -391,9 +391,6 @@ class RecordTimer(Timer):
 	# DEBUG: Rename "ignoreTSC" to be "ignoreConflict" to be more clear.  This is used by MovieSelection.py.
 	def record(self, timer, ignoreTSC=False, dosave=True):  # This is called by loadTimers with dosave=False.
 		timer.check_justplay()
-		duplicateBegin = [x for x in self.timer_list if not x.disabled and x.begin == timer.begin]
-		if duplicateBegin:
-			timer.begin = timer.begin - 10  # - 10 seconds begin time
 		timerSanityCheck = TimerSanityCheck(self.timer_list, timer)
 		if not timerSanityCheck.check():
 			if not ignoreTSC:
@@ -477,6 +474,7 @@ class RecordTimer(Timer):
 		timeMatch = 0
 		isAutoTimer = 0
 		isDisabled = 0
+		isExtenal = 0
 		beginTime = None
 		checkOffsetTimeRecord = not config.recording.margin_before.value and not config.recording.margin_after.value
 		checkOffsetTimeZap = not config.recording.zap_margin_before.value and not config.recording.zap_margin_after.value
@@ -485,6 +483,7 @@ class RecordTimer(Timer):
 			checkOffsetTime = checkOffsetTimeZap if timer.justplay else checkOffsetTimeRecord
 			isAutoTimer = 0
 			isDisabled = timer.disabled
+			isExtenal = timer.external
 			if timer.isAutoTimer == 1:
 				isAutoTimer |= 1
 			if timer.ice_timer_id:
@@ -590,10 +589,13 @@ class RecordTimer(Timer):
 						timeMatch = end - begin
 						timerType = typeOffset + 2
 			if timeMatch:
-				if isDisabled and timerType in (2, 7, 12):
-					timerType = 15
+				if timerType in (2, 7, 12):
+					if isExtenal:
+						timerType = 16
+					if isDisabled:
+						timerType = 15
 				returnValue = (timeMatch, timerType, isAutoTimer, timer) if getTimer else (timeMatch, timerType, isAutoTimer)
-				if timerType in (2, 7, 12, 15):  # When full recording do not look further.
+				if timerType in (2, 7, 12, 15, 16):  # When full recording do not look further.
 					break
 		return returnValue
 
@@ -1434,7 +1436,7 @@ class RecordTimerEntry(TimerEntry):
 			# Okay, the recording has been stopped. We need to properly note that in our
 			# state, with also keeping the possibility to re-try.
 			# DEBUG: This has to be done!
-		elif event == iRecordableService.evStart:
+		elif event == iRecordableService.evStart and not hasattr(self, "isInstantRecord"):
 			if self.pvrConvert:
 				return
 			text = _("A recording has been started:\n%s") % self.name

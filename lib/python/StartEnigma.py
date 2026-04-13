@@ -1,6 +1,7 @@
 from errno import ENOENT
+from glob import glob
 from os import remove
-from os.path import exists
+from os.path import exists, isfile
 import sys  # This is needed for the twisted redirection access to stderr and stdout.
 from time import time
 
@@ -362,9 +363,8 @@ class AutoScartControl:
 
 
 def runScreenTest():
-	def autorestoreLoop():  # Check if auto restore settings fails, just start the wizard (avoid a endless loop).
+	def autorestoreLoop(filename):  # Check if auto restore settings fails, just start the wizard (avoid a endless loop).
 		count = 0
-		filename = "/media/hdd/images/config/autorestore"
 		if exists(filename):
 			try:
 				with open(filename) as fd:
@@ -409,21 +409,23 @@ def runScreenTest():
 	enigma.eProfileWrite("Wizards")
 	screensToRun = []
 	RestoreSettings = None
-	if exists("/media/hdd/images/config/settings") and config.misc.firstrun.value:
-		if autorestoreLoop():
+	autorestoreFilename = "/etc/autorestoreloop"
+	if config.misc.firstrun.value and (firstPath := next((f"/media/{d}/images/config/settings" for d in listdir("/media") if d not in ("audiocd", "autofs") and isfile(f"/media/{d}/images/config/settings")), None)):
+		if autorestoreLoop(autorestoreFilename):
 			RestoreSettings = True
+			if firstPath:
+				config.plugins.configurationbackup.backuplocation.value = firstPath.replace("images/config/settings", "")
 			from Plugins.SystemPlugins.SoftwareManager.BackupRestore import RestoreScreen
 			session.open(RestoreScreen, runRestore=True)
 		else:
 			screensToRun = [p.__call__ for p in plugins.getPlugins(PluginDescriptor.WHERE_WIZARD)]
 			screensToRun += wizardManager.getWizards()
 	else:
-		filename = "/media/hdd/images/config/autorestore"
 		try:
-			remove(filename)
+			remove(autorestoreFilename)
 		except OSError as err:
 			if err.errno != ENOENT:  # ENOENT - No such file or directory.
-				print("[StartEnigma] Error %d: Unable to delete file '%s'!  (%s)" % (err.errno, filename, err.strerror))
+				print("[StartEnigma] Error %d: Unable to delete file '%s'!  (%s)" % (err.errno, autorestoreFilename, err.strerror))
 		screensToRun = [p.__call__ for p in plugins.getPlugins(PluginDescriptor.WHERE_WIZARD)]
 		screensToRun += wizardManager.getWizards()
 	screensToRun.append((100, InfoBar.InfoBar))

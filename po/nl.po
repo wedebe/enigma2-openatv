@@ -5,9 +5,9 @@
 # jbleyel <jbleyel@gmx.net>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenATV\n"
+"Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 09:08+0000\n"
+"POT-Creation-Date: 2026-03-02 11:34+0000\n"
 "PO-Revision-Date: 2025-05-09 04:42+0000\n"
 "Last-Translator: Snoete <snoete@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/nl/>\n"
@@ -923,7 +923,7 @@ msgstr[0] "%d pakket gevonden."
 msgstr[1] "%d pakketten gevonden."
 
 #, python-format
-msgid "%d package has an update"
+msgid "%d package has an update."
 msgid_plural "%d packages have updates."
 msgstr[0] "Voor %d pakket is een update beschikbaar."
 msgstr[1] "Voor %d pakketten zijn updates beschikbaar."
@@ -2060,6 +2060,9 @@ msgstr "Pas de horizontale positie van de letters aan die worden gebruikt voor T
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Pas de verticale positie van de letters aan die worden gebruikt in Teletekst."
 
+msgid "Adjusts compensation for hardware buffer latency for DM9x0."
+msgstr ""
+
 msgid "Adult"
 msgstr "Volwassen"
 
@@ -2680,6 +2683,9 @@ msgstr "Bewerkingswijze"
 msgid "Auto"
 msgstr "Automatisch"
 
+msgid "Auto (not available)"
+msgstr "Auto (niet beschikbaar)"
+
 msgid "Auto Language"
 msgstr "Automatische taalkeuze"
 
@@ -2736,9 +2742,6 @@ msgstr "Automatische beeldresolutie geselecteerd"
 
 msgid "Auto video mode selected for the TV."
 msgstr "Automatische beeldresolutie geselecteerd voor de TV."
-
-msgid "Auto(not available)"
-msgstr "Auto (niet beschikbaar)"
 
 msgid "AutoCam Settings"
 msgstr "AutoCam instellingen"
@@ -2799,6 +2802,9 @@ msgstr "Automatisch het volledige scherm log actualiseren"
 
 msgid "Autostart"
 msgstr "Autostart"
+
+msgid "Available"
+msgstr ""
 
 msgid "Available format variables"
 msgstr "Beschikbare formaten"
@@ -3096,6 +3102,9 @@ msgstr "Zwart scherm totdat de zender gelocked is"
 
 msgid "Blacklist"
 msgstr "Zwarte lijst"
+
+msgid "Blank screen"
+msgstr ""
 
 msgid "Blinking REC"
 msgstr "Knipperen REC"
@@ -4134,6 +4143,9 @@ msgid "Choose time interval to which the graphics will be rounded off."
 msgstr ""
 "Moet de tijdlijn worden ingedeeld in\n"
 "stappen van 15, 30 of 60 minuten."
+
+msgid "Choose what appears when the screen saver is active."
+msgstr ""
 
 msgid "Choose what you want the button '0' to do when PiP is active."
 msgstr "Stel hier in wat de '0'-knop moet doen wanneer PiP actief is."
@@ -5834,6 +5846,15 @@ msgstr "Debug logs"
 msgid "Debug log time format *"
 msgstr "Debug log tijd format *"
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start delay"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "Decryptie & Kinderslot"
 
@@ -5886,7 +5907,7 @@ msgstr "Standaard opname type"
 msgid "Default right column directory"
 msgstr "Standaard map in de rechterkolom"
 
-msgid "Default sort order for directories in the left column"
+msgid "Default sort order for directories in the left column."
 msgstr "Standaard sorteervolgorde voor mappen in de linkerkolom"
 
 msgid "Default sort order for directories in the right column."
@@ -7251,15 +7272,6 @@ msgstr "Activeer Swap tijdens opstarten"
 msgid "Enable VPS"
 msgstr "VPS inschakelen"
 
-msgid "Select 'Yes' to set the VPS flag on all new timers by default."
-msgstr "VPS standaard ingeschakeld (nieuwe timers)"
-
-msgid "VPS on instant recordings"
-msgstr "VPS activeren bij direct opnames"
-
-msgid "Enable VPS-Plugin"
-msgstr "VPS-Plugin inschakelen"
-
 msgid "Enable ViaSat EPG"
 msgstr "Viasat EPG inschakelen"
 
@@ -7827,9 +7839,6 @@ msgstr "Fout bij lezen webpagina!"
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr "Fout bij het lezen van epg.dat vanaf de Fallback tuner!"
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr "Fout bij het lezen van de epg.dat locatie op de Fallback tuner!"
-
 msgid "Error text:"
 msgstr "Fouttekst:"
 
@@ -8117,9 +8126,6 @@ msgstr "Sluit de editor af en alle wijzigingen annuleren"
 msgid "Exit editor and save any changes"
 msgstr "Sluit de editor af en alle wijzigingen opslaan"
 
-msgid "Exit image viewer"
-msgstr "De fotoviewer afsluiten"
-
 msgid "Exit input device selection."
 msgstr "Beëindig invoerapparaatselectie."
 
@@ -8146,6 +8152,9 @@ msgstr "Verlaat het netwerkinterfaceoverzicht"
 
 msgid "Exit network wizard"
 msgstr "Verlaat de Netwerk Wizard"
+
+msgid "Exit picture viewer"
+msgstr "De fotoviewer afsluiten"
 
 msgid "Exit quad PiP"
 msgstr "Verlaat Quad PiP"
@@ -8513,12 +8522,6 @@ msgstr "File Commander Hash / Checksum Acties"
 msgid "File Commander Hashes / Checksums"
 msgstr "File Commander Hashes / Checksums"
 
-msgid "File Commander Image Viewer"
-msgstr "File Commander Foto Viewer"
-
-msgid "File Commander Image Viewer Actions"
-msgstr "File Commander Foto Viewer Acties"
-
 msgid "File Commander Information Actions"
 msgstr "File Commander Informatie Acties"
 
@@ -8533,6 +8536,12 @@ msgstr "File Commander Verplaatsen"
 
 msgid "File Commander Navigation Actions"
 msgstr "File Commander Navigatie Acties"
+
+msgid "File Commander Picture Viewer"
+msgstr "File Commander Foto Viewer"
+
+msgid "File Commander Picture Viewer Actions"
+msgstr "File Commander Foto Viewer Acties"
 
 msgid "File Commander Selection Actions"
 msgstr "File Commander Selectie Acties"
@@ -8560,13 +8569,6 @@ msgstr "Bestand mogelijk in gebruik door ander proces.\n"
 
 msgid "File compression"
 msgstr "Bestandscompressie"
-
-msgid ""
-"File oscam.conf not found.\n"
-"Please enter username/password manually."
-msgstr ""
-"Het oscam.conf bestand is niet gevonden.\n"
-"Geef een gebruikersnaam en het wachtwoord handmatig op."
 
 msgid "File system"
 msgstr "Bestandssysteem"
@@ -8612,6 +8614,9 @@ msgstr "Financiën"
 
 msgid "Find Currently Playing Service"
 msgstr "Toon de huidige zender in de lijst"
+
+msgid "Find connected events"
+msgstr "Zoekt verbonden events"
 
 #, python-format
 msgid "Find out more at %s"
@@ -9332,6 +9337,9 @@ msgstr "Hardware MultiBoot-apparaat"
 msgid "Hardware information"
 msgstr "Hardware informatie"
 
+msgid "Hardware latency correction"
+msgstr ""
+
 msgid "Hardware serial"
 msgstr "Hardware serienummer"
 
@@ -9599,6 +9607,9 @@ msgstr "Uren minuten"
 msgid "Hours Minutes Seconds"
 msgstr "Uren minuten seconden"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr "Http(s) stream start vertraging"
 
@@ -9778,14 +9789,11 @@ msgstr "Bij 'nooit' zal toch een crash log worden opgeslagen bij de eerste crash
 msgid "If EPG available"
 msgstr "Wanneer een EPG beschikbaar is"
 
-msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr "Als een programma wordt onderbroken en in aparte events is verdeeld, zal de plugin zoeken naar de verbonden gebeurtenissen."
-
 msgid "If an action is user-configurable, its help entry will be flagged with a '(C)' suffix."
 msgstr "Wanneer een actie instelbaar is, wordt de bijbehorende help functie gemarkeerd met een '(C)'."
 
-msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
-msgstr "Wanneer geactiveerd, zal de plugin uw ontvanger eerder dan de opgegeven starttijd inschakelen om te controleren of het programma eventueel eerder begint."
+msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
+msgstr "Als een programma wordt onderbroken en in aparte events is verdeeld, zal de plugin zoeken naar de verbonden gebeurtenissen."
 
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
 msgstr "Instellen, of en hoe de video-resolutie van uw ontvanger aan de resolutie van de video inhoud moet worden aangepast."
@@ -9807,9 +9815,6 @@ msgstr "Indien ingeschakeld, wordt de nieuwe GStreamer playback engine gebruikt.
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Maximale ruimte die de logs in beslag mogen nemen. Als dat overschreden wordt, worden de oudste het eerste verwijderd."
-
-msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
-msgstr "Indien mogelijk zal de plugin x minuten voor de ingestelde starttijd controleren of een programma eerder begint. (0 schakelt deze optie uit)"
 
 msgid "If set to 'Yes', allows the use of time shift with alternative audio plugins."
 msgstr "Indien ingesteld op \"ja\", kunt u Timeshift gebruiken met alternatieve audio-plugins."
@@ -11076,6 +11081,9 @@ msgstr "Login mislukt"
 msgid "Login to IceTV server"
 msgstr "Bij IceTV server inloggen"
 
+msgid "Logo"
+msgstr ""
+
 msgid "Logs Settings"
 msgstr "Log instellingen"
 
@@ -11390,6 +11398,9 @@ msgstr "Maximum aantal dagen in EPG"
 
 msgid "Maximum space used (MB)"
 msgstr "Maximale grootte (MB):"
+
+msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
+msgstr ""
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -14048,10 +14059,10 @@ msgstr "Even geduld, een kopie van het flashgeheugen wordt verwijderd. Dit kan e
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr "Even geduld, er wordt flashgeheugen gekopieerd naar deze Flash-Expander. Dit kan enkele minuten duren."
 
-msgid "Please wait, loading image..."
+msgid "Please wait, loading picture..."
 msgstr "Het Image wordt geladen, even geduld..."
 
-msgid "Please wait, swap is is being created. This could take a few minutes to complete."
+msgid "Please wait, swap is being created. This could take a few minutes to complete."
 msgstr "Even geduld, de swap-file wordt gemaakt. Dit kan enkele minuten duren."
 
 msgid "Please wait..."
@@ -15997,7 +16008,7 @@ msgstr "Bewaart Timeshift bestanden"
 msgid "Scaler sharpness"
 msgstr "Scaler scherpte"
 
-msgid "Scaler vertical dejagging"
+msgid "Scaler vertical anti-aliasing"
 msgstr "Scaler verticale dejagging"
 
 msgid "Scaling mode"
@@ -16118,6 +16129,9 @@ msgstr "science fiction/fantasie/horror"
 msgid "Scope"
 msgstr "Scope"
 
+msgid "Screen saver mode"
+msgstr ""
+
 msgid "Screen saver movement"
 msgstr "Screensaver beweging"
 
@@ -16219,9 +16233,6 @@ msgstr "Zoekbalk activeren"
 msgid "SeekBar sensibility"
 msgstr "Grootte tijdsprong op de Zoekbalk"
 
-msgid "Find connected events"
-msgstr "Zoekt verbonden events"
-
 msgid "Select"
 msgstr "Selecteer"
 
@@ -16287,6 +16298,9 @@ msgstr "Bij 'ja' zal de informatiebalk continu worden getoond wanneer het afspel
 
 msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
 msgstr "Selecteer 'Ja' om alle opslagmedia die wordt gevonden automatisch als Samba share in te stellen."
+
+msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
+msgstr "De VPS plugin kan bepalen of een programma eerder begint of langer duurt dan in de Timer ingesteld. De zender moet dan wel betrouwbare gegevens leveren!"
 
 msgid "Select 'Yes' to allow use of the SeekBar to jump to a selected point within the event."
 msgstr "Kies 'Ja' om tijdens een Timeshift-opname m.b.v. de zoekbalk naar elk gewenst tijdstip, vooruit- of terug te spoelen."
@@ -16407,6 +16421,9 @@ msgstr ""
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "Kies 'Ja' om de netwerkconfiguratie te herstellen naar default. Hierdoor zal de Ethernet poort worden geactiveerd (wanneer beschikbaar) en zal de ontvanger DHCP gebruiken. Alle andere netwerk interfaces worden verwijderd."
 
+msgid "Select 'Yes' to set the VPS flag on all new timers by default."
+msgstr "VPS standaard ingeschakeld (nieuwe timers)"
+
 msgid "Select 'Yes' to set the cursor position to the end of the line when editing a text file.  Select 'No' to set the cursor to the start of the line."
 msgstr "Selecteer 'Ja' om de cursor op het einde van de regel te plaatsen bij het bewerken van een tekstbestand.  Selecteer 'Nee' om de cursor aan het begin van de regel te zetten."
 
@@ -16501,6 +16518,9 @@ msgstr "Selecteer 'Ja' om de ontvanger direct uit te schakelen in plaats van te 
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr "Kies 'Ja' om opdrachten in meerdere acties op te delen."
 
+msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
+msgstr "Wanneer 'Ja' zal VPS worden ingeschakeld bij directe opnamen (en stoppen na het actuele programma), wanneer de zender VPS ondersteund."
+
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr "Kies 'Ja' om alternatief GitHub-DNS feed IP-adres in te stellen. Dit kan handig zijn wanneer u een VPN gebruikt en de normale feeds niet bereikbaar zijn via de gebruikelijke DNS namen."
 
@@ -16512,6 +16532,9 @@ msgstr "Indien 'ja' wordt gekozen, worden de signaalwaardes (SNR etc.) berekend 
 
 msgid "Select 'Yes' to use the number keys for quick selection of files / directories, select 'No' to use the number keys for MENU option shortcuts."
 msgstr "Selecteer 'Ja' om de nummertoetsen te gebruiken voor snelle selectie van bestanden / mappen, selecteer 'Nee' om de nummertoetsen te gebruiken voor sneltoetsen in het MENU."
+
+msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
+msgstr "Wanneer geactiveerd, zal de plugin uw ontvanger eerder dan de opgegeven starttijd inschakelen om te controleren of het programma eventueel eerder begint."
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
 msgstr "Kies 'ja' wanneer u de informatiebalk wilt laten zien bij het en vooruit- en terug spoelen."
@@ -16730,6 +16753,9 @@ msgstr "Selecteer hoe snel de schotel beweegt tussen satellieten."
 
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
 msgstr "Selecteer de functie van de knoppen OMHOOG, OMLAAG, LINKS en RECHTS tijdens Zoek Acties."
+
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
+msgstr ""
 
 msgid "Select how the number buttons will act during seek actions."
 msgstr "Selecteer de functie van de nummer-knoppen tijdens Zoek Acties."
@@ -16962,6 +16988,9 @@ msgstr "Selecteer de standaardmap die moet worden gebruikt als de map in de rech
 msgid "Select the delay before the timer activates."
 msgstr "Kies de vertraging voordat de timer actief moet worden."
 
+msgid "Select the delay to buffer descrambled data before starting playback. This can reduce AC3 audio dropouts by ensuring enough data is available when the decoder starts. Higher values are more stable but increase channel switch time."
+msgstr ""
+
 msgid "Select the delay to use when closing a Stream Relay service before reallocating the tuner for another service. Using '0' is only recommended for receivers with multiple satellite tuners."
 msgstr "De vertraging instellen, die bij het zappen van een Stream Relay zender wordt gebruikt, voordat de tuner naar een andere zender schakelt. Het gebruik van '0' wordt alleen aanbevolen bij ontvangers met meerdere satelliet-tuners."
 
@@ -16997,9 +17026,10 @@ msgstr "Hier kunt u een screensaver activeren en instellen na hoeveel minuten de
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr ""
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
-msgstr "Kies de sorteervolgorde voor het bestanden in de %s kolom:"
+msgid "Select the file sort order for the %s:"
+msgstr ""
 
 msgid "Select the file system for the device."
 msgstr "Een bestandssysteem voor het apparaat selecteren."
@@ -17638,6 +17668,9 @@ msgstr "Scaling governor instellen"
 
 msgid "Set Time"
 msgstr "Tijd instellen"
+
+msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
+msgstr "Indien mogelijk zal de plugin x minuten voor de ingestelde starttijd controleren of een programma eerder begint. (0 schakelt deze optie uit)"
 
 msgid "Set action for 'Info' key"
 msgstr "Selecteer actie voor INFO-knop"
@@ -18467,7 +18500,7 @@ msgstr "Toon favorietenlijst"
 msgid "Show files backed up by default"
 msgstr "Toon standaard geselecteerde back-up bestanden"
 
-msgid "Show first image"
+msgid "Show first picture"
 msgstr "Eerste afbeelding weergeven"
 
 msgid "Show free space in timer view"
@@ -18507,7 +18540,7 @@ msgstr "Toon de infolijn"
 msgid "Show job tasks in Extension Menu"
 msgstr "Toon systeemtaken (Job Tasks) in het Extensies-menu (BLAUW-lang)"
 
-msgid "Show last image"
+msgid "Show last picture"
 msgstr "Laatste afbeelding weergeven"
 
 msgid "Show list of bouquets"
@@ -18551,9 +18584,6 @@ msgstr "Toon het volgende debug-log bestand"
 
 msgid "Show next event"
 msgstr "Toon het volgende programma"
-
-msgid "Show next image"
-msgstr "Toon volgend image"
 
 msgid "Show next page"
 msgstr "Toon de volgende pagina"
@@ -18617,9 +18647,6 @@ msgstr "Toon het vorige debug-log bestand"
 
 msgid "Show previous event"
 msgstr "Toon het vorige programma"
-
-msgid "Show previous image"
-msgstr "Toon vorig image"
 
 msgid "Show previous page"
 msgstr "Toon de vorige pagina"
@@ -19223,6 +19250,9 @@ msgstr "Maatschappij & Cultuur"
 msgid "Socket"
 msgstr "Socket"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr "Softcam"
 
@@ -19264,6 +19294,9 @@ msgstr "Software update"
 
 msgid "Software Update Actions"
 msgstr "Software Update Acties"
+
+msgid "Software descrambling"
+msgstr ""
 
 msgid "Software information"
 msgstr "Software informatie"
@@ -20093,6 +20126,9 @@ msgstr "Synchroniseer de systeemtijd met"
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Synchroniseer de systeemtijd met de transponder of met internet."
 
+msgid "Synchronous"
+msgstr ""
+
 msgid "Syrian Arab Republic"
 msgstr "Syrië"
 
@@ -20655,6 +20691,13 @@ msgstr "De hoogte van het beeld. De invoer wordt aangepast aan deze waarde."
 msgid "The loopthrough setting is wrong."
 msgstr "De loopthrough instelling is verkeerd."
 
+msgid ""
+"The network wizard extension is not installed!\n"
+"Please install it."
+msgstr ""
+"De Netwerk Wizard plugin is niet geïnstalleerd!\n"
+"Installeer deze a.u.b. eerst."
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr "De map voor de Picons bestaat al en moet verwijderd worden. Dit nu uitvoeren?"
 
@@ -20877,36 +20920,12 @@ msgstr ""
 "Hiermee bepaalt u de mate van dynamisch contrast in het beeld.\n"
 "(Default: 0)"
 
-msgid "This option allows you can config the Colordepth for UHD"
-msgstr "Met deze optie kunt u de kleurdiepte van UHD instellen"
-
-msgid "This option allows you can config the Colorimetry for HDR"
-msgstr "Met deze optie kunt u de Colorimetry van HDR instellen"
-
-msgid "This option allows you can config the Colorspace from Auto to RGB"
-msgstr "Met deze optie kunt u de kleurruimte van Automatisch naar RGB wijzigen."
-
-msgid "This option allows you can enable or disable the 10 Bit Color Mode"
-msgstr "Met deze optie kunt u de 10 Bit kleurmodus in of uitschakelen"
-
-msgid "This option allows you can enable or disable the 12 Bit Color Mode"
-msgstr "Met deze optie kunt u de 12 Bit kleurmodus in of uitschakelen"
-
-msgid "This option allows you can force the HDR Modes for UHD"
-msgstr "Met deze optie kunt u de HDR10 modus voor UHD forceren"
-
-msgid "This option allows you can force the HDR10 Modes for UHD"
-msgstr "Met deze optie kunt u de HDR10 modus voor UHD forceren"
-
-msgid "This option allows you can force the HLG Modes for UHD"
-msgstr "Met deze optie kunt u de HLG modus voor UHD forceren"
-
-msgid "This option allows you enable smoothing filter to control the dithering process."
+msgid "Control the smoothing filter used for the dithering process."
 msgstr ""
 "Met deze optie kunt u een Dithering-filter activeren. Dithering is het gebruiken van tussenkleuren om het beeld meer vloeiender, dus minder blokkerig te maken.\n"
 "(Default: Gedeactiveerd)"
 
-msgid "This option allows you enable the vertical scaler dejagging."
+msgid "Control the use of vertical scaler anti-aliasing."
 msgstr ""
 "Met deze optie kunt dat u de verticale scaler dejagging inschakelen.\n"
 "(Default: Gedeactiveerd)"
@@ -20927,7 +20946,7 @@ msgstr ""
 "Met deze instelling kunt u de groene kleuren in het beeld versterken.\n"
 "(Default: 0)"
 
-msgid "This option allows you to bypass HDMI EDID check"
+msgid "This option allows you to bypass HDMI EDID check."
 msgstr "Met deze instelling wordt de HDMI-EDID controle omzeilt"
 
 msgid "This option allows you to change the virtual loudspeaker position."
@@ -20995,8 +21014,32 @@ msgstr "Stel hier in wat er moet gebeuren wanneer u op de eerste knop drukt in d
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "Hier kunt u instellen of u genre informatie voor het programma wilt zien of niet."
 
+msgid "This option allows you to config the Colordepth for UHD."
+msgstr "Met deze optie kunt u de kleurdiepte van UHD instellen"
+
+msgid "This option allows you to config the Colorimetry for HDR."
+msgstr "Met deze optie kunt u de Colorimetry van HDR instellen"
+
+msgid "This option allows you to config the Colorspace from Auto to RGB."
+msgstr "Met deze optie kunt u de kleurruimte van Automatisch naar RGB wijzigen."
+
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "U kunt deze optie gebruiken om 3D Surround geluid te activeren."
+
+msgid "This option allows you to enable or disable the 10 Bit Color Mode."
+msgstr "Met deze optie kunt u de 10 Bit kleurmodus in of uitschakelen"
+
+msgid "This option allows you to enable or disable the 12 Bit Color Mode."
+msgstr "Met deze optie kunt u de 12 Bit kleurmodus in of uitschakelen"
+
+msgid "This option allows you to force the HDR Modes for UHD."
+msgstr "Met deze optie kunt u de HDR10 modus voor UHD forceren"
+
+msgid "This option allows you to force the HDR10 Modes for UHD."
+msgstr "Met deze optie kunt u de HDR10 modus voor UHD forceren"
+
+msgid "This option allows you to force the HLG Modes for UHD."
+msgstr "Met deze optie kunt u de HLG modus voor UHD forceren"
 
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr "Offset-waarden voor diverse Letterbox-resoluties instellen."
@@ -21013,7 +21056,7 @@ msgstr "Met deze optie kunt u Audio switchen naar BT speakers."
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Hiermee kiest u of de SNR in dB of in % wordt weergegeven (niet alle ontvangers ondersteunen dit)."
 
-msgid "This option allows you to use all HDMI Modes"
+msgid "This option allows you to use all HDMI Modes."
 msgstr "Met deze optie kunt u alle HDMI modus gebruiken"
 
 msgid "This option allows you to view the old and new settings side by side."
@@ -21116,9 +21159,6 @@ msgid "This option sets up the picture sharpness, used when the picture is being
 msgstr ""
 "Hiermee stelt u de beeldscherpte in als het beeld moet worden opgeschaald.\n"
 "(Default: 0)"
-
-msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr "De VPS plugin kan bepalen of een programma eerder begint of langer duurt dan in de Timer ingesteld. De zender moet dan wel betrouwbare gegevens leveren!"
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "Deze zender is beveiligd met een PIN-code (kinderslot)!"
@@ -21492,10 +21532,10 @@ msgstr "Wissel tussen de favorieten- en EPG-lijsten"
 msgid "Toggle between the available TV and RADIO services"
 msgstr "Tussen beschikbare TV- en Radiozenders wisselen"
 
-msgid "Toggle display of image information"
+msgid "Toggle display of picture information"
 msgstr "Tussen diverse afbeeldingsinformatie schakelen"
 
-msgid "Toggle display of the image status overlay"
+msgid "Toggle display of the picture status overlay"
 msgstr "Schakel tussen de diverse afbeeldingsstatus overlays"
 
 msgid "Toggle enable/disable of the currently selected timer"
@@ -22433,6 +22473,9 @@ msgstr "De huidige selectie gebruiken en afsluiten"
 msgid "Use the extended List"
 msgstr "Gebruik de uitgebreide lijst"
 
+msgid "Use the network wizard to configure selected network adapter"
+msgstr "Gebruik de Netwerk Wizard om de geselecteerde netwerkadapter te configureren"
+
 msgid "Use the network wizard to configure your Network."
 msgstr "De Netwerk Wizard gebruiken voor het configureren van uw netwerk."
 
@@ -22556,6 +22599,9 @@ msgstr "VPS instellingen"
 
 msgid "VPS enabled by default"
 msgstr "VPS standaard ingeschakeld"
+
+msgid "VPS on instant recordings"
+msgstr "VPS activeren bij direct opnames"
 
 msgid "VPS-Plugin Information"
 msgstr "VPS plugin informatie"
@@ -22960,14 +23006,14 @@ msgstr "Wachten"
 msgid "Waiting for partition"
 msgstr "Wacht op een verdeelpunt"
 
+msgid "Wake from Shutdown allowed"
+msgstr "Opstarten vanuit Deep-Standby toegestaan"
+
 msgid "Wake up"
 msgstr "Inschakelen"
 
 msgid "Wake up TV from Standby"
 msgstr "Activeer de TV vanuit stand-by"
-
-msgid "Wake from Shutdown allowed"
-msgstr "Opstarten vanuit Deep-Standby toegestaan"
 
 msgid "Wake up time before a timer begins"
 msgstr "Ontwaaktijd voordat een Timer-opname begint (in minuten)"
@@ -23343,9 +23389,6 @@ msgid "When tuned to a service, the system normally scans the transponder for ch
 msgstr ""
 "Bij het overschakelen naar een andere zender wordt normaal gesproken de transponder gecontroleerd op wijzigingen.\n"
 "A.u.b. alleen activeren, wanneer u weet wat u doet!"
-
-msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr "Wanneer 'Ja' zal VPS worden ingeschakeld bij directe opnamen (en stoppen na het actuele programma), wanneer de zender VPS ondersteund."
 
 msgid "Where do you want to backup your settings?"
 msgstr "Waar wilt u een back-up maken van de instellingen?"
@@ -24262,6 +24305,9 @@ msgstr "Spring via nummer naar hoofdstuk"
 msgid "left"
 msgstr "Links"
 
+msgid "left column"
+msgstr ""
+
 msgid "length"
 msgstr "lengte"
 
@@ -24402,6 +24448,9 @@ msgstr "terugspoelen naar vorig hoofdstuk"
 
 msgid "right"
 msgstr "Rechts"
+
+msgid "right column"
+msgstr ""
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -24592,6 +24641,23 @@ msgstr "ja (bewaar feeds)"
 msgid "®"
 msgstr "®"
 
+#~ msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
+#~ msgstr "Fout bij het lezen van de epg.dat locatie op de Fallback tuner!"
+
+#, python-format
+#~ msgid "Select the file sort order for the %s column:"
+#~ msgstr "Kies de sorteervolgorde voor het bestanden in de %s kolom:"
+
+#~ msgid ""
+#~ "File oscam.conf not found.\n"
+#~ "Please enter username/password manually."
+#~ msgstr ""
+#~ "Het oscam.conf bestand is niet gevonden.\n"
+#~ "Geef een gebruikersnaam en het wachtwoord handmatig op."
+
+#~ msgid "Enable VPS-Plugin"
+#~ msgstr "VPS-Plugin inschakelen"
+
 #~ msgid "Configure whether multichannel audio tracks should be downmixed to stereo."
 #~ msgstr "Kiezen of zenders met meerdere audiokanalen omgezet moeten worden naar stereo."
 
@@ -24642,16 +24708,6 @@ msgstr "®"
 #~ msgstr ""
 #~ "Stel het MAC-adres in\n"
 #~ "van uw %s %s."
-
-#~ msgid ""
-#~ "The network wizard extension is not installed!\n"
-#~ "Please install it."
-#~ msgstr ""
-#~ "De Netwerk Wizard plugin is niet geïnstalleerd!\n"
-#~ "Installeer deze a.u.b. eerst."
-
-#~ msgid "Use the network wizard to configure selected network adapter"
-#~ msgstr "Gebruik de Netwerk Wizard om de geselecteerde netwerkadapter te configureren"
 
 #~ msgid "white"
 #~ msgstr "Wit"

@@ -1,9 +1,9 @@
 # Salif Mehmed <mail@salif.eu>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: openATV / enigma2\n"
+"Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 09:08+0000\n"
+"POT-Creation-Date: 2026-03-02 11:34+0000\n"
 "PO-Revision-Date: 2023-08-06 06:22+0000\n"
 "Last-Translator: Salif Mehmed <mail@salif.eu>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/bg/>\n"
@@ -918,7 +918,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #, python-format
-msgid "%d package has an update"
+msgid "%d package has an update."
 msgid_plural "%d packages have updates."
 msgstr[0] ""
 msgstr[1] ""
@@ -2052,6 +2052,9 @@ msgstr "Регулирайте хоризонталната позиция на 
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Регулирайте вертикалната позиция на буквите, използвани за телетекст."
 
+msgid "Adjusts compensation for hardware buffer latency for DM9x0."
+msgstr ""
+
 msgid "Adult"
 msgstr ""
 
@@ -2673,6 +2676,9 @@ msgstr "Авторски режим"
 msgid "Auto"
 msgstr "Aвтонатично"
 
+msgid "Auto (not available)"
+msgstr "Автоматичен(не е наличен)"
+
 msgid "Auto Language"
 msgstr "Автоматичен език"
 
@@ -2729,9 +2735,6 @@ msgstr ""
 
 msgid "Auto video mode selected for the TV."
 msgstr ""
-
-msgid "Auto(not available)"
-msgstr "Автоматичен(не е наличен)"
 
 msgid "AutoCam Settings"
 msgstr ""
@@ -2792,6 +2795,9 @@ msgstr ""
 
 msgid "Autostart"
 msgstr "Автостартиране"
+
+msgid "Available"
+msgstr ""
 
 msgid "Available format variables"
 msgstr "Налични форматни променливи"
@@ -3086,6 +3092,9 @@ msgid "Black screen till locked"
 msgstr "Черният екран все още е заключен"
 
 msgid "Blacklist"
+msgstr ""
+
+msgid "Blank screen"
 msgstr ""
 
 msgid "Blinking REC"
@@ -4116,6 +4125,9 @@ msgstr ""
 
 msgid "Choose time interval to which the graphics will be rounded off."
 msgstr "Избиране на интервал от време, към който графиките ще бъдат закръглени."
+
+msgid "Choose what appears when the screen saver is active."
+msgstr ""
 
 msgid "Choose what you want the button '0' to do when PiP is active."
 msgstr "Избиране какво искате да направи бутонът \"0\", когато PIP е активен."
@@ -5707,6 +5719,15 @@ msgstr "Дневници за отстраняване на грешки"
 msgid "Debug log time format *"
 msgstr "Формат на времето на дневника за отстраняване на грешки *"
 
+msgid "Decoder release strategy"
+msgstr ""
+
+msgid "Decoder start delay"
+msgstr ""
+
+msgid "Decoder start timeout"
+msgstr ""
+
 msgid "Decryption & Parental Control"
 msgstr "Декриптиране и родителски контрол"
 
@@ -5759,7 +5780,7 @@ msgstr "Тип на запис по подразбиране"
 msgid "Default right column directory"
 msgstr ""
 
-msgid "Default sort order for directories in the left column"
+msgid "Default sort order for directories in the left column."
 msgstr ""
 
 msgid "Default sort order for directories in the right column."
@@ -7102,15 +7123,6 @@ msgstr "Разрешаване на Swap при стартиране"
 msgid "Enable VPS"
 msgstr ""
 
-msgid "Select 'Yes' to set the VPS flag on all new timers by default."
-msgstr ""
-
-msgid "VPS on instant recordings"
-msgstr ""
-
-msgid "Enable VPS-Plugin"
-msgstr ""
-
 msgid "Enable ViaSat EPG"
 msgstr "Разрешаване на ViaSat EPG"
 
@@ -7666,9 +7678,6 @@ msgstr "Грешка при четенето на уеб страница!"
 msgid "Error retrieving 'epg.dat' from the remote receiver!"
 msgstr ""
 
-msgid "Error retrieving location of 'epg.dat' on the remote receiver!"
-msgstr ""
-
 msgid "Error text:"
 msgstr ""
 
@@ -7953,9 +7962,6 @@ msgstr ""
 msgid "Exit editor and save any changes"
 msgstr ""
 
-msgid "Exit image viewer"
-msgstr ""
-
 msgid "Exit input device selection."
 msgstr "Изход от избор на входно устройство."
 
@@ -7982,6 +7988,9 @@ msgstr "Изход от списъка с мрежови интерфейси"
 
 msgid "Exit network wizard"
 msgstr "Изход от мрежовия помощник"
+
+msgid "Exit picture viewer"
+msgstr ""
 
 msgid "Exit quad PiP"
 msgstr "Излезте от quad PiP"
@@ -8349,12 +8358,6 @@ msgstr ""
 msgid "File Commander Hashes / Checksums"
 msgstr ""
 
-msgid "File Commander Image Viewer"
-msgstr ""
-
-msgid "File Commander Image Viewer Actions"
-msgstr ""
-
 msgid "File Commander Information Actions"
 msgstr ""
 
@@ -8368,6 +8371,12 @@ msgid "File Commander Move"
 msgstr ""
 
 msgid "File Commander Navigation Actions"
+msgstr ""
+
+msgid "File Commander Picture Viewer"
+msgstr ""
+
+msgid "File Commander Picture Viewer Actions"
 msgstr ""
 
 msgid "File Commander Selection Actions"
@@ -8396,13 +8405,6 @@ msgstr "Изглежда, че файлът е зает.\n"
 
 msgid "File compression"
 msgstr ""
-
-msgid ""
-"File oscam.conf not found.\n"
-"Please enter username/password manually."
-msgstr ""
-"Файлът oscam.conf не е намерен.\n"
-"Моля, въведете потребителското име/парола ръчно."
 
 msgid "File system"
 msgstr ""
@@ -8448,6 +8450,9 @@ msgstr "Финанси"
 
 msgid "Find Currently Playing Service"
 msgstr "намери сервиза, който се изпълнява в момента"
+
+msgid "Find connected events"
+msgstr ""
 
 #, python-format
 msgid "Find out more at %s"
@@ -9168,6 +9173,9 @@ msgstr ""
 msgid "Hardware information"
 msgstr "Информация за хардуера"
 
+msgid "Hardware latency correction"
+msgstr ""
+
 msgid "Hardware serial"
 msgstr "Хардуерен сериен"
 
@@ -9432,6 +9440,9 @@ msgstr "Часове мин"
 msgid "Hours Minutes Seconds"
 msgstr "Часове мин/сек"
 
+msgid "How to release the hardware decoder when switching to software descrambling. 'Quick' releases immediately (faster zapping). 'Normal' performs clean shutdown first (more stable on some boxes)."
+msgstr ""
+
 msgid "Http(s) stream start delay"
 msgstr "Забавяне на началото на Http(s) поток"
 
@@ -9608,13 +9619,10 @@ msgstr "Ако 'never', ще напише дневник на сривовете
 msgid "If EPG available"
 msgstr ""
 
-msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
-msgstr ""
-
 msgid "If an action is user-configurable, its help entry will be flagged with a '(C)' suffix."
 msgstr "Ако дадено действие може да се конфигурира от потребителя, неговият помощен запис ще бъде маркиран с наставка „(C)“."
 
-msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
+msgid "If an event is interrupted and divided into separate recordings, this feature will search for alternate broadcasts of the same event."
 msgstr ""
 
 msgid "If enabled the output resolution of the receiver will try to match the resolution of the video contents resolution."
@@ -9637,9 +9645,6 @@ msgstr ""
 
 msgid "If logs are using the set maximum space used the eldest will be deleted."
 msgstr "Ако дневницитеи зползват определеното максимално използвано пространство, най-старите ще бъдат изтрити."
-
-msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
-msgstr ""
 
 msgid "If set to 'Yes', allows the use of time shift with alternative audio plugins."
 msgstr ""
@@ -10902,6 +10907,9 @@ msgstr "Неуспешно влизане"
 msgid "Login to IceTV server"
 msgstr "Влезте в сървъра на IceTV"
 
+msgid "Logo"
+msgstr ""
+
 msgid "Logs Settings"
 msgstr "Настройки за дневниците"
 
@@ -11216,6 +11224,9 @@ msgstr "Максимален брой дни в EPG"
 
 msgid "Maximum space used (MB)"
 msgstr "Максимално използвано пространство (MB):"
+
+msgid "Maximum time to wait for the first descrambling key (CW) before starting the decoder. 'Disabled' starts the decoder immediately without waiting."
+msgstr ""
 
 msgid "Mayotte"
 msgstr ""
@@ -13864,10 +13875,10 @@ msgstr ""
 msgid "Please wait, flash memory is being copied to this flash expander. This could take a number of minutes to complete."
 msgstr ""
 
-msgid "Please wait, loading image..."
+msgid "Please wait, loading picture..."
 msgstr ""
 
-msgid "Please wait, swap is is being created. This could take a few minutes to complete."
+msgid "Please wait, swap is being created. This could take a few minutes to complete."
 msgstr ""
 
 msgid "Please wait..."
@@ -15809,7 +15820,7 @@ msgstr "Запазване на TimeShift файлове"
 msgid "Scaler sharpness"
 msgstr "Скалираща острота"
 
-msgid "Scaler vertical dejagging"
+msgid "Scaler vertical anti-aliasing"
 msgstr "Вертикално премахване на мащаба"
 
 msgid "Scaling mode"
@@ -15928,6 +15939,9 @@ msgstr "научна фантастика/фентъзи/хорър"
 msgid "Scope"
 msgstr ""
 
+msgid "Screen saver mode"
+msgstr ""
+
 msgid "Screen saver movement"
 msgstr ""
 
@@ -16027,9 +16041,6 @@ msgstr "Активиране на лентата за търсене"
 msgid "SeekBar sensibility"
 msgstr "Чувствителност на лентата за търсене"
 
-msgid "Find connected events"
-msgstr ""
-
 msgid "Select"
 msgstr "Изберете"
 
@@ -16095,6 +16106,9 @@ msgid "Select 'Yes' the keep the InfoBar displayed, with no timeout, while media
 msgstr "Ако е зададено 'да'; инфобарът остава показван постоянно в 'пауза' (без прекъсване)."
 
 msgid "Select 'Yes' to allow each storage device detected to be automatically exported as samba share."
+msgstr ""
+
+msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
 msgstr ""
 
 msgid "Select 'Yes' to allow use of the SeekBar to jump to a selected point within the event."
@@ -16214,6 +16228,9 @@ msgstr ""
 msgid "Select 'Yes' to reset network configuration to the default. This will enable the Ethernet port if it exists and set the receiver to use DHCP. All other network interfaces will be deleted."
 msgstr "Изберете „Да“, за да нулирате мрежовата конфигурация до фабричните. Това ще активира Ethernet порта, ако съществува, и ще настрои приемника да използва DHCP. Всички останали мрежови интерфейси ще бъдат изтрити."
 
+msgid "Select 'Yes' to set the VPS flag on all new timers by default."
+msgstr ""
+
 msgid "Select 'Yes' to set the cursor position to the end of the line when editing a text file.  Select 'No' to set the cursor to the start of the line."
 msgstr ""
 
@@ -16304,6 +16321,9 @@ msgstr ""
 msgid "Select 'Yes' to split tasks into separate actions."
 msgstr ""
 
+msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
+msgstr ""
+
 msgid "Select 'Yes' to use alternate GitHub feed IP addresses. This can be helpful if you use a VPN and the normal feeds can't be accessed via the published DNS names."
 msgstr ""
 
@@ -16314,6 +16334,9 @@ msgid "Select 'Yes' to use signal values (SNR, etc) calculated from the older AP
 msgstr "Ако е зададено на „да“, стойностите на сигнала (SNR и т.н.) ще бъдат изчислени от API V3. Това е стара версия на API, която вече е заменена."
 
 msgid "Select 'Yes' to use the number keys for quick selection of files / directories, select 'No' to use the number keys for MENU option shortcuts."
+msgstr ""
+
+msgid "Select 'Yes' to wake the receiver from Shutdown prior to the recording start time to allow the PDC data to make last minute timer adjustments."
 msgstr ""
 
 msgid "Select 'Yes, to display the InfoBar when fast forwarding or rewinding during media playback."
@@ -16532,6 +16555,9 @@ msgid "Select how quickly the dish should move between satellites."
 msgstr "Изберете колко бързо трябва да се движи чинията между сателитите."
 
 msgid "Select how the arrow buttons 'UP', 'DOWN', 'LEFT' or 'RIGHT' will act during seek actions."
+msgstr ""
+
+msgid "Select how the descrambled data stream is processed. 'Automatic' uses asynchronous writes (lower CPU usage) with automatic fallback to synchronous if kernel AIO is not supported. 'Synchronous' forces blocking writes (stable, most compatible)."
 msgstr ""
 
 msgid "Select how the number buttons will act during seek actions."
@@ -16765,6 +16791,9 @@ msgstr ""
 msgid "Select the delay before the timer activates."
 msgstr ""
 
+msgid "Select the delay to buffer descrambled data before starting playback. This can reduce AC3 audio dropouts by ensuring enough data is available when the decoder starts. Higher values are more stable but increase channel switch time."
+msgstr ""
+
 msgid "Select the delay to use when closing a Stream Relay service before reallocating the tuner for another service. Using '0' is only recommended for receivers with multiple satellite tuners."
 msgstr ""
 
@@ -16798,8 +16827,9 @@ msgstr "Конфигуриране на продължителността в м
 msgid "Select the end time before which this timer can be activated. After this time the timer won't be activated even if other conditions are met."
 msgstr ""
 
+#. TRANSLATORS: "Select the file sort order for the %s:" / the placeholder is "left column" or "right column".
 #, python-format
-msgid "Select the file sort order for the %s column:"
+msgid "Select the file sort order for the %s:"
 msgstr ""
 
 msgid "Select the file system for the device."
@@ -17426,6 +17456,9 @@ msgid "Set Scaling governor"
 msgstr ""
 
 msgid "Set Time"
+msgstr ""
+
+msgid "Set a time offset before a timer is due to start to allow VPS to scan for the latest event timing. Select '0' to disable this feature."
 msgstr ""
 
 msgid "Set action for 'Info' key"
@@ -18231,7 +18264,7 @@ msgstr "Показване на списъка с любими"
 msgid "Show files backed up by default"
 msgstr "Показване на файловете, архивирани по подразбиране"
 
-msgid "Show first image"
+msgid "Show first picture"
 msgstr ""
 
 msgid "Show free space in timer view"
@@ -18271,7 +18304,7 @@ msgstr "Показване на инфо линия"
 msgid "Show job tasks in Extension Menu"
 msgstr "Показване на задачи за работа в разширения"
 
-msgid "Show last image"
+msgid "Show last picture"
 msgstr ""
 
 msgid "Show list of bouquets"
@@ -18316,14 +18349,11 @@ msgstr ""
 msgid "Show next event"
 msgstr "Показване на следващото събитие"
 
-msgid "Show next image"
-msgstr "Показване на следващото изображение"
-
 msgid "Show next page"
 msgstr "Показване на следващата страница"
 
 msgid "Show next picture"
-msgstr "Показване на следващата снимка"
+msgstr "Показване на следващото изображение"
 
 msgid "Show next service information screen"
 msgstr ""
@@ -18381,9 +18411,6 @@ msgstr ""
 
 msgid "Show previous event"
 msgstr "Показване на предишно събитие"
-
-msgid "Show previous image"
-msgstr "Показване на предишна снимка"
 
 msgid "Show previous page"
 msgstr "Показване на предишна страница"
@@ -18983,6 +19010,9 @@ msgstr ""
 msgid "Socket"
 msgstr "Сокет"
 
+msgid "SoftCSA Settings"
+msgstr ""
+
 msgid "Softcam"
 msgstr ""
 
@@ -19024,6 +19054,9 @@ msgstr "Актуализация на софтуера"
 
 msgid "Software Update Actions"
 msgstr "Действия за актуализиране на софтуера"
+
+msgid "Software descrambling"
+msgstr ""
 
 msgid "Software information"
 msgstr "Информация за софтуера"
@@ -19853,6 +19886,9 @@ msgstr "Използване на времето за синхронизиран
 msgid "Synchronize system time using transponder or Internet."
 msgstr "Синхронизирайте системното време с помощта на транспондер или интернет."
 
+msgid "Synchronous"
+msgstr ""
+
 msgid "Syrian Arab Republic"
 msgstr ""
 
@@ -20388,6 +20424,13 @@ msgstr "Височината на картината. Входът ще бъде
 msgid "The loopthrough setting is wrong."
 msgstr "Loopthrough настройката не е наред."
 
+msgid ""
+"The network wizard extension is not installed!\n"
+"Please install it."
+msgstr ""
+"Разширението на съветника за мрежа не е инсталиран!\n"
+"Моля, инсталирайте го."
+
 msgid "The picon directory already exists and must be removed. Do you want to proceed?"
 msgstr ""
 
@@ -20591,34 +20634,10 @@ msgstr "Тази опция ви позволява да се намали бл�
 msgid "This option allows to set the level of dynamic contrast of the picture."
 msgstr "Тази опция ви позволява да определите нивото на динамичен контраст на картината."
 
-msgid "This option allows you can config the Colordepth for UHD"
-msgstr "Тази опция ви позволява да конфигурирате дълбочината на цвета за UHD"
-
-msgid "This option allows you can config the Colorimetry for HDR"
-msgstr "Тази опция ви позволява да конфигурирате колориметъра за HDR"
-
-msgid "This option allows you can config the Colorspace from Auto to RGB"
-msgstr "Тази опция ви позволява да конфигурирате цветовото пространство от Auto към RGB"
-
-msgid "This option allows you can enable or disable the 10 Bit Color Mode"
-msgstr "Тази опция ви позволява да активирате или деактивирате 10-битовия цветен режим"
-
-msgid "This option allows you can enable or disable the 12 Bit Color Mode"
-msgstr "Тази опция ви позволява да активирате или деактивирате 12-битовия цветен режим"
-
-msgid "This option allows you can force the HDR Modes for UHD"
-msgstr "Тази опция ви позволява да форсирате HDR режимите за UHD"
-
-msgid "This option allows you can force the HDR10 Modes for UHD"
-msgstr "Тази опция ви позволява да форсирате режимите HDR10 за UHD"
-
-msgid "This option allows you can force the HLG Modes for UHD"
-msgstr "Тази опция ви позволява да форсирате режимите HLG за UHD"
-
-msgid "This option allows you enable smoothing filter to control the dithering process."
+msgid "Control the smoothing filter used for the dithering process."
 msgstr "Тази опция ви позволява да рарешите изглаждащ филтър, за да контролира процеса на разсейване."
 
-msgid "This option allows you enable the vertical scaler dejagging."
+msgid "Control the use of vertical scaler anti-aliasing."
 msgstr "Тази опция ви позволява да разрешите отстраняването на грешки във вертикална скала."
 
 msgid "This option allows you to Power Off the display."
@@ -20633,7 +20652,7 @@ msgstr "Тази опция ви позволява да повдигнете с
 msgid "This option allows you to boost the green tones in the picture."
 msgstr "Тази опция ви позволява да повишите зелените тонове в картината."
 
-msgid "This option allows you to bypass HDMI EDID check"
+msgid "This option allows you to bypass HDMI EDID check."
 msgstr "Тази опция ви позволява да заобиколите HDMI EDID проверка"
 
 msgid "This option allows you to change the virtual loudspeaker position."
@@ -20699,8 +20718,32 @@ msgstr "Тази опция ви позволява да избирате кой
 msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "Тази опция ви позволява да изберете дали да покажете информация за жанра за събитието или не."
 
+msgid "This option allows you to config the Colordepth for UHD."
+msgstr "Тази опция ви позволява да конфигурирате дълбочината на цвета за UHD"
+
+msgid "This option allows you to config the Colorimetry for HDR."
+msgstr "Тази опция ви позволява да конфигурирате колориметъра за HDR"
+
+msgid "This option allows you to config the Colorspace from Auto to RGB."
+msgstr "Тази опция ви позволява да конфигурирате цветовото пространство от Auto към RGB"
+
 msgid "This option allows you to enable 3D Surround Sound."
 msgstr "Тази опция ви позволява да разрешите 3D съраунд звук."
+
+msgid "This option allows you to enable or disable the 10 Bit Color Mode."
+msgstr "Тази опция ви позволява да активирате или деактивирате 10-битовия цветен режим"
+
+msgid "This option allows you to enable or disable the 12 Bit Color Mode."
+msgstr "Тази опция ви позволява да активирате или деактивирате 12-битовия цветен режим"
+
+msgid "This option allows you to force the HDR Modes for UHD."
+msgstr "Тази опция ви позволява да форсирате HDR режимите за UHD"
+
+msgid "This option allows you to force the HDR10 Modes for UHD."
+msgstr "Тази опция ви позволява да форсирате режимите HDR10 за UHD"
+
+msgid "This option allows you to force the HLG Modes for UHD."
+msgstr "Тази опция ви позволява да форсирате режимите HLG за UHD"
 
 msgid "This option allows you to set offset values for different Letterbox resolutions."
 msgstr ""
@@ -20717,7 +20760,7 @@ msgstr "Тази опция ви позволява да превключите 
 msgid "This option allows you to the SNR as a percentage (not all receivers support this)."
 msgstr "Тази опция ви позволява да използвате SNR като процент (не всички приемници поддържат това)."
 
-msgid "This option allows you to use all HDMI Modes"
+msgid "This option allows you to use all HDMI Modes."
 msgstr "Тази опция ви позволява да използвате всички HDMI режими"
 
 msgid "This option allows you to view the old and new settings side by side."
@@ -20797,9 +20840,6 @@ msgstr ""
 
 msgid "This option sets up the picture sharpness, used when the picture is being upscaled."
 msgstr "Тази опция задава остротата на картината, използвана, когато картината се мащабира."
-
-msgid "Select 'Yes' to allow the VPS to adjust recording timers based on broadcast Program Delivery Control (PDC) data. For this to work the service must provide reliable event PDC data."
-msgstr ""
 
 msgid "This service is protected by a parental control PIN!"
 msgstr "този сервиз е защитен с ПИН за родителски контрол"
@@ -21171,10 +21211,10 @@ msgstr "Превключване между списъци с букети/EPG"
 msgid "Toggle between the available TV and RADIO services"
 msgstr ""
 
-msgid "Toggle display of image information"
+msgid "Toggle display of picture information"
 msgstr ""
 
-msgid "Toggle display of the image status overlay"
+msgid "Toggle display of the picture status overlay"
 msgstr ""
 
 msgid "Toggle enable/disable of the currently selected timer"
@@ -22107,6 +22147,9 @@ msgstr ""
 msgid "Use the extended List"
 msgstr "Използване на разширения списък"
 
+msgid "Use the network wizard to configure selected network adapter"
+msgstr "Използване на съветника за мрежа, за да конфигурирате избрания мрежов адаптер"
+
 msgid "Use the network wizard to configure your Network."
 msgstr ""
 
@@ -22229,6 +22272,9 @@ msgid "VPS Settings"
 msgstr ""
 
 msgid "VPS enabled by default"
+msgstr ""
+
+msgid "VPS on instant recordings"
 msgstr ""
 
 msgid "VPS-Plugin Information"
@@ -22603,14 +22649,14 @@ msgstr "В очакване"
 msgid "Waiting for partition"
 msgstr "В очакване за деление"
 
+msgid "Wake from Shutdown allowed"
+msgstr ""
+
 msgid "Wake up"
 msgstr "Събуждане"
 
 msgid "Wake up TV from Standby"
 msgstr "Събуждане на телевизора от режим на готовност"
-
-msgid "Wake from Shutdown allowed"
-msgstr ""
 
 msgid "Wake up time before a timer begins"
 msgstr "Време за събуждане преди началото на таймера [мин]"
@@ -22966,9 +23012,6 @@ msgstr ""
 
 msgid "When tuned to a service, the system normally scans the transponder for changes and saves them. Enable only if you know what you're doing."
 msgstr "Когато сте настроили сервиза, системата обикновено сканира транспондера за всички промени и ги запазва. Задавайте само \"да\", ако сте абсолютно сигурни какво правите."
-
-msgid "Select 'Yes' to use PDC data, if available on the current service, to accurately stop the instant recording at the end of the event."
-msgstr ""
 
 msgid "Where do you want to backup your settings?"
 msgstr "Къде искате да архивирате вашите настройки?"
@@ -23875,6 +23918,9 @@ msgstr "скок на глава по номер"
 msgid "left"
 msgstr "наляво"
 
+msgid "left column"
+msgstr ""
+
 msgid "length"
 msgstr "дължина"
 
@@ -24015,6 +24061,9 @@ msgstr "превъртете назад към предишната глава"
 
 msgid "right"
 msgstr "надясно"
+
+msgid "right column"
+msgstr ""
 
 msgid ""
 "satellites.xml not found or corrupted!\n"
@@ -24207,6 +24256,13 @@ msgstr "да (запази фийдове)"
 msgid "®"
 msgstr ""
 
+#~ msgid ""
+#~ "File oscam.conf not found.\n"
+#~ "Please enter username/password manually."
+#~ msgstr ""
+#~ "Файлът oscam.conf не е намерен.\n"
+#~ "Моля, въведете потребителското име/парола ръчно."
+
 #~ msgid "Configure whether multichannel audio tracks should be downmixed to stereo."
 #~ msgstr "Конфигурирайте дали многоканалните звукови записи трябва да се миксират до стерео."
 
@@ -24243,16 +24299,6 @@ msgstr ""
 #, python-format
 #~ msgid "Set the MAC address of your %s %s."
 #~ msgstr "Задайте MAC-адреса на вашия %s %s."
-
-#~ msgid ""
-#~ "The network wizard extension is not installed!\n"
-#~ "Please install it."
-#~ msgstr ""
-#~ "Разширението на съветника за мрежа не е инсталиран!\n"
-#~ "Моля, инсталирайте го."
-
-#~ msgid "Use the network wizard to configure selected network adapter"
-#~ msgstr "Използване на съветника за мрежа, за да конфигурирате избрания мрежов адаптер"
 
 #~ msgid "Add a DNS entry"
 #~ msgstr "Добавяне на запис в DNS"

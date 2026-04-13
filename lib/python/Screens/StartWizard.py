@@ -59,7 +59,21 @@ class StartWizard(Wizard, ShowRemoteControl):
 			if callback and callable(callback):
 				callback()
 
+		def isSwapActive(path):
+			swaps = fileReadLines("/proc/swaps", default=[], source=MODULE_NAME)
+			for line in swaps[1:]:
+				parts = line.split()
+				if parts and parts[0] == path:
+					return True
+			return False
+
 		def creataSwapFileCallback(result=None, retVal=None, extraArgs=None):
+			print("[FlashExpander] createSwapFile callback DEBUG: retVal=%s, result=%s" % (retVal, result))
+			if retVal not in (0, None) and not isSwapActive(fileName):
+				if messageBox:
+					messageBox.close()
+				self.session.open(MessageBox, _("Creating or activating the swap file failed.\n\n%s") % (result or ""), type=MessageBox.TYPE_ERROR)
+				return
 			fstab = fileReadLines("/etc/fstab", default=[], source=MODULE_NAME)
 			print("[FlashExpander] fstabUpdate DEBUG: Begin fstab:\n%s" % "\n".join(fstab))
 			fstabNew = [line for line in fstab if "swap" not in line]
@@ -70,7 +84,7 @@ class StartWizard(Wizard, ShowRemoteControl):
 			messageBox.close()
 
 		print("[StartWizard] DEBUG createSwapFileFlashExpander")
-		messageBox = self.session.openWithCallback(messageBoxCallback, MessageBox, _("Please wait, swap is is being created. This could take a few minutes to complete."), MessageBox.TYPE_INFO, enable_input=False, windowTitle=_("Create swap"))
+		messageBox = self.session.openWithCallback(messageBoxCallback, MessageBox, _("Please wait, swap is being created. This could take a few minutes to complete."), MessageBox.TYPE_INFO, enable_input=False, windowTitle=_("Create swap"))
 		fileName = join("/.FlashExpander", "swapfile")
 		commands = []
 		commands.append("/bin/dd if=/dev/zero of='%s' bs=1024 count=131072 2>/dev/null" % fileName)  # Use 128 MB because creation of bigger swap is very slow.
@@ -90,7 +104,19 @@ class StartWizard(Wizard, ShowRemoteControl):
 					return (data[MOUNT_MOUNTPOINT], status, data)
 			return None
 
+		def isSwapActive(path):
+			swaps = fileReadLines("/proc/swaps", default=[], source=MODULE_NAME)
+			for line in swaps[1:]:
+				parts = line.split()
+				if parts and parts[0] == path:
+					return True
+			return False
+
 		def creataSwapFileCallback(result=None, retVal=None, extraArgs=None):
+			print("[StartWizard] createSwapFile callback DEBUG: retVal=%s, result=%s" % (retVal, result))
+			if retVal not in (0, None) and not isSwapActive(fileName):
+				self.session.open(MessageBox, _("Creating or activating the swap file failed.\n\n%s") % (result or ""), type=MessageBox.TYPE_ERROR)
+				return
 			if callback and callable(callback):
 				callback()
 
@@ -110,6 +136,11 @@ class StartWizard(Wizard, ShowRemoteControl):
 			fileWriteLines("/etc/fstab", "\n".join(fstabNew), source=MODULE_NAME)
 			print("[StartWizard] fstabUpdate DEBUG: Ending fstab:\n%s" % "\n".join(fstabNew))
 			makedirs("/.swap", mode=0o755, exist_ok=True)
+			if isSwapActive(fileName):
+				print("[StartWizard] DEBUG: Swap already active, skipping swapon.")
+				if callback and callable(callback):
+					callback()
+				return
 			commands = []
 			commands.append("/bin/mount -a")
 			commands.append("/bin/dd if=/dev/zero of='%s' bs=1024 count=131072 2>/dev/null" % fileName)  # Use 128 MB because creation of bigger swap is very slow.
@@ -275,7 +306,7 @@ class WizardLanguage(Wizard, ShowRemoteControl):
 if config.misc.firstrun.value:
 	wizardManager.registerWizard(WizardLanguage, config.misc.wizardLanguageEnabled.value, priority=0)
 wizardManager.registerWizard(VideoWizard, config.misc.videowizardenabled.value, priority=1)
-#wizardManager.registerWizard(LocaleWizard, config.misc.languageselected.value, priority=2)
+# wizardManager.registerWizard(LocaleWizard, config.misc.languageselected.value, priority=2)
 # FrontprocessorUpgrade FPUpgrade priority = 8
 # FrontprocessorUpgrade SystemMessage priority = 9
 wizardManager.registerWizard(StartWizard, config.misc.firstrun.value, priority=30)
